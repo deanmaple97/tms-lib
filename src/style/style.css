@@ -1,0 +1,950 @@
+
+/* ------------------------------------------------------------
+   BOOTSTRAP NAVBAR OVERRIDES — TIMELESS FANTASY THEME
+   ------------------------------------------------------------ */
+
+.timeless-navbar {
+  position: sticky;
+  margin: 0 !important;
+  padding: 0 !important;
+  top: 0;
+  z-index: 999;
+  background: linear-gradient(90deg, #3a2b66, #4e3a86) !important;
+  border-bottom: 4px solid #f7d48b !important;
+  box-shadow: 0 0 18px rgba(0,0,0,0.7) !important;
+}
+
+.nav-container {
+  width: 100% !important;
+  padding: 0 20px !important;
+  display: flex;
+  align-items: center;
+}
+
+.timeless-logo {
+  color: #f7d48b !important;
+  font-weight: bold !important;
+  text-shadow: 0 0 6px rgba(247,212,139,0.8);
+} 
+
+.timeless-navbar .navbar-nav .nav-link {
+  text-align: center !important;
+  width: 100% !important;
+  color: #f4ecff !important;
+  font-weight: bold;
+  padding: 15px 18px !important;
+  border-radius: 8px !important;
+}
+
+.timeless-navbar .navbar-nav .nav-link:hover {
+  color: #f7d48b !important;
+  background: rgba(0,0,0,0.25);
+}
+.timeless-navbar .navbar-nav .nav-link.active {
+  color: #f7d48b !important;
+  background: rgba(247,212,139,0.25) !important;
+}
+
+.timeless-dropdown {
+  background: rgba(40,20,70,0.95) !important;
+  border: 1px solid rgba(247,212,139,0.4) !important;
+}
+
+.timeless-dropdown .dropdown-item {
+  color: #f4ecff !important;
+}
+
+.timeless-dropdown .dropdown-item:hover {
+  background: rgba(247,212,139,0.25) !important;
+  color: #f7d48b !important;
+}
+
+.timeless-input {
+  border: 2px solid #f7d48b !important;
+  color: #3d2a6a !important;
+  border-radius: 8px !important;
+}
+
+.timeless-search-btn {
+  margin-left: -10px !important;
+  background: #f7d48b !important;
+  color: #3d2a6a !important;
+  border-radius: 8px !important;
+  font-weight: bold !important;
+}
+
+.timeless-navbar .navbar-toggler {
+  border-color: #f7d48b !important;
+}
+
+.timeless-navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(247,212,139,1)' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+
+/* ============================================================
+   TIMELESSMS FANTASY THEME
+   Purple soft gradient + pastel gold + glossy panels
+   ============================================================ */
+
+/* ---- Global Layout ---- */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle at center,
+        #5c3f88 0%,
+        #3a2a5f 45%,
+        #221637 100%);
+    color: #f4ecff !important;
+    min-height: 100vh;
+}
+
+/* Generic container for pages */
+.page-container,
+.page-content {
+    width: 92%;
+    max-width: 1400px;
+    margin: 0 auto 30px auto;
+}
+
+/* Active / focused tab */
+.nav-search-input {
+    width: 150px;
+    padding: 7px 10px;
+    font-size: 14px;
+    border-radius: 8px 0 0 8px;
+    border: 2px solid #f7d48b;
+    color: #3d2a6a;
+    outline: none;
+}
+
+.nav-search-input::placeholder {
+    color: #d0c0ff;
+    opacity: 0.8;
+}
+
+.nav-search-button {
+    display: flex;
+    gap: 4px;
+    padding: 6px 12px;
+    border-radius: 0 8px 8px 0;
+    border: 2px solid #f7d48b;
+    background: #f7d48b;
+    color: #3d2a6a;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.18s;
+}
+
+.nav-search-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 0 14px rgba(247,212,139,0.7);
+}
+
+/* ------------------------------------
+   NAVBAR LOGO (No inline CSS!)
+------------------------------------ */
+.nav-logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-logo-img {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width: 992px) {
+  /* Mobile: keep logo visible */
+  .nav-logo-wrapper {
+    padding-left: 4px;
+  }
+}
+
+
+/* --- Basic Layout --- */
+
+
+
+
+
+
+/* Hide hamburger on desktop */
+
+
+/* Desktop layout: collapse always visible */
+
+
+/* Mobile default: hidden */
+
+
+  /* Equip dropdown should stack in full-width */
+  
+
+
+
+/* Desktop equip dropdown */
+
+
+
+
+.equip-category {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+.equip-category:hover {
+  background: #333;
+}
+
+
+/* ------------------------------------------------------------
+   HEADERS / PANELS
+   ------------------------------------------------------------ */
+.header-title {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f7d48b;
+}
+
+.panel {
+    border-radius: 14px;
+    padding: 16px 16px 18px 16px;
+}
+
+.panel-header {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;   /* 🔥 allows items to go to next row */
+}
+
+.panel-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f7d48b;
+}
+
+.panel-controls {
+  flex-wrap: wrap;   /* 🔥 allows items to go to next row */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+}
+
+.panel-page-size {
+    background: rgba(255,255,255,0.08);
+    border-radius: 10px;
+    border: 1px solid #f7d48b;
+    padding: 5px 8px;
+    color: #f4ecff;
+    margin-right: 15px;
+}
+
+/* ------------------------------------------------------------
+   PAGINATION
+   ------------------------------------------------------------ */
+.panel-pagination {
+    display: inline-flex;
+    gap: 5px;
+}
+
+.page-btn {
+    padding: 4px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #4c2d7f;
+    border: 2px solid #f7d48b;
+    color: #f7d48b;
+    font-size: 11px;
+    min-width: 24px;
+    text-align: center;
+    transition: 0.18s;
+}
+
+.page-btn:hover:not(:disabled) {
+    background: #5a3595;
+    box-shadow: 0 0 8px rgba(247,212,139,0.4);
+}
+
+.page-btn:disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+
+.page-btn.active {
+    background: #f7d48b;
+    color: #3b274d;
+    box-shadow: 0 0 8px rgba(247,212,139,0.7);
+}
+
+/* ------------------------------------------------------------
+   GRID / THUMBNAILS
+   ------------------------------------------------------------ */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+.cardbox {
+    background: linear-gradient(
+        to bottom right,
+        rgba(255,255,255,0.08),
+        rgba(60,45,100,0.25)
+    );
+    border: 1px solid rgba(247,212,139,0.4);
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.15s;
+    cursor: pointer;
+    color: #f7eaff;
+}
+
+.cardbox > div {
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cardbox:hover {
+    border-color: #f7d48b;
+    box-shadow: 0 0 12px rgba(247,212,139,0.5);
+    transform: translateY(-3px);
+    background-color: rgba(247,212,139,0.7);
+}
+
+.thumb-img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-bottom: 6px;
+}
+
+.text-mute {
+    opacity: 0.7;
+    font-size: 11px !important;
+}
+
+/* ------------------------------------------------------------
+   DETAIL MAIN IMAGE
+   ------------------------------------------------------------ */
+.main-img {
+    max-width: 300px;
+    max-height: 280px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 12px auto;
+}
+
+.image-card {
+    display: flex;
+    width: 200px;
+    min-height: 200px;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 14px;
+    box-shadow: 0 0 12px rgba(247,212,139,0.7);
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.image-card img {
+    display: flex;
+    align-items: flex-start;
+    min-width: 60px;
+    object-fit: contain;
+}
+
+
+/* ------------------------------------------------------------
+   DROPS ICONS
+   ------------------------------------------------------------ */
+.drop-item {
+    width: 40px !important;
+    height: 40px !important;
+    padding: 3px;
+    border-radius: 6px;
+    background: rgba(255,255,255,0.1);
+    transition: 0.2s;
+}
+
+.drop-item:hover {
+    box-shadow: 0 0 12px rgba(247,212,139,0.7);
+    background-color: rgba(247,212,139,0.7);
+    transform: translateY(-2px);
+}
+
+.drop-mob {
+    width: 50px !important;
+    height: 50px !important;
+    padding: 3px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.1);
+    transition: 0.2s;
+}
+
+.drop-mob:hover {
+    box-shadow: 0 0 10px rgba(247,212,139,0.7);
+    background-color: rgba(247,212,139,0.7);
+}
+
+.drop-group-title {
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+.drop-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.drop-chance-text {
+    color: #f7d48b;
+    opacity: 0.7;
+    font-size: 11px !important;
+}
+
+/* ------------------------------------------------------------
+   HP / MP / EXP SHINY BARS
+   ------------------------------------------------------------ */
+.stats-container {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 5px;
+}
+
+.stat-row {
+    display: flex;
+    align-items: center;
+    min-height: 20px;
+}
+
+.stat-label {
+    display: flex;
+    min-width: 40px;
+    font-size: 12px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.stat-leader {
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+.stat-attack {
+    margin-left: 5px;
+    font-style: italic;
+}
+
+.stat-leader:not(:first-child) {
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.stat-bar {
+    position: relative;
+    width: 100%;
+    height: 22px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.stat-fill {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.stat-fill::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -60%;
+    width: 40%;
+    height: 100%;
+    background: linear-gradient(
+        120deg,
+        rgba(255,255,255,0) 0%,
+        rgba(255,255,255,0.45) 50%,
+        rgba(255,255,255,0) 100%
+    );
+    animation: shine 2s infinite;
+}
+
+@keyframes shine {
+    0% { left: -60%; }
+    100% { left: 120%; }
+}
+
+/* HP = Red */
+.hp-bar { background: linear-gradient(to top, #b02020, #ff3b3b); }
+/* MP = Blue */
+.mp-bar { background: linear-gradient(to top, #2163d1, #5ab4ff); }
+/* EXP = Yellow */
+.exp-bar { background: linear-gradient(to top, #d4db3d, #f7ff76); }
+
+.stat-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    color: #170f0f;
+    text-shadow: 0 0 3px rgba(255,255,255,0.7);
+}
+
+/* ------------------------------------------------------------
+   ITEM DESCRIPTION
+   ------------------------------------------------------------ */
+.item-name, .mob-name, .equip-name {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 0;
+    color: #f7d48b;
+}
+
+.item-desc {
+    font-size:12px;
+    font-style: italic;
+    color: #f7eaff;
+    opacity: 0.9;
+    white-space: pre-line;
+    line-height: 1.25;
+}
+
+.item-drop {
+    margin-top: 20px;
+}
+
+.item-drop-mob {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.mob-name {
+    margin: 0 !important;
+}
+
+.mob-drop {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #f7d48b;
+}
+
+.equip-name{
+    margin-bottom: 8px;
+}
+
+/* ============================================================
+   SEARCH MODAL (FULLY ISOLATED – FIXED)
+   ============================================================ */
+
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.65);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999; /* make sure this is higher than .timeless-navbar */
+}
+
+
+.modal-overlay.visible {
+    display: flex;
+}
+
+.modal-panel {
+    width: 90%;
+    max-width: 900px;
+    max-height: 80vh;
+    background: linear-gradient(140deg, #3e2c70, #24163f);
+    border-radius: 16px;
+    border: 2px solid rgba(247,212,139,0.8);
+    box-shadow: 0 0 18px rgba(247,212,139,0.7);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.modal-header {
+    padding: 10px 14px !important;
+    border-bottom: 1px solid rgba(247,212,139,0.4) !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #f7d48b;
+}
+
+.modal-close {
+    background: transparent;
+    border: none;
+    color: #f4ecff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.modal-close:hover {
+    color: #f7d48b;
+}
+
+.modal-body {
+    padding: 12px 14px 16px !important;
+    overflow-y: auto;
+}
+
+/* isolated grid */
+.modal-results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 12px;
+}
+
+/* isolated card */
+.modal-card {
+    background: linear-gradient(
+        to bottom right,
+        rgba(255,255,255,0.09),
+        rgba(60,45,100,0.3)
+    );
+    border-radius: 10px;
+    border: 1px solid rgba(247,212,139,0.6);
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.18s;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+
+.modal-card:hover {
+    box-shadow: 0 0 12px rgba(247,212,139,0.7);
+    background-color: rgba(247,212,139,0.7);
+    transform: translateY(-2px);
+}
+
+.modal-card img {
+    width: 40px !important;
+    height: 40px !important;
+    object-fit: contain;
+    margin-bottom: 4px;
+    display: inline;
+}
+
+.modal-card div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #f4ecff;
+}
+
+.modal-card-type {
+    font-size: 11px;
+    color: #f7d48b !important;
+    margin-top: 2px;
+}
+
+/* ===================================================
+   EQUIP DROPDOWN
+   ================================================== */
+.nav-equip-wrapper {
+    position: relative;
+}
+
+
+
+/* Hover opens dropdown */
+.nav-equip-wrapper:hover 
+
+/* Click supports .show class */
+
+
+.equip-category {
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #333;
+}
+
+.equip-category:hover {
+    background: #f0f0f0;
+}
+
+/* =============================================================
+   UTILITY
+   ============================================================= */
+
+.flex-detail {
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.header-with-back {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.header-with-back .arrow {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f7d48b;
+    transition: 0.2s;
+}
+
+.header-with-back:hover .arrow {
+    transform: translateX(-3px);
+    color: #ffe7b4;
+}
+
+.level-img-container {
+  display: flex;
+  align-items: center;
+}
+
+.level-digit {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+/* MapleStory v83-style equip box */
+
+.ms-equip-box {
+  max-width: 410px;
+  padding: 10px 12px;
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  font-size: 12px;
+}
+
+/* Header: name + type */
+.ms-equip-header {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: baseline;
+  margin-bottom: 6px;
+}
+
+.ms-equip-name {
+  font-weight: bold;
+  color: #ffd862; /* golden like MS title */
+}
+
+.ms-equip-type {
+  display: flex;
+  margin-top: 5px;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  padding-top: 10px;
+  margin-top: 6px;
+  font-size: 11px;
+  color: #b7e2ff; /* light blue category text */
+}
+
+.ms-equip-price {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  margin-top: 10px;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  padding-top: 10px;
+  margin-top: 6px;
+  font-size: 12px;
+  color: #fff; /* light blue category text */
+}
+
+/* REQ row cells */
+.ms-req-row {
+  display: grid;
+  /* grid-template-columns: repeat(5, minmax(0, 1fr)); */
+  gap: 2px 6px;
+  margin-bottom: 6px;
+}
+
+.ms-req-cell {
+  display: flex;
+  /* justify-content: space-between; */
+  color: #ffffff;
+}
+
+.ms-req-label {
+  color: #c0c0ff;
+}
+
+.ms-req-value {
+  color: #ffffff;
+}
+
+/* Description block */
+.ms-equip-desc {
+  margin: 6px 0;
+  padding-top: 4px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-style: italic;
+  color: #f0f0ff;
+}
+
+/* Main stat lines */
+.ms-equip-stats {
+  margin-top: 6px;
+}
+
+.ms-equip-line {
+  display: flex;
+  /* justify-content: space-between; */
+  margin: 2px 0;
+}
+
+.ms-equip-stat-label {
+  color: #c0ffb0; /* greenish like MS stat labels */
+}
+
+.ms-equip-stat-value {
+  color: #ffffff;
+}
+
+.ms-req-cell > span:nth-child(2), .ms-equip-line > span:nth-child(2)  {
+    margin-left: 5px;
+}
+
+/* Footer (attack speed, upgrades) */
+
+/* ---------------------------------------------
+   JOB REQUIREMENT BLOCK (v83-style)
+--------------------------------------------- */
+.equip-job-req {
+  margin: 10px 0;
+}
+
+.job-title {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #f7d48b;
+}
+
+.job-row {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.job-col {
+  text-align: center;
+  font-size: 12px;
+  width: 70px;
+  padding: 6px 8px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.18);
+  transition: 0.25s ease;
+}
+
+/* Default label color */
+.job-label {
+  color: #f4ecff;
+  transition: 0.25s ease;
+}
+
+/* 🌟 Allowed Job — Orange Glow */
+.job-allowed {
+  border: 1px solid #FF9900;
+  background: rgba(247,212,139,0.15);
+  box-shadow: 0 0 5px rgba(247,212,139,0.55),
+              inset 0 0 5px rgba(247,212,139,0.25);
+}
+
+.job-allowed .job-label {
+  color: #FF9900;
+  opacity: 1;
+}
+
+/* ❌ Blocked Job — Dimmed */
+.job-blocked {
+  opacity: 0.6;
+}
+
+.job-blocked .job-label {
+  opacity: 0.25;
+}
+
+.search-icon {
+  width: 18px;
+  height: 18px;
+}
+.detail-container {
+    display: flex;
+    gap: 25px;
+}
+.left-detail-container {
+    display: flex;
+    flex-direction: column;
+}
+.right-detail-container {
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+}
+
+.ele-icon {
+  width: 20px;
+}
+
+.float-anim {
+  animation: floatUpDown 1.5s ease-in-out infinite;
+}
+
+@keyframes floatUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.item-apng-preview {
+  width: auto;        /* keep natural width */
+  max-width: 100%;    /* scale down if it exceeds container width */
+  height: auto;       /* maintain aspect ratio */
+  display: block;     /* optional, removes inline gap */
+}
