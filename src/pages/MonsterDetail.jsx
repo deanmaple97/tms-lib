@@ -138,21 +138,29 @@ export default function MonsterDetail() {
       finalChance > 99 ? "100.0" : finalChance.toFixed(2);
 
     if (d.itemid === 0) {
-      const avg = ((Number(d.minimum_quantity) + Number(d.maximum_quantity)) / 2) || 0;
+      const minQ = Number(d.minimum_quantity) || 0;
+      const maxQ = Number(d.maximum_quantity) || 0;
+      const avg = ((minQ + maxQ) / 2) || 0;
       const chanceText = (() => {
         let baseChance = d.chance / 10000;
         let finalChance = baseChance * dropRateMultiplier;
         return finalChance > 99 ? "100.0" : finalChance.toFixed(2);
       })();
+      const qtyForIcon = maxQ || minQ;
+      const iconIdx = qtyForIcon >= 1000 ? 4 : qtyForIcon >= 100 ? 3 : qtyForIcon >= 50 ? 2 : 1;
+      const imgSrc = withBase(`images/Common/mesos_${iconIdx}.apng`);
       groups.Mesos.push(
         <div key={`meso-${d.id}`} style={{ textAlign: "center" }}>
-          <div className="drop-name">{format(avg)}</div>
+          <div className="drop-item">
+            <img
+              className="drop-mesos"
+              src={imgSrc}
+              alt="Mesos"
+              title={`${format(avg)} mesos`}
+            />
+          </div>
+          <div className="text-mute">{d.minimum_quantity} ~ {d.maximum_quantity}</div>
           {showDropRate && <div className="drop-chance-text">{chanceText}%</div>}
-          {showQuantity && (
-            <div className="drop-chance-text">
-              {d.minimum_quantity} ~ {d.maximum_quantity}
-            </div>
-          )}
         </div>
       );
       return;
@@ -173,7 +181,7 @@ export default function MonsterDetail() {
       groups.Equip.push(
         <div key={`eq-${foundEquip.id}`} style={{ textAlign: "center" }}>
           {showItemNames ? (
-            <div className="drop-name">{foundEquip.name}</div>
+            <div className="drop-item drop-name">{foundEquip.name}</div>
           ) : (
             <img
               className="drop-item"
@@ -183,8 +191,8 @@ export default function MonsterDetail() {
               style={{ cursor: "pointer" }}
             />
           )}
-          {showMesos && <div className="drop-chance-text">{format(price)} mesos</div>}
           {showDropRate && <div className="drop-chance-text">{chance} %</div>}
+          {showMesos && <div className="drop-chance-text">{format(price)} mesos</div>}
           {showQuantity && (
             <div className="drop-chance-text">
               {d.minimum_quantity} ~ {d.maximum_quantity}
@@ -208,7 +216,7 @@ export default function MonsterDetail() {
     groups[groupName].push(
       <div key={`it-${item.id}-${d.id}`} style={{ textAlign: "center" }}>
         {showItemNames ? (
-          <div className="drop-name">{getScrollName(item)}</div>
+          <div className="drop-item drop-name">{getScrollName(item)}</div>
         ) : (
           <img
             className="drop-item"
@@ -219,8 +227,8 @@ export default function MonsterDetail() {
             style={{ cursor: "pointer" }}
           />
         )}
-        {showMesos && <div className="drop-chance-text">Price: {format(price)} mesos</div>}
         {showDropRate && <div className="drop-chance-text">{chance}%</div>}
+        {showMesos && <div className="drop-chance-text">{format(price)} mesos</div>}
         {showQuantity && (
           <div className="drop-chance-text">
             {d.minimum_quantity} ~ {d.maximum_quantity}
@@ -439,31 +447,32 @@ export default function MonsterDetail() {
           <div className="right-detail-container">
             <p className="mob-name">{mob.name}</p>
             <p className="mob-drop">Drops</p>
-            <div className="drop-controls" style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 8 }}>
-              Sort: <select value={sortMode} onChange={(e) => setSortMode(e.target.value)}>
-                <option value="chance">Drop Rate</option>
-                <option value="mesos">Price</option>
-              </select>
+            <div className="drop-utils-container">
+              <div className="drop-utils">
+                Sort: <select className="drop-select" value={sortMode} onChange={(e) => setSortMode(e.target.value)}>
+                  <option value="chance">Drop rate</option>
+                  <option value="mesos">Npc price</option>
+                </select>
+              </div>
+              <div className="drop-utils">
+                Show: 
+                <label>
+                  <input type="checkbox" checked={showDropRate} onChange={(e) => setShowDropRate(e.target.checked)} />Drop rate
+                </label>
+                <label>
+                  <input type="checkbox" checked={showMesos} onChange={(e) => setShowMesos(e.target.checked)} />Npc price
+                </label>
+                <label>
+                  <input type="checkbox" checked={showQuantity} onChange={(e) => setShowQuantity(e.target.checked)} />Quantity
+                </label>
+              </div>
+              <div className="drop-utils">
+                Visible: 
+                <label>
+                  <input type="checkbox" checked={showItemNames} onChange={(e) => setShowItemNames(e.target.checked)} />Name
+                </label>
+              </div>
             </div>
-            <div className="drop-controls" style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 8 }}>
-              Show: 
-              <label style={{ display: "flex", alignItems: "center", gap: 4 }}>
-                <input type="checkbox" checked={showDropRate} onChange={(e) => setShowDropRate(e.target.checked)} />Drop Rate
-              </label>
-              <label style={{ display: "flex", alignItems: "center", gap: 4 }}>
-                <input type="checkbox" checked={showMesos} onChange={(e) => setShowMesos(e.target.checked)} />Mesos
-              </label>
-              <label style={{ display: "flex", alignItems: "center", gap: 4 }}>
-                <input type="checkbox" checked={showQuantity} onChange={(e) => setShowQuantity(e.target.checked)} />Quantity
-              </label>
-            </div>
-            <div className="drop-controls" style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 8 }}>
-              Visible: 
-              <label style={{ display: "flex", alignItems: "center", gap: 4 }}>
-                <input type="checkbox" checked={showItemNames} onChange={(e) => setShowItemNames(e.target.checked)} />Name
-              </label>
-            </div>
-
             {noDrops ? (
               <p className="text-mute">No drops found.</p>
             ) : (

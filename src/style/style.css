@@ -25,6 +25,7 @@
   color: #f7d48b !important;
   font-weight: bold !important;
   text-shadow: 0 0 6px rgba(247,212,139,0.8);
+  font-size: 18px !important;
 } 
 
 .timeless-navbar .navbar-nav .nav-link {
@@ -412,10 +413,80 @@ body {
     margin-bottom: 12px;
 }
 
+.drop-name {
+  width: 100% !important;
+  height: auto !important;
+}
+
 .drop-chance-text {
     color: #f7d48b;
     opacity: 0.7;
     font-size: 11px !important;
+}
+
+.drop-mesos {
+  vertical-align: -webkit-baseline-middle;
+  animation: floatUpDown 1.5s ease-in-out infinite;
+}
+
+.drop-utils-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  border: 1px solid rgba(247,212,139,0.4);
+  border-radius: 8px;
+  padding: 10px 10px 0 10px;
+  width: fit-content;
+  margin-bottom: 12px;
+  margin-top: -10px;
+}
+
+.drop-utils {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+  font-size: 12px;
+}
+
+.drop-select {
+  background: rgba(255,255,255,0.06);
+  border-radius: 8px;
+  /* border: 1px solid rgba(247,212,139,0.4); */
+  padding: 4px 8px;
+  color: #f4ecff;
+  box-shadow: 0 0 10px rgba(247,212,139,0.15);
+  cursor: pointer;
+}
+
+.drop-select:hover {
+  box-shadow: 0 0 12px rgba(247,212,139,0.4);
+}
+
+.drop-select option {
+  background: rgba(40,20,70,0.95);
+  color: #f4ecff;
+}
+
+.drop-utils label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.06);
+  /* border: 1px solid rgba(255,255,255,0.18); */
+  color: #f4ecff;
+  font-size: 12px;
+}
+
+.drop-utils label:hover {
+  box-shadow: 0 0 8px rgba(247,212,139,0.4);
+}
+
+.drop-utils input[type="checkbox"] {
+  accent-color: #f7d48b;
 }
 
 /* ------------------------------------------------------------
