@@ -9,6 +9,8 @@ export const WEAPON_IDS = {
   133: "DAGGER",
   134: "WAND",
   135: "STAFF",
+  137: "WAND",
+  138: "STAFF",
   140: "TWO-HANDED SWORD",
   141: "TWO-HANDED AXE",
   142: "TWO-HANDED MACE",
