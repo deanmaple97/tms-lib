@@ -633,8 +633,8 @@
     "category": "Install",
     "name": "Maple Tree Chair",
     "desc": "A maple tree with a hanging swing. You can recover 50 HP  every 10 seconds.",
-    "image": "images/Install/3010036.png",
-    "apng": "images/Install/3010036.apng",
+    "image": "images/Install/3015503.png",
+    "apng": "images/Install/3015503.apng",
     "stats": {
       "price": 100,
       "slotMax": 1,
@@ -1213,7 +1213,7 @@
     "name": "Music Box",
     "desc": "50 HP is restored every 10 seconds if you lean back on this music box.",
     "image": "images/Install/3010205.png",
-    "apng": "images/Install/3010075.apng",
+    "apng": "images/Install/3010205.apng",
     "stats": {
       "price": 1,
       "slotMax": 1,
@@ -1572,8 +1572,8 @@
     "category": "Install",
     "name": "Christmas Gift Box",
     "desc": "A huge X-mas Gift Box big enough to fit a grownup. It has a message that reads, \"I am here for you.\" Sitting in it will recover 50 HP and MP every 10 seconds.",
-    "image": "images/Install/3010101.png",
-    "apng": "images/Install/3010101.apng",
+    "image": "images/Install/3015590.png",
+    "apng": "images/Install/3015590.apng",
     "stats": {
       "price": 1,
       "slotMax": 1,
@@ -1641,8 +1641,8 @@
     "category": "Install",
     "name": "Christmas Box",
     "desc": "A Christmas Box, Recovers HP 50 MP 50 every 10 seconds.",
-    "image": "images/Install/3010105.png",
-    "apng": "images/Install/3010105.apng",
+    "image": "images/Install/3015590.png",
+    "apng": "images/Install/3015590.apng",
     "stats": {
       "price": 1,
       "recoveryHP": 50,
@@ -1839,8 +1839,8 @@
     "category": "Install",
     "name": "The Spirit of Rock Chair",
     "desc": "A new chair that makes you feel like a Rock Star.\\nRecovers 60 HP and 30 MP every 10 seconds.",
-    "image": "images/Install/3010116.png",
-    "apng": "images/Install/3010116.apng",
+    "image": "images/Install/3015558.png",
+    "apng": "images/Install/3015558.apng",
     "stats": {
       "price": 1,
       "slotMax": 1,
@@ -2816,8 +2816,8 @@
     "category": "Install",
     "name": "Giant HP Bottle",
     "desc": "Recovers 50 HP every 10 seconds.",
-    "image": "images/Install/3010180.png",
-    "apng": "images/Install/3010180.apng",
+    "image": "images/Install/3015562.png",
+    "apng": "images/Install/3015562.apng",
     "stats": {
       "price": 1,
       "slotMax": 1,
@@ -2833,8 +2833,8 @@
     "category": "Install",
     "name": "Giant MP Bottle",
     "desc": "Recovers 50 MP every 10 seconds.",
-    "image": "images/Install/3010181.png",
-    "apng": "images/Install/3010181.apng",
+    "image": "images/Install/3015561.png",
+    "apng": "images/Install/3015561.apng",
     "stats": {
       "price": 1,
       "slotMax": 1,
@@ -3629,8 +3629,8 @@
     "category": "Install",
     "name": "Giant HP Bottle",
     "desc": "Recovers 50 HP every 10 seconds.",
-    "image": "images/Install/3010234.png",
-    "apng": "images/Install/3010234.apng",
+    "image": "images/Install/3015562.png",
+    "apng": "images/Install/3015562.apng",
     "stats": {
       "price": 1,
       "slotMax": 1,
@@ -3646,8 +3646,8 @@
     "category": "Install",
     "name": "Giant MP Bottle",
     "desc": "Recovers 50 MP every 10 seconds.",
-    "image": "images/Install/3010235.png",
-    "apng": "images/Install/3010235.apng",
+    "image": "images/Install/3015561.png",
+    "apng": "images/Install/3015561.apng",
     "stats": {
       "price": 1,
       "slotMax": 1,
@@ -3892,8 +3892,8 @@
     "category": "Install",
     "name": "The Spirit of Rock Chair",
     "desc": "A new chair that makes you feel like a Rock Star.\\nRecovers 60 HP and 30 MP every 10 seconds.",
-    "image": "images/Install/3010249.png",
-    "apng": "images/Install/3010249.apng",
+    "image": "images/Install/3015558.png",
+    "apng": "images/Install/3015558.apng",
     "stats": {
       "price": 1,
       "slotMax": 1,
@@ -4179,7 +4179,7 @@
     "name": "Nibelung Battleship Chair",
     "desc": "A futuristic chair that people in Neo City ride. It recovers 40 HP every 10 seconds.",
     "image": "images/Install/3010125.png",
-    "apng": "images/Install/3010266.apng",
+    "apng": "images/Install/3010125.apng",
     "stats": {
       "price": 1,
       "slotMax": 1,
@@ -5232,8 +5232,8 @@
     "category": "Install",
     "name": "Christmas Box",
     "desc": "A Christmas Box, Recovers HP 50 MP 50 every 10 seconds.",
-    "image": "images/Install/3010337.png",
-    "apng": "images/Install/3010337.apng",
+    "image": "images/Install/3010105.png",
+    "apng": "images/Install/3010105.apng",
     "stats": {
       "price": 1,
       "recoveryHP": 50,
@@ -5820,8 +5820,8 @@
     "category": "Install",
     "name": "Passionate Red Potion Chair",
     "desc": "A red potion chair that makes you feel like you'll recover HP slighter faster than from other chairs. \\r\\n#cRestores 110 HP and 50 MP every 10 seconds.#",
-    "image": "images/Install/3010376.png",
-    "apng": "images/Install/3010376.apng",
+    "image": "images/Install/3015562.png",
+    "apng": "images/Install/3015562.apng",
     "stats": {
       "price": 1,
       "slotMax": 1,
@@ -5837,8 +5837,8 @@
     "category": "Install",
     "name": "Refreshing Blue Potion Chair",
     "desc": "A blue potion chair that makes you feel like you'll recover MP slighter faster than from other chairs. \\r\\n#cRestores 100 HP and 60 MP every 10 seconds.#",
-    "image": "images/Install/3010377.png",
-    "apng": "images/Install/3010377.apng",
+    "image": "images/Install/3015561.png",
+    "apng": "images/Install/3015562.apng",
     "stats": {
       "price": 1,
       "slotMax": 1,
@@ -7269,7 +7269,7 @@
     "name": "Red Lantern Chair",
     "desc": "Don't worry, it's not hot at all! Recovers 50 HP an MP every 10 seconds.",
     "image": "images/Install/3010495.png",
-    "apng": null,
+    "apng": "images/Install/3010495.apng",
     "stats": {
       "price": 1,
       "slotMax": 1,
@@ -13755,7 +13755,7 @@
     "name": "Spinning Teacup Chair",
     "desc": "It's a fun and fancy spinning teacup chair! \\r\\n#cNausea optional.# \\r\\n#cRestores 500 HP and 500 MP every 10 seconds.# Designed by the China MapleStory player Xiaoshu.",
     "image": "images/Install/3012026.png",
-    "apng": null,
+    "apng": "images/Install/3012026.apng",
     "stats": {
       "distanceX": 300,
       "distanceY": 0,
@@ -13843,7 +13843,7 @@
     "name": "Couple of Monkeys Chair",
     "desc": "#cRestores 200 HP and 200 MP every 10 seconds.# Designed by China MapleStory player xiaoshu.",
     "image": "images/Install/3012031.png",
-    "apng": null,
+    "apng": "images/Install/3012031.apng",
     "stats": {
       "distanceX": 250,
       "distanceY": 0,
@@ -14628,7 +14628,7 @@
     "name": "BFF Picnic",
     "desc": "A commemorative photo of your BFF Finder picnic. #cDouble-click# to enter a caption using up to #c10 letters#. Recovers 50 HP and MP every 10 seconds.",
     "image": "images/Install/3014026.png",
-    "apng": "images/Install/3014026.apng",
+    "apng": "images/Install/3014021.apng",
     "stats": {
       "price": 1,
       "slotMax": 1,
@@ -14740,7 +14740,7 @@
     "name": "Cherry Blossom Picnic",
     "desc": "Picnic beneath a shower of cherry blossoms on a lovely, picturesque day. \\r\\n#cDouble-click# it to insert your own message while using it. #cMax 10 characters# \\r\\n#cRestores 100 HP and 100 MP every 10 seconds.#",
     "image": "images/Install/3014026.png",
-    "apng": "images/Install/3014026.apng",
+    "apng": "images/Install/3014021.apng",
     "stats": {
       "price": 1,
       "slotMax": 1,
@@ -16508,7 +16508,7 @@
     "name": "Picnic Party Chair",
     "desc": "Welp, this is awkward. And the picnic was going so well... Recovers 50 HP and MP every 10 seconds.",
     "image": "images/Install/3015108.png",
-    "apng": null,
+    "apng": "images/Install/3015108.apng",
     "stats": {
       "price": 1,
       "recoveryHP": 50,
@@ -16969,7 +16969,7 @@
     "name": "Romantic Teacup Chair",
     "desc": "Sharing a warm cup of tea on a romantic, moonlit night... #cRestores 50 HP and 50 MP every 10 seconds.# Designed by China MapleStory player Xiaoshu.",
     "image": "images/Install/3015156.png",
-    "apng": null,
+    "apng": "images/Install/3015156.apng",
     "stats": {
       "distanceX": 300,
       "distanceY": 0,
@@ -17009,7 +17009,7 @@
     "name": "돼지바 의자",
     "desc": "맛있으면 돼지! 맛있어보이는 돼지바 의자다. \\n10초마다 HP가 50, MP가 50씩 회복된다.",
     "image": "images/Install/3015159.png",
-    "apng": null,
+    "apng": "images/Install/3015159.apng",
     "stats": {
       "price": 1,
       "slotMax": 1,
@@ -17178,7 +17178,7 @@
     "name": "Yut Partners Chair",
     "desc": "Getting help from others in Yut makes Moonbeam mad! \\nRecovers 50 HP and 50 MP every 10 seconds.",
     "image": "images/Install/3015167.png",
-    "apng": null,
+    "apng": "images/Install/3015167.png",
     "stats": {
       "price": 1,
       "slotMax": 1,
@@ -20269,7 +20269,7 @@
     "name": "Lucky Pig Fortune Chair",
     "desc": "If you want to relax with a clever little pig, then you're in luck! \\r\\nRecovers 50 HP and MP every 10 seconds.",
     "image": "images/Install/3015374.png",
-    "apng": null,
+    "apng": "images/Install/3015374.apng",
     "stats": {
       "slotMax": 1,
       "recoveryHP": 50,
@@ -21032,8 +21032,8 @@
     "category": "Install",
     "name": "Desert Island Chair",
     "desc": "50 HP and 50 MP are restored every 10 seconds.",
-    "image": "images/Install/3015460.png",
-    "apng": "images/Install/3015460.apng",
+    "image": "images/Install/3010432.png",
+    "apng": "images/Install/3010432.apng",
     "stats": {
       "price": 1,
       "slotMax": 1,
@@ -21326,7 +21326,7 @@
     "name": "Dozing Duckling Chair",
     "desc": "#cRestores 100 HP and 100 MP every 10 seconds.# Designed by China MapleStory player muzi.",
     "image": "images/Install/3015482.png",
-    "apng": null,
+    "apng": "images/Install/3015482.apng",
     "stats": {
       "price": 1,
       "slotMax": 1,
@@ -28817,7 +28817,7 @@
     "name": "Blue Sky Illusions Chair",
     "desc": "What can you see in the great blue sky? Get comfy and have a look! #cRestores 50 HP and 50 MP every 10 seconds.# Designed by China MapleStory player muzi.",
     "image": "images/Install/3015526.png",
-    "apng": null,
+    "apng": "images/Install/3015526.apng",
     "stats": {
       "price": 1,
       "slotMax": 1,
@@ -32476,7 +32476,7 @@
     "name": "Riding Spring Chair",
     "desc": "It's a Riding Spring Chair in the shape of a cute sheep. Sitting in it is scarier than you'd expect.\\r\\n#cRestores 50 HP and 50 MP every 10 seconds.#",
     "image": "images/Install/3015796.png",
-    "apng": null,
+    "apng": "images/Install/3015796.apng",
     "stats": {
       "price": 1,
       "slotMax": 1,
