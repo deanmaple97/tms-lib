@@ -10,7 +10,7 @@
   top: 0;
   z-index: 999;
   background: linear-gradient(90deg, #3a2b66, #4e3a86) !important;
-  border-bottom: 4px solid #f7d48b !important;
+  /* border-bottom: 4px solid #f7d48b !important; */
   box-shadow: 0 0 18px rgba(0,0,0,0.7) !important;
 }
 
@@ -98,6 +98,42 @@ body {
         #221637 100%);
     color: #f4ecff !important;
     min-height: 100vh;
+}
+
+html, body, *, form *:hover,
+a[href]:hover,
+button:hover,
+.btn:hover, .btn.timeless-search-btn:hover, .panel-controls *:hover,
+.nav-link:hover,
+.dropdown-item:hover,
+[role="button"]:hover,
+a[href] img:hover,
+a[href]:hover img,
+select:hover, .drop-utils-container *:hover {
+  cursor: url(../public/images/common/cursor.cur), auto;
+}
+
+.cardbox:hover, .cardbox:hover *,
+.drop-group *:hover, .item-drop-mob *:hover, .drop-card *:hover {
+  cursor: url(../public/images/common/cursor_hover_0.png), auto;
+  -webkit-animation: cursor 600ms infinite;
+  animation: cursor 600ms infinite;
+}
+
+@-webkit-keyframes cursor {
+  0% {cursor: url(../public/images/common/cursor_hover_0.png), auto;}
+  25% {cursor: url(../public/images/common/cursor_hover_0.png), auto;}
+  50% {cursor: url(../public/images/common/cursor_hover_1.png), auto;}
+  75% {cursor: url(../public/images/common/cursor_hover_2.png), auto;}
+  100% {cursor: url(../public/images/common/cursor_hover_3.png), auto;}
+} 
+
+@keyframes cursor {
+  0% {cursor: url(../public/images/common/cursor_hover_0.png), auto;}
+  25% {cursor: url(../public/images/common/cursor_hover_0.png), auto;}
+  50% {cursor: url(../public/images/common/cursor_hover_1.png), auto;}
+  75% {cursor: url(../public/images/common/cursor_hover_2.png), auto;}
+  100% {cursor: url(../public/images/common/cursor_hover_3.png), auto;}
 }
 
 /* Generic container for pages */
@@ -249,6 +285,11 @@ body {
     margin-right: 15px;
 }
 
+.panel-page-size option {
+    background: rgba(40, 20, 70, 0.95);
+    color: #f4ecff;
+}
+
 /* ------------------------------------------------------------
    PAGINATION
    ------------------------------------------------------------ */
@@ -257,12 +298,20 @@ body {
     gap: 5px;
 }
 
+.panel-pagination > .page-btn:nth-child(1) {
+  border: none;
+}
+
+.panel-pagination > .page-btn:nth-last-child(1) {
+  border: none;
+}
+
 .page-btn {
     padding: 4px 8px;
     border-radius: 8px;
     cursor: pointer;
     background: #4c2d7f;
-    border: 2px solid #f7d48b;
+    border: 1px solid #f7d48b;
     color: #f7d48b;
     font-size: 11px;
     min-width: 24px;
@@ -273,6 +322,7 @@ body {
 .page-btn:hover:not(:disabled) {
     background: #5a3595;
     box-shadow: 0 0 8px rgba(247,212,139,0.4);
+    border: 1px solid #f7d48b;
 }
 
 .page-btn:disabled {
@@ -295,6 +345,27 @@ body {
     gap: 10px;
 }
 
+.grid-install {
+    grid-template-columns: repeat(auto-fit, minmax(150px, max-content));
+    grid-auto-columns: max-content;
+    grid-auto-rows: max-content;
+    justify-items: start;
+    align-items: start;
+    grid-auto-flow: dense;
+}
+
+.masonry-grid {
+  column-width: 150px;
+  column-gap: 12px;
+}
+
+.masonry-item {
+  break-inside: avoid;
+  display: inline-block !important;
+  width: 100% !important;
+  margin-bottom: 12px;
+}
+
 .cardbox {
     background: linear-gradient(
         to bottom right,
@@ -310,6 +381,14 @@ body {
     color: #f7eaff;
 }
 
+.cardbox-install {
+    overflow: visible;
+    display: inline-block;
+    width: max-content;
+    position: relative;
+    transition: 0.18s ease;
+}
+
 .cardbox > div {
     font-size: 14px;
     white-space: nowrap;
@@ -322,6 +401,12 @@ body {
     box-shadow: 0 0 12px rgba(247,212,139,0.5);
     transform: translateY(-3px);
     background-color: rgba(247,212,139,0.7);
+}
+
+.cardbox-install:hover {
+  transform: scale(1.03);
+  z-index: 1000;
+  box-shadow: 0 0 18px rgba(247,212,139,0.7);
 }
 
 .thumb-img {
@@ -1014,8 +1099,39 @@ body {
 }
 
 .item-apng-preview {
-  width: auto;        /* keep natural width */
-  max-width: 100%;    /* scale down if it exceeds container width */
-  height: auto;       /* maintain aspect ratio */
-  display: block;     /* optional, removes inline gap */
+  display: inline-block;
+  margin-bottom: 6px;
+  max-width: 100% !important;
+  height: auto;
+}
+
+.apng-hover-panel {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1.12);
+  display: none;
+  z-index: 2000;
+  pointer-events: none;
+  padding: 20px 46px;
+  border-radius: 12px;
+  border: 1px solid rgba(247,212,139,0.4);
+  background: radial-gradient(circle at center,
+        #5c3f88 0%,
+        #3a2a5f 45%,
+        #221637 100%);
+  box-shadow: 0 0 18px rgba(247,212,139,0.7);
+  overflow: hidden;
+  transition: opacity 180ms ease-out, transform 220ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.apng-hover-img {
+  width: auto;
+  height: auto;
+  max-width: none;
+  display: block;
+}
+
+.cardbox-install:hover .apng-hover-panel {
+  display: block;
 }

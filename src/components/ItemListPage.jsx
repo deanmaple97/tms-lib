@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate, useSearchParams, useLocation } from "react-router-dom";
 import { setPaginationState, getPaginationState } from "../utils";
 import { loadAllItems } from "../data";
-import { getScrollImage } from "../utils";
+import { getScrollImage, withBase } from "../utils";
 import PaginationControls from "./PaginationControls.jsx";
 
 /**
@@ -131,11 +131,11 @@ export default function ItemListPage({ categoryFilter, title }) {
         </div>
       </div>
 
-      <div id="itemGrid" className="grid">
+      <div id="itemGrid" className={categoryFilter === "Install" ? "masonry-grid" : "grid"}>
         {pageData.map((it) => (
           <div
             key={it.id}
-            className="cardbox"
+            className={categoryFilter === "Install" ? "cardbox cardbox-install masonry-item" : "cardbox"}
             onClick={() =>
               navigate(`/item/${it.id}`, {
                 state: {
@@ -146,11 +146,21 @@ export default function ItemListPage({ categoryFilter, title }) {
             }
           >
             <img
-              src={getScrollImage(it)}
-              className="thumb-img"
+              src={categoryFilter === "Install" && it.apng ? withBase(it.apng) : getScrollImage(it)}
+              className={categoryFilter === "Install" ? "item-apng-preview" : "thumb-img"}
               alt={it.name}
               title={it.name}
             />
+            {categoryFilter === "Install" && it.apng && (
+              <div className="apng-hover-panel">
+                <img
+                  src={withBase(it.apng)}
+                  className="apng-hover-img"
+                  alt={it.name}
+                  title={it.name}
+                />
+              </div>
+            )}
             <div>{it.name}</div>
           </div>
         ))}
