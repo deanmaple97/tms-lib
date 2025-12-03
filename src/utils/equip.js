@@ -10,11 +10,11 @@ import { WEAPON_IDS } from "./weaponId.js";
 
 const JOB_REQ_CODES = {
   Beginner: [0],
-  Warrior: [1, 100, 110, 120, 130],
-  Magician: [2, 200, 210, 220, 230],
-  Thief: [3, 400, 410, 420],
-  Bowman: [4, 300, 310, 320],
-  Pirate: [5, 500, 510, 520],
+  Warrior: [1],
+  Magician: [2],
+  Thief: [8],
+  Bowman: [4],
+  Pirate: [5, 16],
 };
 
 export function getJobAllowed(reqJob, jobName) {
