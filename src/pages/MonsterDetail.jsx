@@ -112,7 +112,9 @@ export default function MonsterDetail() {
     if (sortMode === "mesos") {
       return getMesosForDrop(b) - getMesosForDrop(a);
     }
-    return b.chance - a.chance;
+    const aFinal = (a.chance / 10000) * dropRateMultiplier;
+    const bFinal = (b.chance / 10000) * dropRateMultiplier;
+    return bFinal - aFinal;
   });
 
   // ==================================================
@@ -179,7 +181,7 @@ export default function MonsterDetail() {
     if (foundEquip) {
       const price = Number(foundEquip?.stats?.price) || 0;
       groups.Equip.push(
-        <div key={`eq-${foundEquip.id}`} style={{ textAlign: "center" }}>
+        <div key={`eq-${foundEquip.id}-${d.id}`} style={{ textAlign: "center" }}>
           {showItemNames ? (
             <div className="drop-item drop-name">{foundEquip.name}</div>
           ) : (
