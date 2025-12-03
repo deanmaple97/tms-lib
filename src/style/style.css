@@ -101,39 +101,35 @@ body {
 }
 
 html, body, *, form *:hover,
-a[href]:hover,
-button:hover,
-.btn:hover, .btn.timeless-search-btn:hover, .panel-controls *:hover,
-.nav-link:hover,
-.dropdown-item:hover,
-[role="button"]:hover,
-a[href] img:hover,
-a[href]:hover img,
-select:hover, .drop-utils-container *:hover {
-  cursor: url(../public/images/common/cursor.cur), auto;
+select:hover,
+a[href]:hover, a[href] img:hover, a[href]:hover img,
+[role="button"]:hover, button:hover, .btn:hover, .btn.timeless-search-btn:hover, 
+.nav-link:hover, .dropdown-item:hover,
+.panel-controls *:hover, .drop-utils-container *:hover {
+  cursor: url(../assets/cursor.cur), auto;
 }
 
 .cardbox:hover, .cardbox:hover *,
-.drop-group *:hover, .item-drop-mob *:hover, .drop-card *:hover {
-  cursor: url(../public/images/common/cursor_hover_0.png), auto;
+.drop-group *:hover, .item-drop-mob *:hover, .drop-card *:hover, .modal-results-grid *:hover {
+  cursor: url(../assets/cursor_hover_0.png), auto;
   -webkit-animation: cursor 600ms infinite;
   animation: cursor 600ms infinite;
 }
 
 @-webkit-keyframes cursor {
-  0% {cursor: url(../public/images/common/cursor_hover_0.png), auto;}
-  25% {cursor: url(../public/images/common/cursor_hover_0.png), auto;}
-  50% {cursor: url(../public/images/common/cursor_hover_1.png), auto;}
-  75% {cursor: url(../public/images/common/cursor_hover_2.png), auto;}
-  100% {cursor: url(../public/images/common/cursor_hover_3.png), auto;}
+  0% {cursor: url(../assets/cursor_hover_0.png), auto;}
+  25% {cursor: url(../assets/cursor_hover_0.png), auto;}
+  50% {cursor: url(../assets/cursor_hover_1.png), auto;}
+  75% {cursor: url(../assets/cursor_hover_2.png), auto;}
+  100% {cursor: url(../assets/cursor_hover_3.png), auto;}
 } 
 
 @keyframes cursor {
-  0% {cursor: url(../public/images/common/cursor_hover_0.png), auto;}
-  25% {cursor: url(../public/images/common/cursor_hover_0.png), auto;}
-  50% {cursor: url(../public/images/common/cursor_hover_1.png), auto;}
-  75% {cursor: url(../public/images/common/cursor_hover_2.png), auto;}
-  100% {cursor: url(../public/images/common/cursor_hover_3.png), auto;}
+  0% {cursor: url(../assets/cursor_hover_0.png), auto;}
+  25% {cursor: url(../assets/cursor_hover_0.png), auto;}
+  50% {cursor: url(../assets/cursor_hover_1.png), auto;}
+  75% {cursor: url(../assets/cursor_hover_2.png), auto;}
+  100% {cursor: url(../assets/cursor_hover_3.png), auto;}
 }
 
 /* Generic container for pages */
