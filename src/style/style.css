@@ -665,6 +665,11 @@ a[href]:hover, a[href] img:hover, a[href]:hover img,
     text-shadow: 0 0 3px rgba(255,255,255,0.7);
 }
 
+.text-exp-caption {
+  font-style: italic;
+  margin: auto;
+}
+
 /* ------------------------------------------------------------
    ITEM DESCRIPTION
    ------------------------------------------------------------ */

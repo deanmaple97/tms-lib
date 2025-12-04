@@ -365,6 +365,10 @@ export default function MonsterDetail() {
                   </div>
                 </div>
 
+                <div className="stat-row">
+                  <div className="text-mute text-exp-caption">(EXP is based on x1 rate)</div>
+                </div>
+
                 <div className="stat-row stat-leader">
                   <div className="stat-label">W. Attack:</div>
                   <div className="text-mute stat-attack">
