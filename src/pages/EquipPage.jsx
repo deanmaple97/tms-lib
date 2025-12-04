@@ -6,7 +6,8 @@ import EquipListPage from "../components/EquipListPage.jsx";
 
 /** Equip page wrapper that renders the reusable EquipListPage */
 export default function EquipPage() {
-  const { category } = useParams();
+  let { category } = useParams();
+  if (category === "Ring") category = "Accessory";
   const title = `Equips - ${CATEGORY_LABELS[category] || category}`;
   return <EquipListPage category={category} title={title} />;
 }

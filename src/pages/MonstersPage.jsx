@@ -12,10 +12,14 @@ export default function MonstersPage() {
   const saved = getPaginationState("/monsters");
   const initialPage = Number(searchParams.get("page")) || saved?.page || 1;
   const initialSize = Number(searchParams.get("size")) || saved?.size || 100;
+  const initialSearch = searchParams.get("q") || saved?.q || "";
+  const initialBoss = searchParams.get("boss") || saved?.boss || "All";
   const [pageSize, setPageSize] = useState(initialSize);
   const [currentPage, setCurrentPage] = useState(initialPage);
   const [mobs, setMobs] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [searchQuery, setSearchQuery] = useState(initialSearch);
+  const [bossFilter, setBossFilter] = useState(initialBoss);
 
   const navigate = useNavigate();
 
@@ -39,10 +43,21 @@ export default function MonstersPage() {
     };
   }, []);
 
-  const total = mobs.length;
+  let filtered = mobs;
+  if (bossFilter !== "All") {
+    filtered = filtered.filter((m) => {
+      const isBoss = Number(m.boss) === 1;
+      return bossFilter === "Boss" ? isBoss : !isBoss;
+    });
+  }
+  if (searchQuery && searchQuery.trim()) {
+    const q = searchQuery.toLowerCase();
+    filtered = filtered.filter((m) => String(m.name).toLowerCase().includes(q));
+  }
+  const total = filtered.length;
   const totalPages = Math.max(1, Math.ceil(total / pageSize));
   const startIndex = (currentPage - 1) * pageSize;
-  const pageData = mobs.slice(startIndex, startIndex + pageSize);
+  const pageData = filtered.slice(startIndex, startIndex + pageSize);
 
   /** Clamp page when total changes */
   useEffect(() => {
@@ -58,18 +73,29 @@ export default function MonstersPage() {
   useEffect(() => {
     const pageParam = Number(searchParams.get("page")) || 1;
     const sizeParam = Number(searchParams.get("size")) || 100;
+    const qParam = searchParams.get("q") || "";
+    const bossParam = searchParams.get("boss") || "All";
     if (pageParam !== currentPage) setCurrentPage(pageParam);
     if (sizeParam !== pageSize) setPageSize(sizeParam);
+    if (qParam !== searchQuery) setSearchQuery(qParam);
+    if (bossParam !== bossFilter) setBossFilter(bossParam);
   }, [searchParams]);
 
   /** Handle page change from controls */
+  function persistState(next) {
+    const params = new URLSearchParams(searchParams);
+    params.set("page", String(next.page ?? currentPage));
+    params.set("size", String(next.size ?? pageSize));
+    params.set("boss", String(next.boss ?? bossFilter));
+    const qValue = next.q ?? searchQuery;
+    if (qValue && String(qValue).trim()) params.set("q", String(qValue)); else params.delete("q");
+    setSearchParams(params, { replace: false });
+    setPaginationState("/monsters", { page: Number(params.get("page")), size: Number(params.get("size")), q: params.get("q") || "", boss: params.get("boss") });
+  }
+
   function handlePageChange(p) {
     setCurrentPage(p);
-    const params = new URLSearchParams(searchParams);
-    params.set("page", String(p));
-    params.set("size", String(pageSize));
-    setSearchParams(params, { replace: false });
-    setPaginationState("/monsters", { page: p, size: pageSize });
+    persistState({ page: p });
   }
 
   if (loading) {
@@ -89,28 +115,56 @@ export default function MonstersPage() {
     <section className="panel">
       <div className="panel-header">
         <div className="panel-title">Monsters</div>
-        <div className="panel-controls">
-          <span>Show:</span>
-          <select
-            className="panel-page-size"
-            value={pageSize}
-            onChange={(e) => {
-              setPageSize(Number(e.target.value));
-              setCurrentPage(1);
-              const params = new URLSearchParams(searchParams);
-              params.set("page", "1");
-              params.set("size", String(Number(e.target.value)));
-              setSearchParams(params, { replace: false });
-              setPaginationState("/monsters", { page: 1, size: Number(e.target.value) });
-            }}
-          >
-            <option value={50}>50</option>
-            <option value={100}>100</option>
-            <option value={150}>150</option>
-            <option value={200}>200</option>
-          </select>
-          <PaginationControls currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
-        </div>
+          <div className="panel-controls">
+            <div className="panel-controls-child">
+              <input
+                className="timeless-input"
+                placeholder="Search..."
+                value={searchQuery}
+              onChange={(e) => {
+                  const v = e.target.value;
+                  setSearchQuery(v);
+                  setCurrentPage(1);
+                  persistState({ page: 1, q: v });
+                }}
+                style={{ marginRight: 8 }}
+              />
+              <span>Type:</span>
+              <select
+                className="panel-page-size"
+                value={bossFilter}
+                onChange={(e) => {
+                  const v = e.target.value;
+                  setBossFilter(v);
+                  setCurrentPage(1);
+                  persistState({ page: 1, boss: v });
+                }}
+              >
+                {["All", "Boss", "Normal"].map((n) => (
+                  <option key={n}>{n}</option>
+                ))}
+              </select>
+            </div>
+            <div className="panel-controls-child">
+              <span>Show:</span>
+              <select
+                className="panel-page-size"
+                value={pageSize}
+                onChange={(e) => {
+                  const v = Number(e.target.value);
+                  setPageSize(v);
+                  setCurrentPage(1);
+                  persistState({ page: 1, size: v });
+                }}
+              >
+                <option value={50}>50</option>
+                <option value={100}>100</option>
+                <option value={150}>150</option>
+                <option value={200}>200</option>
+              </select>
+              <PaginationControls currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
+            </div>
+          </div>
       </div>
 
       <div id="monsterGrid" className="grid">

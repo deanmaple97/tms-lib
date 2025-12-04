@@ -31,7 +31,43 @@ export const EXCLUDED_RANGES = [
     ['8810024', '8810026'],
     ['8810118', '8810121'],
     ['8810123', '8810130' ],
-    ['8820008', '8820014']
+    ['8820008', '8820014'],
+    // Accessories
+    // Pocket Items
+    ["01162000", "01162084"],
+    // Badge and Totem
+    ["01182000","01182293"],
+    // Emblem
+    ["01190000", "01191109"],
+    // New Version Weapons
+    // Shinning Rod, Soul Shooter, Desperado, Energy Chain, Scepter, Psy-Limiter, Gaunlet 
+    ["01212000", "01300000"],
+    // Katara
+    ["01342000", "01342112"],
+    // Secondary Weapons
+    ["01352000", "01354027"],
+    // Cane
+    ["01362000","01362154"],
+    // Shovel
+    ["01502000", "01512011"],
+    // Dual Bow Gun
+    ["01522000","01522153"],
+    // Cannon Shooter
+    ["01532000","01532158"],
+    // Katara
+    ["01542000", "01542128"],
+    // Kanna Fan
+    ["01552000","01552130"],
+    // Lazuli (Zero)
+    ["01562000", "01572009"],
+    // Arm Cannon (Blaster)
+    ["01562000", "01582045"],
+    // Ancient Bow (Pathfinder)
+    ["01592000","01592041"],
+    // Unknown
+    ["01690000", "01690335"],
+    // ONS - Unsure
+    ["01302900", "01302916"]
 ];
 
 /**

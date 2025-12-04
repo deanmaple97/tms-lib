@@ -3,22 +3,46 @@
  * Keys are the first 3 digits of the item ID (prefix).
  */
 export const WEAPON_IDS = {
-  130: "ONE-HANDED SWORD",
-  131: "ONE-HANDED AXE",
-  132: "ONE-HANDED MACE",
-  133: "DAGGER",
-  134: "WAND",
-  135: "STAFF",
-  137: "WAND",
-  138: "STAFF",
-  140: "TWO-HANDED SWORD",
-  141: "TWO-HANDED AXE",
-  142: "TWO-HANDED MACE",
-  143: "SPEAR",
-  144: "POLEARM",
-  145: "BOW",
-  146: "CROSSBOW",
-  147: "CLAW",
-  148: "KNUCKLE",
-  149: "GUN",
+  // Warrior
+  130: "One-Handed Sword",
+  131: "One-Handed Axe",
+  132: "One-Handed Mace",
+  140: "Two-Handed Sword",
+  141: "Two-Handed Axe",
+  142: "Two-Handed Mace",
+  143: "Spear",
+  144: "Polearm",
+  // Magician
+  134: "Wand",
+  135: "Staff",
+  137: "Wand",
+  138: "Staff",
+  //Archer
+  145: "Bow",
+  146: "Crossbow",
+  // Thief
+  147: "Claw",
+  133: "Dagger",
+  // Pirate
+  148: "Knuckle",
+  149: "Gun",
 };
+
+export const WEAPON_TYPE_ORDER = [
+  "One-Handed Sword",
+  "One-Handed Axe",
+  "One-Handed Mace",
+  "Two-Handed Sword",
+  "Two-Handed Axe",
+  "Two-Handed Mace",
+  "Spear",
+  "Polearm",
+  "Wand",
+  "Staff",
+  "Bow",
+  "Crossbow",
+  "Claw",
+  "Dagger",
+  "Knuckle",
+  "Gun",
+];

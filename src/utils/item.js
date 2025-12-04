@@ -31,7 +31,7 @@ export function getScrollImage(item) {
 
   const SUPPORTED_SCROLL_RATES = [10, 15, 30, 40, 50, 60, 65, 70];
   if (SUPPORTED_SCROLL_RATES.includes(rate) && item.name.toLowerCase().includes("scroll")) {
-    return item.name.toLowerCase().includes("chaos") ? item.image : withBase(`images/Common/scroll_${rate}.png`);
+    return item.name.toLowerCase().includes("chaos") || item.name.toLowerCase().includes("balrog's") ? item.image : withBase(`images/Common/scroll_${rate}.png`);
   }
 
   return item.image;

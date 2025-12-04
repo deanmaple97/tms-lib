@@ -10,6 +10,7 @@ import { WEAPON_IDS } from "./weaponId.js";
 
 const JOB_REQ_CODES = {
   Beginner: [0],
+  "Super Beginner": [-1],
   Warrior: [1],
   Magician: [2],
   Thief: [8],
@@ -19,10 +20,16 @@ const JOB_REQ_CODES = {
 
 export function getJobAllowed(reqJob, jobName) {
   const jobCode = Number(reqJob);
+  if (jobName === "Super Beginner") {
+    return jobCode === -1;
+  }
   if (jobCode === 0) return true;
-
   const list = JOB_REQ_CODES[jobName] || [];
   return list.includes(jobCode);
+}
+
+export function isBeginnerOnly(reqJob) {
+  return Number(reqJob) === 0;
 }
 
 /**

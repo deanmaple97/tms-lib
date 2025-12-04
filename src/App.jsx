@@ -14,7 +14,6 @@ import PantsPage from "./pages/PantsPage.jsx";
 import GlovePage from "./pages/GlovePage.jsx";
 import ShoesPage from "./pages/ShoesPage.jsx";
 import ShieldPage from "./pages/ShieldPage.jsx";
-import RingPage from "./pages/RingPage.jsx";
 import WeaponPage from "./pages/WeaponPage.jsx";
 import MonsterDetail from "./pages/MonsterDetail";
 import EquipDetail from "./pages/EquipDetail";
@@ -49,7 +48,7 @@ export default function App() {
 
     async function loadData() {
       try {
-        const [{ mobs }, { items }, { equipCategories }] = await Promise.all([
+        const [{ mobs }, { items }, { flatEquips }] = await Promise.all([
           loadAllMobs(),
           loadAllItems(),
           loadEquips()
@@ -59,7 +58,7 @@ export default function App() {
 
         setMobList(mobs);
         setItemList(items);
-        setEquipList(equipCategories.flat());
+        setEquipList(flatEquips);
       } finally {
         if (!cancelled) setLoading(false);
       }
@@ -146,7 +145,6 @@ export default function App() {
           <Route path="/equip/Glove" element={<GlovePage />} />
           <Route path="/equip/Shoes" element={<ShoesPage />} />
           <Route path="/equip/Shield" element={<ShieldPage />} />
-          <Route path="/equip/Ring" element={<RingPage />} />
           <Route path="/equip/Weapon" element={<WeaponPage />} />
 
           {/* Fallback dynamic route */}

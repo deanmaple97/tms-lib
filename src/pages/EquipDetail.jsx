@@ -132,7 +132,7 @@ export default function EquipDetail() {
   const descLines = desc
     .split("\n")
     .filter((line) => line.trim().length > 0);
-
+  console.log(equip)
   return (
     <div className="page-container">
       <div className="panel" id="equipPanel">
@@ -168,7 +168,7 @@ export default function EquipDetail() {
               <div className="equip-job-req">
                 <div className="job-row">
                   {[
-                    "Beginner",
+                    stats.reqJob == -1 ? "Super Beginner" : "Beginner",
                     "Warrior",
                     "Magician",
                     "Bowman",

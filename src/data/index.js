@@ -111,11 +111,18 @@ export async function loadEquips() {
   // 🔥 Filter each category
   equipCategories = equipCategories.map((cat) => getFilteredExcluded(cat));
 
+  // Normalize categories and de-duplicate by ID across files
+  const equipMap = {};
   equipCategories.forEach((category) =>
-    category.forEach((eq) => fixImagePath(eq))
+    category.forEach((eq) => {
+      if (eq.category === "Ring") eq.category = "Accessory";
+      fixImagePath(eq);
+      const id = String(eq.id);
+      if (!equipMap[id]) equipMap[id] = eq; // keep first occurrence (Accessory preferred)
+    })
   );
 
-  const flatEquips = equipCategories.flat();
+  const flatEquips = Object.values(equipMap).sort((a, b) => Number(a.id) - Number(b.id));
 
   return { equipCategories, flatEquips };
 }

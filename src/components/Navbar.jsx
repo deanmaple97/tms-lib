@@ -2,12 +2,15 @@
 import React, { useEffect } from "react";
 import { NavLink, useNavigate, useLocation } from "react-router-dom";
 import { CATEGORY_LABELS, getPaginationState, withBase } from "../utils";
+import { ACCESSORY_TYPE_ORDER } from "../utils/accessoryId.js";
+import { WEAPON_TYPE_ORDER } from "../utils/weaponId.js";
 
 export default function Navbar({ onSearch }) {
   const navigate = useNavigate();
   const location = useLocation();
 
   const equipCategories = [
+    "Weapon",
     "Accessory",
     "Cap",
     "Coat",
@@ -16,8 +19,6 @@ export default function Navbar({ onSearch }) {
     "Glove",
     "Shoes",
     "Shield",
-    "Ring",
-    "Weapon",
   ];
 
   const isEquipActive = location.pathname.startsWith("/equip");
@@ -160,17 +161,87 @@ export default function Navbar({ onSearch }) {
 
               <ul className="dropdown-menu timeless-dropdown">
                 {equipCategories.map((cat) => (
-                  <li key={cat}>
-                    <NavLink
-                      to={getNavTo(`/equip/${encodeURIComponent(cat)}`)}
-                      onClick={closeNavbar}
-                      className={({ isActive }) =>
-                        "dropdown-item" + (isActive ? " active" : "")
-                      }
-                    >
-                      {CATEGORY_LABELS[cat] || cat}
-                    </NavLink>
-                  </li>
+                  cat === "Accessory" ? (
+                    <li key={cat} className="dropend">
+                      <button className="dropdown-item dropdown-toggle">
+                        {CATEGORY_LABELS[cat] || cat}
+                      </button>
+                      <ul className="dropdown-menu timeless-dropdown">
+                        <li>
+                          <button
+                            className="dropdown-item"
+                            onClick={() => {
+                              const saved = getPaginationState(`/equip/${cat}`) || { page: 1, size: 100 };
+                              navigate({ pathname: `/equip/${cat}`, search: `?page=1&size=${saved.size}` });
+                              closeNavbar();
+                            }}
+                          >
+                            All
+                          </button>
+                        </li>
+                        {ACCESSORY_TYPE_ORDER.map((name) => (
+                          <li key={name}>
+                            <button
+                              className="dropdown-item"
+                              onClick={() => {
+                                const saved = getPaginationState(`/equip/${cat}`) || { page: 1, size: 100 };
+                                navigate({ pathname: `/equip/${cat}`, search: `?page=1&size=${saved.size}&type=${encodeURIComponent(name)}` });
+                                closeNavbar();
+                              }}
+                            >
+                              {name}
+                            </button>
+                          </li>
+                        ))}
+                      </ul>
+                    </li>
+                  ) : cat === "Weapon" ? (
+                     <li key={cat} className="dropend">
+                       <button className="dropdown-item dropdown-toggle">
+                         {CATEGORY_LABELS[cat] || cat}
+                       </button>
+                       <ul className="dropdown-menu timeless-dropdown">
+                         <li>
+                           <button
+                             className="dropdown-item"
+                             onClick={() => {
+                               const saved = getPaginationState(`/equip/${cat}`) || { page: 1, size: 100 };
+                               navigate({ pathname: `/equip/${cat}`, search: `?page=1&size=${saved.size}` });
+                               closeNavbar();
+                             }}
+                           >
+                             All
+                           </button>
+                         </li>
+                         {WEAPON_TYPE_ORDER.map((name) => (
+                           <li key={name}>
+                             <button
+                               className="dropdown-item"
+                               onClick={() => {
+                                 const saved = getPaginationState(`/equip/${cat}`) || { page: 1, size: 100 };
+                                 navigate({ pathname: `/equip/${cat}`, search: `?page=1&size=${saved.size}&type=${encodeURIComponent(name)}` });
+                                 closeNavbar();
+                               }}
+                             >
+                               {name}
+                             </button>
+                           </li>
+                         ))}
+                       </ul>
+                     </li>
+                   ) : (
+                     <li key={cat}>
+                       <NavLink
+                         to={getNavTo(`/equip/${encodeURIComponent(cat)}`)}
+                         onClick={closeNavbar}
+                         className={({ isActive }) =>
+                           "dropdown-item" + (isActive ? " active" : "")
+                         }
+                       >
+                         {CATEGORY_LABELS[cat] || cat}
+                       </NavLink>
+                     </li>
+                   )
                 ))}
               </ul>
             </li>
