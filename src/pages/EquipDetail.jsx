@@ -132,7 +132,6 @@ export default function EquipDetail() {
   const descLines = desc
     .split("\n")
     .filter((line) => line.trim().length > 0);
-  console.log(equip)
   return (
     <div className="page-container">
       <div className="panel" id="equipPanel">

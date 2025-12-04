@@ -3,6 +3,7 @@ import { Routes, Route, Navigate, useNavigate } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import SearchModal from "./components/SearchModal";
+import FloatingWidget from "./components/FloatingWidget.jsx";
 
 import MonstersPage from "./pages/MonstersPage";
 import EquipPage from "./pages/EquipPage";
@@ -22,7 +23,7 @@ import EtcPage from "./pages/EtcPage";
 import SetupPage from "./pages/SetupPage";
 import ItemDetail from "./pages/ItemDetail";
 
-import { getScrollImage } from "./utils";
+import { getScrollImage, CATEGORY_LABELS, withBase } from "./utils";
 
 import {
   loadAllMobs,
@@ -33,6 +34,9 @@ import {
 export default function App() {
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchResults, setSearchResults] = useState([]);
+  const [widgetDocked, setWidgetDocked] = useState(false);
+  const [widgetAddTrigger, setWidgetAddTrigger] = useState(0);
+  const [widgetBookmarksTrigger, setWidgetBookmarksTrigger] = useState(0);
 
   // ⭐ Global data store
   const [mobList, setMobList] = useState([]);
@@ -67,6 +71,19 @@ export default function App() {
     loadData();
     return () => { cancelled = true; };
   }, []);
+
+  useEffect(() => {
+    try {
+      const v = localStorage.getItem("widget:docked");
+      if (v === "1") setWidgetDocked(true);
+      if (v === "0") setWidgetDocked(false);
+    } catch {}
+  }, []);
+
+  function setDocked(next) {
+    setWidgetDocked(next);
+    try { localStorage.setItem("widget:docked", next ? "1" : "0"); } catch {}
+  }
 
   // ⭐ SEARCH HANDLER (now uses loaded data)
   function handleGlobalSearch(query) {
@@ -112,6 +129,60 @@ export default function App() {
     setSearchOpen(true);
   }
 
+  function resolveBookmark(url) {
+    try {
+      const full = String(url || "");
+      const path = full.split("?")[0];
+      const query = full.includes("?") ? full.split("?")[1] : "";
+      const q = new URLSearchParams(query);
+      const parts = path.split("/").filter(Boolean);
+      let meta = { url: full, name: path, image: withBase("images/Common/logo.png"), type: "Page" };
+      const first = parts[0] || "";
+      if (first === "monster") {
+        const id = parts[1];
+        const m = mobList.find((x) => String(x.id) === String(id));
+        if (m) meta = { url: full, name: m.name, image: m.img, type: m.boss == 1 ? "Boss" : "Monster" };
+      } else if (first === "item") {
+        const id = parts[1];
+        const it = itemList.find((x) => String(x.id) === String(id));
+        if (it) meta = { url: full, name: it.name, image: getScrollImage(it), type: it.category == "Consume" ? "Use" : it.category };
+      } else if (first === "equip-detail") {
+        const id = parts[1];
+        const e = equipList.find((x) => String(x.id) === String(id));
+        if (e) meta = { url: full, name: e.name, image: e.image, type: e.category };
+      } else if (first === "equip") {
+        const cat = decodeURIComponent(parts[1] || "");
+        const label = CATEGORY_LABELS[cat] || cat || "Equips";
+        const job = q.get("job") || "All";
+        const type = q.get("type") || "All";
+        const size = q.get("size") || "";
+        const search = q.get("q") || "";
+        const suffix = `${(type && type !== "All") ? ` - ${type}` : ""} (${job})${search ? ` | q=${search}` : ""}${size ? ` | size=${size}` : ""}`;
+        meta = { url: full, name: `Equips - ${label}${suffix}`, image: withBase("images/Common/logo.png"), type: "List" };
+      } else if (first === "monsters") {
+        const boss = q.get("boss") || "All";
+        const size = q.get("size") || "";
+        const search = q.get("q") || "";
+        const suffix = ` (${boss})${search ? ` | q=${search}` : ""}${size ? ` | size=${size}` : ""}`;
+        meta = { url: full, name: `Monsters${suffix}`, image: withBase("images/Common/logo.png"), type: "List" };
+      } else if (first === "use" || first === "etc" || first === "setup") {
+        const title = first === "use" ? "Use" : first === "etc" ? "Etc" : "Setup";
+        const mobType = q.get("mobType") || "All";
+        const cat = q.get("cat") || "All";
+        const size = q.get("size") || "";
+        const search = q.get("q") || "";
+        const catPart = (title === "Use" && cat && cat !== "All") ? ` - ${cat}` : "";
+        const suffix = ` (${mobType})${search ? ` | q=${search}` : ""}${size ? ` | size=${size}` : ""}`;
+        meta = { url: full, name: `${title}${catPart}${suffix}`, image: withBase("images/Common/logo.png"), type: "List" };
+      } else {
+        meta = { url: full, name: document.title || path, image: withBase("images/Common/logo.png"), type: "Page" };
+      }
+      return meta;
+    } catch {
+      return { url, name: url, image: withBase("images/Common/logo.png"), type: "Page" };
+    }
+  }
+
   if (loading) {
     return (
       <div className="page-container">
@@ -122,7 +193,13 @@ export default function App() {
 
   return (
     <>
-      <Navbar onSearch={handleGlobalSearch} />
+      <Navbar
+        onSearch={handleGlobalSearch}
+        widgetDocked={widgetDocked}
+        onAddBookmark={() => setWidgetAddTrigger((n) => n + 1)}
+        onOpenBookmarks={() => setWidgetBookmarksTrigger((n) => n + 1)}
+        onResumeWidget={() => setDocked(false)}
+      />
 
       <div className="page-container">
         <Routes>
@@ -154,6 +231,14 @@ export default function App() {
           <Route path="*" element={<Navigate to="/monsters" replace />} />
         </Routes>
       </div>
+      <FloatingWidget
+        showButton={!widgetDocked}
+        onOpenSearch={() => setSearchOpen(true)}
+        onDock={() => setDocked(true)}
+        resolveBookmark={resolveBookmark}
+        triggerAddBookmark={widgetAddTrigger}
+        triggerOpenBookmarks={widgetBookmarksTrigger}
+      />
 
       <SearchModal
         open={searchOpen}

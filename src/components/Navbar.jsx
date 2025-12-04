@@ -1,11 +1,13 @@
 // src/components/Navbar.jsx
-import React, { useEffect } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { NavLink, useNavigate, useLocation } from "react-router-dom";
 import { CATEGORY_LABELS, getPaginationState, withBase } from "../utils";
 import { ACCESSORY_TYPE_ORDER } from "../utils/accessoryId.js";
 import { WEAPON_TYPE_ORDER } from "../utils/weaponId.js";
 
-export default function Navbar({ onSearch }) {
+export default function Navbar({ onSearch, widgetDocked, onResumeWidget, onAddBookmark, onOpenBookmarks }) {
+  const widgetRef = useRef(null);
+  const [widgetActive, setWidgetActive] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -29,6 +31,19 @@ export default function Navbar({ onSearch }) {
       new window.bootstrap.Collapse(navbar, { toggle: false });
     }
   }, []);
+
+  useEffect(() => {
+    const el = widgetRef.current;
+    if (!el) return;
+    const onShow = () => setWidgetActive(true);
+    const onHide = () => setWidgetActive(false);
+    el.addEventListener("show.bs.dropdown", onShow);
+    el.addEventListener("hide.bs.dropdown", onHide);
+    return () => {
+      el.removeEventListener("show.bs.dropdown", onShow);
+      el.removeEventListener("hide.bs.dropdown", onHide);
+    };
+  }, [widgetRef]);
 
   function closeNavbar() {
     const navbar = document.getElementById("navbarCollapse");
@@ -247,6 +262,43 @@ export default function Navbar({ onSearch }) {
             </li>
           </ul>
 
+          {/* DOCKED WIDGET DROPDOWN */}
+          {widgetDocked && (
+            <div ref={widgetRef} className="dropdown me-2 nav-docked-widget">
+              <button
+                className="btn p-0 nav-docked-widget-toggle"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                title="Widget"
+                onFocus={() => setWidgetActive(true)}
+                onBlur={() => setWidgetActive(false)}
+              >
+                <img
+                  src={withBase(widgetActive ? "images/Common/widget.gif" : "images/Common/widget.png")}
+                  alt="Widget"
+                  className="nav-docked-widget-img"
+                />
+              </button>
+              <ul className="dropdown-menu timeless-dropdown">
+                <li>
+                  <button className="dropdown-item" onClick={onAddBookmark}>
+                    Add bookmark
+                  </button>
+                </li>
+                <li>
+                  <button className="dropdown-item" onClick={onOpenBookmarks}>
+                    Bookmarks
+                  </button>
+                </li>
+                <li>
+                  <button className="dropdown-item" onClick={onResumeWidget}>
+                    Resume widget
+                  </button>
+                </li>
+              </ul>
+            </div>
+          )}
+
           {/* SEARCH BAR */}
           <form className="d-flex mb-lg-0 mb-2" onSubmit={handleSubmit}>
             <input
@@ -269,3 +321,4 @@ export default function Navbar({ onSearch }) {
     if (!saved) return path;
     return { pathname: path, search: `?page=${saved.page}&size=${saved.size}` };
   }
+  

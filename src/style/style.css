@@ -870,6 +870,136 @@ a[href]:hover, a[href] img:hover, a[href]:hover img,
     margin-top: 2px;
 }
 
+.widget-float {
+  position: fixed;
+  top: var(--widget-top, 80%);
+  left: var(--widget-left, calc(100vw - 16px - calc(var(--core-size, 44px) / 2)));
+  transform: translate(-50%, -50%);
+  --r: 68px;
+  --core-size: 60px;
+  width: auto;
+  height: auto;
+  background: transparent;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1001;
+  transition: top 300ms ease-out, left 300ms ease-out, opacity 200ms ease;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: none;
+}
+
+.widget-float.dragging {
+  transition: none;
+}
+
+.widget-img {
+  width: var(--core-size, 44px);
+  height: var(--core-size, 44px);
+  object-fit: contain;
+  display: block;
+  pointer-events: auto;
+  -webkit-user-drag: none;
+  transition: transform 140ms ease;
+}
+
+.widget-float.edge-left .widget-img { transform: scaleX(-1); }
+.widget-float.edge-right .widget-img { transform: scaleX(1); }
+
+.widget-float:hover { opacity: 0.95; }
+.widget-float:active { transform: translate(-50%, -50%) scale(0.98); }
+
+.widget-core { position: relative; z-index: 2; display: flex; align-items: center; justify-content: center; }
+
+
+.widget-item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.4);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.28);
+  background: rgba(255,255,255,0.12);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.35), inset 0 0 6px rgba(255,255,255,0.18);
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f4ecff;
+  transition: transform 280ms ease, opacity 220ms ease;
+  z-index: 3;
+  cursor: pointer;
+  pointer-events: none;
+}
+
+.widget-item-4 { width: 30px; height: 30px; }
+
+.widget-item svg { width: 18px; height: 18px; }
+.widget-item > * { transform: rotate(calc(-1 * var(--a))); }
+
+.widget-item:hover { background: rgba(255,255,255,0.18); }
+
+.widget-float.open .widget-item { opacity: 1; transform: translate(-50%, -50%) rotate(var(--a, 0deg)) translate(var(--r), 0) scale(1); animation: widgetArc 320ms ease-out both; pointer-events: auto; }
+
+/* Edge-aware layout: expand away from the edge */
+.widget-float.open.edge-right .widget-item-1 { --a: 240deg; }
+.widget-float.open.edge-right .widget-item-2 { --a: 200deg; }
+.widget-float.open.edge-right .widget-item-3 { --a: 160deg; }
+.widget-float.open.edge-right .widget-item-4 { --a: 90deg; }
+
+.widget-float.open.edge-left .widget-item-1 { --a: 300deg; }
+.widget-float.open.edge-left .widget-item-2 { --a: 340deg; }
+.widget-float.open.edge-left .widget-item-3 { --a: 20deg; }
+.widget-float.open.edge-left .widget-item-4 { --a: 90deg; }
+
+@keyframes widgetArc {
+  0% { opacity: 0; transform: translate(-50%, -50%) rotate(var(--a)) translate(0, 0) scale(0.4); }
+  100% { opacity: 1; transform: translate(-50%, -50%) rotate(var(--a)) translate(var(--r), 0) scale(1); }
+}
+
+@keyframes widgetOrbitRight {
+  0% { transform: translate(-50%, -50%) rotate(0deg) translate(-88px, 0) scale(1); }
+  100% { transform: translate(-50%, -50%) rotate(360deg) translate(-88px, 0) scale(1); }
+}
+
+@keyframes widgetOrbitLeft {
+  0% { transform: translate(-50%, -50%) rotate(0deg) translate(88px, 0) scale(1); }
+  100% { transform: translate(-50%, -50%) rotate(360deg) translate(88px, 0) scale(1); }
+}
+
+.widget-float.open .widget-item-1 { transition-delay: 10ms; }
+.widget-float.open .widget-item-2 { transition-delay: 40ms; }
+.widget-float.open .widget-item-3 { transition-delay: 70ms; }
+.widget-float.open .widget-item-4 { transition-delay: 100ms; }
+
+.widget-float.snap-left { animation: widgetSnapLeft 300ms ease-out; }
+.widget-float.snap-right { animation: widgetSnapRight 300ms ease-out; }
+
+@keyframes widgetSnapLeft {
+  0% { transform: translate(-50%, -50%) translateX(28px); }
+  60% { transform: translate(-50%, -50%) translateX(-6px); }
+  100% { transform: translate(-50%, -50%) translateX(0); }
+}
+
+@keyframes widgetSnapRight {
+  0% { transform: translate(-50%, -50%) translateX(-28px); }
+  60% { transform: translate(-50%, -50%) translateX(6px); }
+  100% { transform: translate(-50%, -50%) translateX(0); }
+}
+
+.widget-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+
 /* ===================================================
    EQUIP DROPDOWN
    ================================================== */
@@ -1176,4 +1306,77 @@ a[href]:hover, a[href] img:hover, a[href]:hover img,
 
 .cardbox-install:hover .apng-hover-panel {
   display: block;
+}
+.nav-docked-widget-img {
+  width: 50px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.nav-docked-widget-toggle:hover .nav-docked-widget-img {
+  filter: drop-shadow(0 0 6px rgba(247,212,139,0.7));
+}
+.btn.bookmark-delete-btn {
+  background: #b02a37;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  display: block;
+  margin: 8px auto 0 auto;
+}
+
+.btn.bookmark-delete-btn:hover {
+  background: #dc3545;
+}
+
+.bookmark-confirm-body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bookmark-preview-grid {
+  display: inline-grid;
+  grid-template-columns: 120px;
+  margin: 0 auto 12px auto;
+}
+
+.bookmark-confirm-input {
+  width: 100%;
+  max-width: 280px;
+  margin: 12px auto;
+}
+
+.bookmark-confirm-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.btn.bookmark-save-btn {
+  background: #f7d48b;
+  color: #3d2a6a;
+  border: 1px solid rgba(247,212,139,0.6);
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn.bookmark-save-btn:hover {
+  box-shadow: 0 0 14px rgba(247,212,139,0.7);
+}
+
+.btn.bookmark-cancel-btn {
+  background: rgba(255,255,255,0.15);
+  color: #f4ecff;
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 8px;
+}
+
+.btn.bookmark-cancel-btn:hover {
+  background: rgba(255,255,255,0.25);
 }
