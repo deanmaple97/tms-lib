@@ -592,7 +592,7 @@
   "1210111": {
     "id": "1210111",
     "name": "Strange Pig",
-    "img": "images/Mob/1210111_stand0.png"
+    "img": null
   },
   "2100100": {
     "id": "2100100",
@@ -963,7 +963,7 @@
   "2220110": {
     "id": "2220110",
     "name": "Crying Blue Mushroom",
-    "img": "images/Mob/2220110_stand0.png"
+    "img": null
   },
   "2230100": {
     "id": "2230100",
@@ -1235,7 +1235,7 @@
   "2230112": {
     "id": "2230112",
     "name": "Terrified Wild Boar",
-    "img": "images/Mob/2230112_stand0.png"
+    "img": null
   },
   "2230131": {
     "id": "2230131",
@@ -9539,7 +9539,7 @@
     "eva": 97,
     "pushed": 1500,
     "fs": 10,
-    "exp": 125875,
+    "exp": 31468,
     "category": 1,
     "mobType": "1N",
     "acc": 1000,
@@ -9564,7 +9564,7 @@
     "eva": 97,
     "pushed": 1600,
     "fs": 10,
-    "exp": 140390,
+    "exp": 35097,
     "category": 1,
     "mobType": "1N",
     "acc": 1000,
@@ -9614,7 +9614,7 @@
     "eva": 115,
     "pushed": 1800,
     "fs": 10,
-    "exp": 162410,
+    "exp": 40602,
     "category": 1,
     "mobType": "1N",
     "acc": 1000,
@@ -9639,7 +9639,7 @@
     "eva": 115,
     "pushed": 1800,
     "fs": 10,
-    "exp": 179975,
+    "exp": 44493,
     "category": 1,
     "mobType": "1N",
     "acc": 1000,
@@ -9664,7 +9664,7 @@
     "eva": 115,
     "pushed": 2000,
     "fs": 10,
-    "exp": 193800,
+    "exp": 48450,
     "category": 8,
     "mobType": "1N",
     "acc": 1000,
@@ -9689,7 +9689,7 @@
     "eva": 97,
     "pushed": 1600,
     "fs": 10,
-    "exp": 250000,
+    "exp": 62500,
     "summonType": 1,
     "category": 1,
     "mobType": "6H",
@@ -9716,7 +9716,7 @@
     "eva": 97,
     "pushed": 1600,
     "fs": 10,
-    "exp": 250000,
+    "exp": 62500,
     "summonType": 1,
     "category": 1,
     "mobType": "6H",
@@ -9755,9 +9755,9 @@
     "PDDamage": 10000,
     "MDDamage": 10000,
     "acc": 1000,
-    "MADamage": 1800,
-    "PADamage": 1800,
-    "exp": 90000000,
+    "MADamage": 2000,
+    "PADamage": 2000,
+    "exp": 45000000,
     "maxHP": 1800000000,
     "img": "images/Mob/8210013_stand0.png"
   },
@@ -9786,10 +9786,10 @@
     "PDDamage": 10000,
     "MDDamage": 10000,
     "acc": 1000,
-    "exp": 90000000,
+    "PADamage": 2000,
+    "MADamage": 2000,
+    "exp": 45000000,
     "maxHP": 1800000000,
-    "MADamage": 1800,
-    "PADamage": 1800,
     "img": "images/Mob/8210013_stand0.png"
   },
   "8210012": {
@@ -9817,10 +9817,10 @@
     "PDDamage": 10000,
     "MDDamage": 10000,
     "acc": 1000,
-    "exp": 90000000,
+    "PADamage": 2000,
+    "MADamage": 2000,
+    "exp": 45000000,
     "maxHP": 1800000000,
-    "MADamage": 1800,
-    "PADamage": 1800,
     "img": "images/Mob/8210013_stand0.png"
   },
   "8210013": {
@@ -9840,7 +9840,7 @@
     "pushed": 999999,
     "fs": 10,
     "boss": 1,
-    "exp": 90000000,
+    "exp": 45000000,
     "summonType": 1,
     "category": 8,
     "hpRecovery": 10000,
@@ -9849,14 +9849,14 @@
     "PDDamage": 10000,
     "MDDamage": 10000,
     "acc": 1000,
-    "MADamage": 1800,
-    "PADamage": 1800,
+    "PADamage": 2000,
+    "MADamage": 2000,
     "img": "images/Mob/8210013_stand0.png"
   },
   "8210014": {
     "id": "8210014",
     "name": "Prison Guard Ani's Ghost",
-    "img": "images/Mob/8210014_stand0.png"
+    "img": null
   },
   "8220000": {
     "id": "8220000",
@@ -10514,7 +10514,7 @@
     "MDDamage": 1100,
     "acc": 250,
     "eva": 12,
-    "exp": 0,
+    "exp": 596000,
     "undead": 0,
     "pushed": 10000,
     "hpRecovery": 10000,
@@ -10543,7 +10543,7 @@
     "MDDamage": 1200,
     "acc": 230,
     "eva": 40,
-    "exp": 2000000,
+    "exp": 970000,
     "undead": 0,
     "pushed": 12000,
     "noregen": 1,
@@ -10711,7 +10711,7 @@
     "eva": 130,
     "pushed": 5000,
     "fs": 10,
-    "exp": 350000,
+    "exp": 87500,
     "summonType": 1,
     "category": 8,
     "mobType": "4H",
@@ -10734,7 +10734,7 @@
     "MDRate": 10,
     "pushed": 5000,
     "fs": 10,
-    "exp": 370000,
+    "exp": 92500,
     "summonType": 1,
     "category": 6,
     "mobType": "4H",
@@ -10760,7 +10760,7 @@
     "MDRate": 10,
     "pushed": 5500,
     "fs": 10,
-    "exp": 390000,
+    "exp": 97500,
     "summonType": 1,
     "category": 8,
     "mobType": "4H",
@@ -10786,7 +10786,7 @@
     "MDRate": 10,
     "pushed": 5500,
     "fs": 10,
-    "exp": 410000,
+    "exp": 102500,
     "summonType": 1,
     "category": 8,
     "mobType": "3H",
@@ -10812,7 +10812,7 @@
     "MDRate": 10,
     "pushed": 5000,
     "fs": 10,
-    "exp": 360000,
+    "exp": 90000,
     "summonType": 1,
     "category": 8,
     "mobType": "3H",
@@ -10839,7 +10839,7 @@
     "MDRate": 10,
     "pushed": 5000,
     "fs": 10,
-    "exp": 380000,
+    "exp": 95000,
     "summonType": 1,
     "category": 6,
     "mobType": "4H",
@@ -10866,7 +10866,7 @@
     "MDRate": 10,
     "pushed": 5500,
     "fs": 10,
-    "exp": 400000,
+    "exp": 100000,
     "summonType": 1,
     "category": 6,
     "mobType": "4H",
@@ -10891,7 +10891,7 @@
     "MDRate": 10,
     "pushed": 5500,
     "fs": 10,
-    "exp": 400000,
+    "exp": 100000,
     "summonType": 1,
     "category": 8,
     "mobType": "4H",
@@ -10920,7 +10920,7 @@
     "summonType": 1,
     "category": 8,
     "mobType": "4H",
-    "exp": 400000,
+    "exp": 100000,
     "maxHP": 8000000,
     "MDDamage": 10000,
     "PDDamage": 10000,
@@ -10946,7 +10946,7 @@
     "summonType": 1,
     "category": 8,
     "mobType": "4H",
-    "exp": 400000,
+    "exp": 100000,
     "maxHP": 8000000,
     "MDDamage": 10000,
     "PDDamage": 10000,
@@ -10972,7 +10972,7 @@
     "summonType": 1,
     "category": 8,
     "mobType": "4H",
-    "exp": 400000,
+    "exp": 100000,
     "maxHP": 8000000,
     "MDDamage": 10000,
     "PDDamage": 10000,
@@ -10998,7 +10998,7 @@
     "summonType": 1,
     "category": 8,
     "mobType": "4H",
-    "exp": 400000,
+    "exp": 100000,
     "maxHP": 8000000,
     "MDDamage": 10000,
     "PDDamage": 10000,
@@ -11023,7 +11023,7 @@
     "MDRate": 10,
     "pushed": 5500,
     "fs": 10,
-    "exp": 500000,
+    "exp": 125000,
     "summonType": 1,
     "category": 8,
     "mobType": "7N",
@@ -11053,7 +11053,7 @@
     "category": 8,
     "mobType": "7N",
     "maxHP": 10000000,
-    "exp": 500000,
+    "exp": 125000,
     "MDDamage": 10000,
     "PDDamage": 10000,
     "acc": 1200,
@@ -11079,7 +11079,7 @@
     "category": 8,
     "mobType": "7N",
     "maxHP": 10000000,
-    "exp": 500000,
+    "exp": 125000,
     "MDDamage": 10000,
     "PDDamage": 10000,
     "acc": 1200,
@@ -11105,7 +11105,7 @@
     "category": 8,
     "mobType": "7N",
     "maxHP": 10000000,
-    "exp": 500000,
+    "exp": 125000,
     "MDDamage": 10000,
     "PDDamage": 10000,
     "acc": 1200,
@@ -11132,7 +11132,7 @@
     "category": 8,
     "mobType": "1N",
     "maxHP": 10000000,
-    "exp": 500000,
+    "exp": 125000,
     "MDDamage": 10000,
     "PDDamage": 10000,
     "acc": 1200,
@@ -11155,7 +11155,7 @@
     "MDRate": 10,
     "pushed": 6500,
     "fs": 10,
-    "exp": 750000,
+    "exp": 187500,
     "summonType": 1,
     "category": 8,
     "mobType": "1N",
@@ -11184,7 +11184,7 @@
     "summonType": 1,
     "category": 8,
     "mobType": "1N",
-    "exp": 750000,
+    "exp": 187500,
     "maxHP": 15000000,
     "MDDamage": 10000,
     "PDDamage": 10000,
@@ -11210,7 +11210,7 @@
     "summonType": 1,
     "category": 8,
     "mobType": "1N",
-    "exp": 750000,
+    "exp": 187500,
     "maxHP": 15000000,
     "MDDamage": 10000,
     "PDDamage": 10000,
@@ -11236,7 +11236,7 @@
     "summonType": 1,
     "category": 8,
     "mobType": "1N",
-    "exp": 750000,
+    "exp": 187500,
     "maxHP": 15000000,
     "MDDamage": 10000,
     "PDDamage": 10000,
@@ -11263,7 +11263,7 @@
     "summonType": 1,
     "category": 8,
     "mobType": "1N",
-    "exp": 750000,
+    "exp": 187500,
     "maxHP": 15000000,
     "MDDamage": 10000,
     "PDDamage": 10000,
@@ -11808,7 +11808,7 @@
     "acc": 790,
     "pushed": 10000,
     "fs": 10,
-    "exp": 1050000,
+    "exp": 262500,
     "summonType": 1,
     "category": 6,
     "mobType": "1N",
@@ -11835,7 +11835,7 @@
     "acc": 790,
     "pushed": 10000,
     "fs": 10,
-    "exp": 1100000,
+    "exp": 275000,
     "summonType": 1,
     "category": 6,
     "mobType": "1N",
@@ -11862,7 +11862,7 @@
     "acc": 790,
     "pushed": 10000,
     "fs": 10,
-    "exp": 1150000,
+    "exp": 287500,
     "summonType": 1,
     "category": 6,
     "mobType": "1N",
@@ -11889,7 +11889,7 @@
     "acc": 790,
     "pushed": 10000,
     "fs": 10,
-    "exp": 1200000,
+    "exp": 300000,
     "summonType": 1,
     "category": 6,
     "mobType": "1N",
@@ -11916,7 +11916,7 @@
     "acc": 790,
     "pushed": 10000,
     "fs": 10,
-    "exp": 1250000,
+    "exp": 312500,
     "summonType": 1,
     "category": 6,
     "mobType": "1N",
@@ -11943,7 +11943,7 @@
     "acc": 790,
     "pushed": 10000,
     "fs": 10,
-    "exp": 1300000,
+    "exp": 325000,
     "summonType": 1,
     "category": 6,
     "mobType": "1N",
@@ -11970,7 +11970,7 @@
     "acc": 790,
     "pushed": 10000,
     "fs": 10,
-    "exp": 1350000,
+    "exp": 337500,
     "summonType": 1,
     "category": 6,
     "mobType": "1N",
@@ -11997,7 +11997,7 @@
     "acc": 790,
     "pushed": 10000,
     "fs": 10,
-    "exp": 1400000,
+    "exp": 350000,
     "summonType": 1,
     "category": 6,
     "mobType": "1N",
@@ -12024,7 +12024,7 @@
     "acc": 790,
     "pushed": 10000,
     "fs": 10,
-    "exp": 1450000,
+    "exp": 362500,
     "summonType": 1,
     "category": 6,
     "mobType": "1N",
@@ -12051,7 +12051,7 @@
     "acc": 790,
     "pushed": 10000,
     "fs": 10,
-    "exp": 1500000,
+    "exp": 375000,
     "summonType": 1,
     "category": 6,
     "mobType": "1N",
@@ -12075,7 +12075,7 @@
     "MDRate": 50,
     "pushed": 10000,
     "fs": 10,
-    "exp": 1550000,
+    "exp": 387500,
     "summonType": 1,
     "category": 6,
     "mobType": "1N",
@@ -15993,12 +15993,12 @@
   "8644435": {
     "id": "8644435",
     "name": "Vanishing Erda",
-    "img": "images/Mob/8644435_stand0.png"
+    "img": null
   },
   "8644436": {
     "id": "8644436",
     "name": "Vanishing Erda",
-    "img": "images/Mob/8644436_stand0.png"
+    "img": null
   },
   "8644437": {
     "id": "8644437",
@@ -16193,7 +16193,7 @@
     "link": "8644409",
     "exp": 494006,
     "changeableMob": 1,
-    "changeableMob_Type": "MorassDQMob3_1",
+    "changeableMob_Type": "MorassDQMob_1",
     "forceChaseEscort": 1,
     "img": "images/Mob/8644409_stand0.png"
   },
@@ -16222,7 +16222,7 @@
     "link": "8644410",
     "exp": 501461,
     "changeableMob": 1,
-    "changeableMob_Type": "MorassDQMob3_2",
+    "changeableMob_Type": "MorassDQMob_2",
     "forceChaseEscort": 1,
     "img": "images/Mob/8644410_stand0.png"
   },
@@ -16591,7 +16591,7 @@
   "8644511": {
     "id": "8644511",
     "name": "Dark Executor",
-    "img": "images/Mob/8644511_stand0.png"
+    "img": null
   },
   "8644520": {
     "id": "8644520",
@@ -16826,7 +16826,7 @@
     "category": 8,
     "mobType": "1N",
     "changeableMob": 1,
-    "changeableMob_Type": "FearMob3",
+    "changeableMob_Type": "FearMob",
     "firstAttack": 1,
     "PDDamage": 170,
     "MDDamage": 210,
@@ -22213,7 +22213,7 @@
     "MDDamage": 1500,
     "acc": 250,
     "eva": 16,
-    "exp": 16500000,
+    "exp": 7000000,
     "undead": 0,
     "pushed": 50000,
     "hpRecovery": 20000,
@@ -22247,7 +22247,7 @@
     "MDDamage": 800,
     "acc": 200,
     "eva": 14,
-    "exp": 2062500,
+    "exp": 1344000,
     "undead": 0,
     "pushed": 50000,
     "hpRecovery": 20000,
@@ -22275,7 +22275,7 @@
     "MDDamage": 800,
     "acc": 200,
     "eva": 14,
-    "exp": 2062500,
+    "exp": 1344000,
     "undead": 0,
     "pushed": 50000,
     "hpRecovery": 20000,
@@ -22303,7 +22303,7 @@
     "MDDamage": 950,
     "acc": 200,
     "eva": 14,
-    "exp": 1375000,
+    "exp": 896000,
     "undead": 0,
     "pushed": 50000,
     "hpRecovery": 20000,
@@ -22332,7 +22332,7 @@
     "MDDamage": 950,
     "acc": 200,
     "eva": 14,
-    "exp": 1375000,
+    "exp": 896000,
     "undead": 0,
     "pushed": 50000,
     "hpRecovery": 20000,
@@ -22361,7 +22361,7 @@
     "MDDamage": 1050,
     "acc": 200,
     "eva": 14,
-    "exp": 1718750,
+    "exp": 1120000,
     "undead": 0,
     "pushed": 50000,
     "hpRecovery": 20000,
@@ -22389,7 +22389,7 @@
     "MDDamage": 1050,
     "acc": 200,
     "eva": 14,
-    "exp": 1875000,
+    "exp": 1120000,
     "undead": 0,
     "pushed": 50000,
     "hpRecovery": 20000,
@@ -22417,7 +22417,7 @@
     "MDDamage": 750,
     "acc": 200,
     "eva": 14,
-    "exp": 1581250,
+    "exp": 1030400,
     "undead": 0,
     "pushed": 50000,
     "hpRecovery": 30000,
@@ -22445,7 +22445,7 @@
     "MDDamage": 750,
     "acc": 200,
     "eva": 14,
-    "exp": 1581250,
+    "exp": 1030400,
     "undead": 0,
     "pushed": 50000,
     "hpRecovery": 30000,
@@ -22553,7 +22553,7 @@
     "summonType": 1,
     "category": 6,
     "mobType": "7N",
-    "exp": 264000000,
+    "exp": 28000000,
     "img": "images/Mob/8800102_stand0.png"
   },
   "8800103": {
@@ -22579,7 +22579,7 @@
     "pushed": 50000,
     "fs": 10,
     "boss": 1,
-    "exp": 33000000,
+    "exp": 5288000,
     "summonType": 1,
     "category": 6,
     "mobType": "7N",
@@ -22611,7 +22611,7 @@
     "PADamage": 1120,
     "PDDamage": 2200,
     "pushed": 50000,
-    "exp": 33000000,
+    "exp": 5288000,
     "img": "images/Mob/8800104_stand0.png"
   },
   "8800105": {
@@ -22640,7 +22640,7 @@
     "PADamage": 1120,
     "PDDamage": 2200,
     "pushed": 50000,
-    "exp": 22000000,
+    "exp": 3492000,
     "img": "images/Mob/8800105_stand0.png"
   },
   "8800106": {
@@ -22669,7 +22669,7 @@
     "PADamage": 1135,
     "PDDamage": 2200,
     "pushed": 50000,
-    "exp": 22000000,
+    "exp": 3492000,
     "img": "images/Mob/8800106_stand0.png"
   },
   "8800107": {
@@ -22698,7 +22698,7 @@
     "PADamage": 1130,
     "PDDamage": 1550,
     "pushed": 50000,
-    "exp": 27500000,
+    "exp": 4480000,
     "img": "images/Mob/8800107_stand0.png"
   },
   "8800108": {
@@ -22727,7 +22727,7 @@
     "PADamage": 1120,
     "PDDamage": 2200,
     "pushed": 50000,
-    "exp": 27500000,
+    "exp": 4480000,
     "img": "images/Mob/8800108_stand0.png"
   },
   "8800109": {
@@ -22756,7 +22756,7 @@
     "PADamage": 1115,
     "PDDamage": 1550,
     "pushed": 50000,
-    "exp": 25300000,
+    "exp": 4060800,
     "img": "images/Mob/8800109_stand0.png"
   },
   "8800110": {
@@ -22784,7 +22784,7 @@
     "PADamage": 1135,
     "PDDamage": 2200,
     "pushed": 50000,
-    "exp": 25300000,
+    "exp": 4060800,
     "img": "images/Mob/8800110_stand0.png"
   },
   "8800111": {
@@ -22948,7 +22948,7 @@
     "MDDamage": 1840,
     "acc": 250,
     "eva": 18,
-    "exp": 20625000,
+    "exp": 9732030,
     "undead": 0,
     "pushed": 50000,
     "hpRecovery": 100000,
@@ -22980,7 +22980,7 @@
     "MDDamage": 1840,
     "acc": 250,
     "eva": 18,
-    "exp": 20625000,
+    "exp": 9732030,
     "undead": 0,
     "pushed": 50000,
     "hpRecovery": 5000,
@@ -23012,7 +23012,7 @@
     "MDDamage": 1840,
     "acc": 250,
     "eva": 43,
-    "exp": 20625000,
+    "exp": 13902900,
     "undead": 0,
     "pushed": 50000,
     "hpRecovery": 100000,
@@ -23040,7 +23040,7 @@
     "MDDamage": 1920,
     "acc": 250,
     "eva": 45,
-    "exp": 30625000,
+    "exp": 20673700,
     "undead": 0,
     "pushed": 50000,
     "hpRecovery": 100000,
@@ -23068,7 +23068,7 @@
     "MDDamage": 1840,
     "acc": 250,
     "eva": 43,
-    "exp": 20625000,
+    "exp": 13902900,
     "undead": 0,
     "pushed": 50000,
     "hpRecovery": 100000,
@@ -23096,7 +23096,7 @@
     "MDDamage": 1450,
     "acc": 230,
     "eva": 40,
-    "exp": 14375000,
+    "exp": 9689900,
     "undead": 0,
     "pushed": 50000,
     "hpRecovery": 100000,
@@ -23124,7 +23124,7 @@
     "MDDamage": 1450,
     "acc": 230,
     "eva": 40,
-    "exp": 14375000,
+    "exp": 9689900,
     "undead": 0,
     "pushed": 50000,
     "hpRecovery": 100000,
@@ -23152,7 +23152,7 @@
     "MDDamage": 1640,
     "acc": 210,
     "eva": 42,
-    "exp": 16875000,
+    "exp": 11375100,
     "undead": 0,
     "pushed": 50000,
     "hpRecovery": 100000,
@@ -23180,7 +23180,7 @@
     "MDDamage": 1580,
     "acc": 210,
     "eva": 42,
-    "exp": 8125000,
+    "exp": 5476900,
     "undead": 0,
     "pushed": 50000,
     "hpRecovery": 100000,
@@ -23208,7 +23208,7 @@
     "MDDamage": 1630,
     "acc": 210,
     "eva": 40,
-    "exp": 5000000,
+    "exp": 3370400,
     "undead": 0,
     "pushed": 50000,
     "hpRecovery": 100000,
@@ -23697,7 +23697,7 @@
     "explosiveReward": 1,
     "mbookID": 8810018,
     "category": 4,
-    "exp": 103125000,
+    "exp": 19464060,
     "img": "images/Mob/8810100_stand0.png"
   },
   "8810101": {
@@ -23729,7 +23729,7 @@
     "PADamage": 1650,
     "PDDamage": 1920,
     "pushed": 50000,
-    "exp": 103125000,
+    "exp": 19464060,
     "img": "images/Mob/8810101_stand0.png"
   },
   "8810102": {
@@ -23756,8 +23756,8 @@
     "firstAttack": 1,
     "mbookID": 8810018,
     "category": 4,
-    "exp": 125000000,
-    "maxHP": 1000000000,
+    "exp": 62021100,
+    "maxHP": 2000000000,
     "img": "images/Mob/8810102_stand0.png"
   },
   "8810103": {
@@ -23784,8 +23784,8 @@
     "MDDamage": 2390,
     "PADamage": 1660,
     "PDDamage": 1990,
-    "exp": 125000000,
-    "maxHP": 1000000000,
+    "exp": 62021100,
+    "maxHP": 2000000000,
     "img": "images/Mob/8810103_stand0.png"
   },
   "8810104": {
@@ -23812,8 +23812,8 @@
     "MDDamage": 2390,
     "PADamage": 1660,
     "PDDamage": 1990,
-    "exp": 125000000,
-    "maxHP": 1000000000,
+    "exp": 62021100,
+    "maxHP": 2000000000,
     "img": "images/Mob/8810104_stand0.png"
   },
   "8810105": {
@@ -23840,8 +23840,8 @@
     "boss": 1,
     "mbookID": 8810018,
     "category": 4,
-    "exp": 125000000,
-    "maxHP": 1000000000,
+    "exp": 62021100,
+    "maxHP": 2000000000,
     "img": "images/Mob/8810105_stand0.png"
   },
   "8810106": {
@@ -23868,8 +23868,8 @@
     "hpRecovery": 750000,
     "eva": 60,
     "acc": 750,
-    "exp": 125000000,
-    "maxHP": 1000000000,
+    "exp": 62021100,
+    "maxHP": 2000000000,
     "img": "images/Mob/8810106_stand0.png"
   },
   "8810107": {
@@ -23896,8 +23896,8 @@
     "boss": 1,
     "mbookID": 8810018,
     "category": 4,
-    "exp": 125000000,
-    "maxHP": 1000000000,
+    "exp": 62021100,
+    "maxHP": 2000000000,
     "img": "images/Mob/8810107_stand0.png"
   },
   "8810108": {
@@ -23924,8 +23924,8 @@
     "MDDamage": 2290,
     "PADamage": 1680,
     "PDDamage": 1920,
-    "exp": 125000000,
-    "maxHP": 1000000000,
+    "exp": 62021100,
+    "maxHP": 2000000000,
     "img": "images/Mob/8810108_stand0.png"
   },
   "8810109": {
@@ -23952,8 +23952,8 @@
     "MDDamage": 2290,
     "PADamage": 1680,
     "PDDamage": 1920,
-    "exp": 125000000,
-    "maxHP": 1000000000,
+    "exp": 62021100,
+    "maxHP": 2000000000,
     "img": "images/Mob/8810109_stand0.png"
   },
   "8810110": {
@@ -24178,7 +24178,7 @@
     "name": "Chaos Horntail",
     "bodyAttack": 0,
     "level": 160,
-    "maxHP": 800000000,
+    "maxHP": 1600000000,
     "maxMP": 0,
     "speed": 0,
     "PADamage": 0,
@@ -24286,7 +24286,7 @@
     "name": "Chaos Horntail",
     "bodyAttack": 0,
     "level": 160,
-    "maxHP": 800000000,
+    "maxHP": 1600000000,
     "maxMP": 0,
     "speed": 0,
     "PADamage": 0,
@@ -24310,7 +24310,7 @@
     "rareItemDropLevel": 3,
     "category": 4,
     "boss": 1,
-    "img": "images/Mob/8810122_stand0.png"
+    "img": "images/Mob/8810018_stand0.png"
   },
   "8810123": {
     "id": "8810123",
@@ -25276,7 +25276,7 @@
     "name": "Balrog",
     "bodyAttack": 1,
     "level": 105,
-    "maxHP": 150000,
+    "maxHP": 3000000,
     "maxMP": 30000,
     "speed": 0,
     "PADamage": 480,
@@ -25308,7 +25308,7 @@
     "name": "Balrog",
     "bodyAttack": 1,
     "level": 60,
-    "maxHP": 75000,
+    "maxHP": 1500000,
     "maxMP": 3000,
     "speed": 0,
     "PADamage": 220,
@@ -25334,7 +25334,7 @@
     "name": "Balrog",
     "bodyAttack": 1,
     "level": 56,
-    "maxHP": 75000,
+    "maxHP": 1500000,
     "maxMP": 30000,
     "speed": 0,
     "PADamage": 220,
@@ -25651,7 +25651,7 @@
     "pushed": 99999999,
     "fs": 10,
     "boss": 1,
-    "exp": 500000000,
+    "exp": 100000000,
     "summonType": 1,
     "category": 1,
     "mobType": "7N",
@@ -25762,6 +25762,7 @@
     "MDRate": 50,
     "acc": 700,
     "fs": 10,
+    "exp": 3500000,
     "summonType": 1,
     "category": 8,
     "mobType": "1N",
@@ -25778,7 +25779,6 @@
     "eva": 0,
     "MADamage": 1350,
     "PADamage": 1380,
-    "exp": 131250000,
     "img": "images/Mob/8850000_stand0.png"
   },
   "8850001": {
@@ -25788,6 +25788,7 @@
     "level": 188,
     "bodyAttack": 1,
     "fs": 10,
+    "exp": 3500000,
     "summonType": 1,
     "category": 8,
     "mobType": "1N",
@@ -25810,7 +25811,6 @@
     "eva": 0,
     "MADamage": 1350,
     "PADamage": 1380,
-    "exp": 131250000,
     "img": "images/Mob/8850001_stand0.png"
   },
   "8850002": {
@@ -25820,6 +25820,7 @@
     "level": 188,
     "bodyAttack": 1,
     "fs": 10,
+    "exp": 3500000,
     "summonType": 1,
     "category": 8,
     "mobType": "1N",
@@ -25842,7 +25843,6 @@
     "eva": 0,
     "MADamage": 1350,
     "PADamage": 1380,
-    "exp": 131250000,
     "img": "images/Mob/8850002_stand0.png"
   },
   "8850003": {
@@ -25852,7 +25852,7 @@
     "level": 188,
     "bodyAttack": 1,
     "fs": 10,
-    "exp": 131250000,
+    "exp": 3500000,
     "summonType": 1,
     "category": 8,
     "mobType": "1N",
@@ -25892,6 +25892,7 @@
     "MDRate": 50,
     "acc": 723,
     "fs": 10,
+    "exp": 3500000,
     "summonType": 1,
     "category": 8,
     "mobType": "1N",
@@ -25908,7 +25909,6 @@
     "eva": 0,
     "MADamage": 1350,
     "PADamage": 1380,
-    "exp": 131250000,
     "img": "images/Mob/8850004_stand0.png"
   },
   "8850005": {
@@ -26089,6 +26089,7 @@
     "acc": 723,
     "eva": 205,
     "fs": 10,
+    "exp": 0,
     "summonType": 1,
     "category": 8,
     "mobType": "1N",
@@ -26099,7 +26100,6 @@
     "firstAttack": 1,
     "maxHP": 2100000000,
     "pushed": 1000000000,
-    "exp": 131250000,
     "img": "images/Mob/8850010_stand0.png"
   },
   "8850011": {
@@ -26113,7 +26113,7 @@
     "acc": 723,
     "pushed": 100000000,
     "fs": 10,
-    "exp": 500000000,
+    "exp": 200000000,
     "summonType": 1,
     "category": 8,
     "firstAttack": 1,
@@ -27139,22 +27139,22 @@
   "9101000": {
     "id": "9101000",
     "name": "Green Mushroom",
-    "img": "images/Mob/9101000_stand0.png"
+    "img": null
   },
   "9101001": {
     "id": "9101001",
     "name": "Zombie Mushroom",
-    "img": "images/Mob/9101001_stand0.png"
+    "img": null
   },
   "9101002": {
     "id": "9101002",
     "name": "Ghost Stump",
-    "img": "images/Mob/9101002_stand0.png"
+    "img": null
   },
   "9101003": {
     "id": "9101003",
     "name": "마왕발록",
-    "img": "images/Mob/9101003_stand0.png"
+    "img": null
   },
   "9200000": {
     "id": "9200000",
@@ -28170,7 +28170,7 @@
     "notAttack": 1,
     "noFlip": 1,
     "mobType": 8,
-    "img": "images/Mob/9300018_stand0.png"
+    "img": null
   },
   "9300019": {
     "id": "9300019",
@@ -31832,12 +31832,12 @@
   "9300167": {
     "id": "9300167",
     "name": "Degraded Rumo",
-    "img": "images/Mob/9300167_stand0.png"
+    "img": null
   },
   "9300168": {
     "id": "9300168",
     "name": "Reinforced Roid",
-    "img": "images/Mob/9300168_stand0.png"
+    "img": null
   },
   "9300169": {
     "id": "9300169",
@@ -35902,7 +35902,7 @@
   "9300333": {
     "id": "9300333",
     "name": "Ultra Gray",
-    "img": "images/Mob/9300333_stand0.png"
+    "img": null
   },
   "9300334": {
     "id": "9300334",
@@ -37139,77 +37139,77 @@
   "9300384": {
     "id": "9300384",
     "name": "Red Slime",
-    "img": "images/Mob/9300384_stand0.png"
+    "img": null
   },
   "9300385": {
     "id": "9300385",
     "name": "Treacherous Fox",
-    "img": "images/Mob/9300385_stand0.png"
+    "img": null
   },
   "9300386": {
     "id": "9300386",
     "name": "Trainee Spore",
-    "img": "images/Mob/9300386_stand0.png"
+    "img": null
   },
   "9300387": {
     "id": "9300387",
     "name": "Enraged Golem",
-    "img": "images/Mob/9300387_stand0.png"
+    "img": null
   },
   "9300388": {
     "id": "9300388",
     "name": "Free Spirit  ",
-    "img": "images/Mob/9300388_stand0.png"
+    "img": null
   },
   "9300389": {
     "id": "9300389",
     "name": "Safe Guard",
-    "img": "images/Mob/9300389_stand0.png"
+    "img": null
   },
   "9300390": {
     "id": "9300390",
     "name": "Door Block",
-    "img": "images/Mob/9300390_stand0.png"
+    "img": null
   },
   "9300391": {
     "id": "9300391",
     "name": "Ice Wall",
-    "img": "images/Mob/9300391_stand0.png"
+    "img": null
   },
   "9300392": {
     "id": "9300392",
     "name": "Black Wing Henchman",
-    "img": "images/Mob/9300392_stand0.png"
+    "img": null
   },
   "9300393": {
     "id": "9300393",
     "name": "Gentleman",
-    "img": "images/Mob/9300393_stand0.png"
+    "img": null
   },
   "9301000": {
     "id": "9301000",
     "name": "Bain",
-    "img": "images/Mob/9301000_stand0.png"
+    "img": null
   },
   "9301001": {
     "id": "9301001",
     "name": "Gigantic Viking",
-    "img": "images/Mob/9301001_stand0.png"
+    "img": null
   },
   "9301002": {
     "id": "9301002",
     "name": "Viking",
-    "img": "images/Mob/9301002_stand0.png"
+    "img": null
   },
   "9301003": {
     "id": "9301003",
     "name": "Dual Ghost Pirate",
-    "img": "images/Mob/9301003_stand0.png"
+    "img": null
   },
   "9301004": {
     "id": "9301004",
     "name": "Ghost Pirate",
-    "img": "images/Mob/9301004_stand0.png"
+    "img": null
   },
   "9302000": {
     "id": "9302000",
@@ -38360,7 +38360,7 @@
     "MDDamage": 1300,
     "acc": 300,
     "eva": 40,
-    "exp": 25000000,
+    "exp": 13800000,
     "undead": 0,
     "pushed": 250,
     "fs": 10,
@@ -38385,7 +38385,7 @@
     "MDDamage": 2000,
     "acc": 310,
     "eva": 50,
-    "exp": 31250000,
+    "exp": 10500000,
     "undead": 0,
     "pushed": 250,
     "fs": 10,
@@ -39147,7 +39147,7 @@
     "MDDamage": 4300,
     "acc": 300,
     "eva": 120,
-    "exp": 9375000,
+    "exp": 17500000,
     "undead": 0,
     "pushed": 5000,
     "fs": 10,
@@ -40692,7 +40692,7 @@
   "9400532": {
     "id": "9400532",
     "name": "King Slime GL",
-    "img": "images/Mob/9400532_stand0.png"
+    "img": null
   },
   "9400533": {
     "id": "9400533",
@@ -44557,27 +44557,27 @@
   "9410016": {
     "id": "9410016",
     "name": "Bubble Fish",
-    "img": "images/Mob/9410016_stand0.png"
+    "img": null
   },
   "9410017": {
     "id": "9410017",
     "name": "Krappi",
-    "img": "images/Mob/9410017_stand0.png"
+    "img": null
   },
   "9410018": {
     "id": "9410018",
     "name": "Poopa",
-    "img": "images/Mob/9410018_stand0.png"
+    "img": null
   },
   "9410019": {
     "id": "9410019",
     "name": "Cico",
-    "img": "images/Mob/9410019_stand0.png"
+    "img": null
   },
   "9410020": {
     "id": "9410020",
     "name": "Jr. Seal",
-    "img": "images/Mob/9410020_stand0.png"
+    "img": null
   },
   "9420000": {
     "id": "9420000",
@@ -44709,7 +44709,7 @@
   "9420006": {
     "id": "9420006",
     "name": "Book Monster",
-    "img": "images/Mob/9420006_stand0.png"
+    "img": null
   },
   "9420015": {
     "id": "9420015",
@@ -45197,7 +45197,7 @@
     "MDDamage": 1020,
     "acc": 250,
     "eva": 20,
-    "exp": 15625000,
+    "exp": 7000000,
     "pushed": 50000,
     "hpRecovery": 10000,
     "mpRecovery": 500,
@@ -45205,6 +45205,7 @@
     "summonType": 1,
     "noFlip": 1,
     "boss": 1,
+    "elemAttr": "F2I3",
     "hideName": 1,
     "hpTagColor": 4,
     "hpTagBgcolor": 5,
@@ -45226,7 +45227,7 @@
     "MDDamage": 1020,
     "acc": 250,
     "eva": 18,
-    "exp": 15625000,
+    "exp": 9000000,
     "pushed": 50000,
     "hpRecovery": 20000,
     "mpRecovery": 1000,
@@ -45234,6 +45235,7 @@
     "summonType": 1,
     "noFlip": 1,
     "boss": 1,
+    "elemAttr": "F2I2S2H2L2",
     "hpTagColor": 2,
     "hpTagBgcolor": 5,
     "hideName": 1,
@@ -45243,12 +45245,12 @@
   "9420523": {
     "id": "9420523",
     "name": "Bacal",
-    "img": "images/Mob/9420523_stand0.png"
+    "img": null
   },
   "9420524": {
     "id": "9420524",
     "name": "Bacal",
-    "img": "images/Mob/9420524_stand0.png"
+    "img": null
   },
   "9420525": {
     "id": "9420525",
@@ -45645,7 +45647,7 @@
     "MDDamage": 204,
     "acc": 50,
     "eva": 4,
-    "exp": 3750000,
+    "exp": 2000000,
     "pushed": 10000,
     "hpRecovery": 2000,
     "mpRecovery": 100,
@@ -45671,7 +45673,7 @@
     "MDDamage": 306,
     "acc": 75,
     "eva": 6,
-    "exp": 5625000,
+    "exp": 3000000,
     "pushed": 15000,
     "hpRecovery": 3000,
     "mpRecovery": 150,
@@ -45698,7 +45700,7 @@
     "MDDamage": 1020,
     "acc": 250,
     "eva": 20,
-    "exp": 9375000,
+    "exp": 5000000,
     "pushed": 50000,
     "hpRecovery": 10000,
     "mpRecovery": 500,
@@ -45773,7 +45775,7 @@
     "MDDamage": 204,
     "acc": 50,
     "eva": 4,
-    "exp": 3750000,
+    "exp": 2000000,
     "pushed": 10000,
     "hpRecovery": 2000,
     "mpRecovery": 100,
@@ -45799,7 +45801,7 @@
     "MDDamage": 306,
     "acc": 75,
     "eva": 6,
-    "exp": 5625000,
+    "exp": 3000000,
     "pushed": 15000,
     "hpRecovery": 3000,
     "mpRecovery": 150,
@@ -45826,7 +45828,7 @@
     "MDDamage": 1020,
     "acc": 250,
     "eva": 20,
-    "exp": 9375000,
+    "exp": 5000000,
     "pushed": 50000,
     "hpRecovery": 10000,
     "mpRecovery": 500,
@@ -52101,7 +52103,7 @@
   "9999998": {
     "id": "9999998",
     "name": "Star Monster",
-    "img": "images/Mob/9999998_stand0.png"
+    "img": null
   },
   "9999999": {
     "id": "9999999",
