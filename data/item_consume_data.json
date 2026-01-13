@@ -1,15 +1,5 @@
 [
   {
-    "id": "2000024",
-    "category": "Consume",
-    "name": "Max HP Elixir",
-    "desc": "Increases Max HP by 200",
-    "image": "images/Consume/2000024.png",
-    "stats": {
-      "price": 1
-    }
-  },
-  {
     "id": "2000001",
     "category": "Consume",
     "name": "Orange Potion",
@@ -593,6 +583,16 @@
     "name": "Max MP Elixir",
     "desc": "Increases Max MP by 200",
     "image": "images/Consume/2000025.png",
+    "stats": {
+      "price": 1
+    }
+  },
+  {
+    "id": "2000024",
+    "category": "Consume",
+    "name": "Max HP Elixir",
+    "desc": "Increases Max HP by 200",
+    "image": "images/Consume/2000024.png",
     "stats": {
       "price": 1
     }
@@ -5799,8 +5799,8 @@
       "notSale": 1,
       "price": 1,
       "item": 4001714,
-      "prob": 15,
-      "count": 1,
+      "prob": 20,
+      "count": 5,
       "Effect": "Effect/BasicEff/Event1/Success"
     }
   },
@@ -16629,6 +16629,1486 @@
     }
   },
   {
+    "id": "2041343",
+    "category": "Consume",
+    "name": "Absolute Scroll for Belt for LUK 10%",
+    "desc": "Improves LUK and WATK on belt.\\nSuccess rate:10%, 5 Stats",
+    "image": "images/Consume/2041343.png",
+    "stats": {
+      "price": 1,
+      "success": 10,
+      "incPAD": 5,
+      "incLUK": 5
+    }
+  },
+  {
+    "id": "2040047",
+    "category": "Consume",
+    "name": "Volatile Scroll for Helmet for STR 15%",
+    "desc": "Improves STR and WATK on headwear.\\nSuccess rate:15%, 3-7 Stats",
+    "image": "images/Consume/2040047.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2040048",
+    "category": "Consume",
+    "name": "Volatile Scroll for Helmet for DEX 15%",
+    "desc": "Improves DEX and WATK on headwear.\\nSuccess rate:15%, 3-7 Stats",
+    "image": "images/Consume/2040048.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2040049",
+    "category": "Consume",
+    "name": "Volatile Scroll for Helmet for INT 15%",
+    "desc": "Improves INT and MATK on headwear.\\nSuccess rate:15%, 3-7 Stats",
+    "image": "images/Consume/2040049.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2040050",
+    "category": "Consume",
+    "name": "Volatile Scroll for Helmet for LUK 15%",
+    "desc": "Improves LUK and WATK on headwear.\\nSuccess rate:15%, 3-7 Stats",
+    "image": "images/Consume/2040050.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2040051",
+    "category": "Consume",
+    "name": "Temperate Scroll for Helmet for STR 15%",
+    "desc": "Improves STR and WATK on headwear.\\nSuccess rate:15%, 4-6 Stats",
+    "image": "images/Consume/2040051.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2040052",
+    "category": "Consume",
+    "name": "Temperate Scroll for Helmet for DEX 15%",
+    "desc": "Improves DEX and WATK on headwear.\\nSuccess rate:15%, 4-6 Stats",
+    "image": "images/Consume/2040052.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2040053",
+    "category": "Consume",
+    "name": "Temperate Scroll for Helmet for INT 15%",
+    "desc": "Improves INT and MATK on headwear.\\nSuccess rate:15%, 4-6 Stats",
+    "image": "images/Consume/2040053.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2040054",
+    "category": "Consume",
+    "name": "Temperate Scroll for Helmet for LUK 15%",
+    "desc": "Improves LUK and WATK on headwear.\\nSuccess rate:15%, 4-6 Stats",
+    "image": "images/Consume/2040054.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2040120",
+    "category": "Consume",
+    "name": "Volatile Scroll for Face Accessory for STR 15%",
+    "desc": "Improves STR and WATK on face accessory.\\nSuccess rate:15%, 3-7 Stats",
+    "image": "images/Consume/2040120.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2040121",
+    "category": "Consume",
+    "name": "Volatile Scroll for Face Accessory for DEX 15%",
+    "desc": "Improves DEX and WATK on face accessory.\\nSuccess rate:15%, 3-7 Stats",
+    "image": "images/Consume/2040121.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2040122",
+    "category": "Consume",
+    "name": "Volatile Scroll for Face Accessory for INT 15%",
+    "desc": "Improves INT and MATK on face accessory.\\nSuccess rate:15%, 3-7 Stats",
+    "image": "images/Consume/2040122.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2040123",
+    "category": "Consume",
+    "name": "Volatile Scroll for Face Accessory for LUK 15%",
+    "desc": "Improves LUK and WATK on face accessory.\\nSuccess rate:15%, 3-7 Stats",
+    "image": "images/Consume/2040123.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2040124",
+    "category": "Consume",
+    "name": "Temperate Scroll for Face Accessory for STR 15%",
+    "desc": "Improves STR and WATK on face accessory.\\nSuccess rate:15%, 4-6 Stats",
+    "image": "images/Consume/2040124.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2040125",
+    "category": "Consume",
+    "name": "Temperate Scroll for Face Accessory for DEX 15%",
+    "desc": "Improves DEX and WATK on face accessory.\\nSuccess rate:15%, 4-6 Stats",
+    "image": "images/Consume/2040125.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2040126",
+    "category": "Consume",
+    "name": "Temperate Scroll for Face Accessory for INT 15%",
+    "desc": "Improves INT and MATK on face accessory.\\nSuccess rate:15%, 4-6 Stats",
+    "image": "images/Consume/2040126.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2040127",
+    "category": "Consume",
+    "name": "Temperate Scroll for Face Accessory for LUK 15%",
+    "desc": "Improves LUK and WATK on face accessory.\\nSuccess rate:15%, 4-6 Stats",
+    "image": "images/Consume/2040127.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2040944",
+    "category": "Consume",
+    "name": "Volatile Scroll for Shield for STR 15%",
+    "desc": "Improves STR and WATK on shield.\\nSuccess rate:15%, 3-7 Stats",
+    "image": "images/Consume/2040944.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2040945",
+    "category": "Consume",
+    "name": "Volatile Scroll for Shield for DEX 15%",
+    "desc": "Improves DEX and WATK on shield.\\nSuccess rate:15%, 3-7 Stats",
+    "image": "images/Consume/2040945.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2040946",
+    "category": "Consume",
+    "name": "Volatile Scroll for Shield for INT 15%",
+    "desc": "Improves INT and MATK on shield.\\nSuccess rate:15%, 3-7 Stats",
+    "image": "images/Consume/2040946.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2040947",
+    "category": "Consume",
+    "name": "Volatile Scroll for Shield for LUK 15%",
+    "desc": "Improves LUK and WATK on shield.\\nSuccess rate:15%, 3-7 Stats",
+    "image": "images/Consume/2040947.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2040948",
+    "category": "Consume",
+    "name": "Temperate Scroll for Shield for STR 15%",
+    "desc": "Improves STR and WATK on shield.\\nSuccess rate:15%, 4-6 Stats",
+    "image": "images/Consume/2040948.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2040949",
+    "category": "Consume",
+    "name": "Temperate Scroll for Shield for DEX 15%",
+    "desc": "Improves DEX and WATK on shield.\\nSuccess rate:15%, 4-6 Stats",
+    "image": "images/Consume/2040949.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2040950",
+    "category": "Consume",
+    "name": "Temperate Scroll for Shield for INT 15%",
+    "desc": "Improves INT and MATK on shield.\\nSuccess rate:15%, 4-6 Stats",
+    "image": "images/Consume/2040950.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2040951",
+    "category": "Consume",
+    "name": "Temperate Scroll for Shield for LUK 15%",
+    "desc": "Improves LUK and WATK on shield.\\nSuccess rate:15%, 4-6 Stats",
+    "image": "images/Consume/2040951.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2041120",
+    "category": "Consume",
+    "name": "Volatile Scroll for Ring for STR 15%",
+    "desc": "Improves STR and WATK on ring.\\nSuccess rate:15%, 3-7 Stats",
+    "image": "images/Consume/2041120.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2041121",
+    "category": "Consume",
+    "name": "Volatile Scroll for Ring for DEX 15%",
+    "desc": "Improves DEX and WATK on ring.\\nSuccess rate:15%, 3-7 Stats",
+    "image": "images/Consume/2041121.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2041122",
+    "category": "Consume",
+    "name": "Volatile Scroll for Ring for INT 15%",
+    "desc": "Improves INT and MATK on ring.\\nSuccess rate:15%, 3-7 Stats",
+    "image": "images/Consume/2041122.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2041123",
+    "category": "Consume",
+    "name": "Volatile Scroll for Ring for LUK 15%",
+    "desc": "Improves LUK and WATK on ring.\\nSuccess rate:15%, 3-7 Stats",
+    "image": "images/Consume/2041123.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2041124",
+    "category": "Consume",
+    "name": "Temperate Scroll for Ring for STR 15%",
+    "desc": "Improves STR and WATK on ring.\\nSuccess rate:15%, 4-6 Stats",
+    "image": "images/Consume/2041124.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2041125",
+    "category": "Consume",
+    "name": "Temperate Scroll for Ring for DEX 15%",
+    "desc": "Improves DEX and WATK on ring.\\nSuccess rate:15%, 4-6 Stats",
+    "image": "images/Consume/2041125.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2041126",
+    "category": "Consume",
+    "name": "Temperate Scroll for Ring for INT 15%",
+    "desc": "Improves INT and MATK on ring.\\nSuccess rate:15%, 4-6 Stats",
+    "image": "images/Consume/2041126.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2041127",
+    "category": "Consume",
+    "name": "Temperate Scroll for Ring for LUK 15%",
+    "desc": "Improves LUK and WATK on ring.\\nSuccess rate:15%, 4-6 Stats",
+    "image": "images/Consume/2041127.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2041320",
+    "category": "Consume",
+    "name": "Volatile Scroll for Belt for STR 15%",
+    "desc": "Improves STR and WATK on belt.\\nSuccess rate:15%, 3-7 Stats",
+    "image": "images/Consume/2041320.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2041321",
+    "category": "Consume",
+    "name": "Volatile Scroll for Belt for DEX 15%",
+    "desc": "Improves DEX and WATK on belt.\\nSuccess rate:15%, 3-7 Stats",
+    "image": "images/Consume/2041321.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2041322",
+    "category": "Consume",
+    "name": "Volatile Scroll for Belt for INT 15%",
+    "desc": "Improves INT and MATK on belt.\\nSuccess rate:15%, 3-7 Stats",
+    "image": "images/Consume/2041322.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2041323",
+    "category": "Consume",
+    "name": "Volatile Scroll for Belt for LUK 15%",
+    "desc": "Improves LUK and WATK on belt.\\nSuccess rate:15%, 3-7 Stats",
+    "image": "images/Consume/2041323.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2041324",
+    "category": "Consume",
+    "name": "Temperate Scroll for Belt for STR 15%",
+    "desc": "Improves STR and WATK on belt.\\nSuccess rate:15%, 4-6 Stats",
+    "image": "images/Consume/2041324.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2041325",
+    "category": "Consume",
+    "name": "Temperate Scroll for Belt for DEX 15%",
+    "desc": "Improves DEX and WATK on belt.\\nSuccess rate:15%, 4-6 Stats",
+    "image": "images/Consume/2041325.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2041326",
+    "category": "Consume",
+    "name": "Temperate Scroll for Belt for INT 15%",
+    "desc": "Improves INT and MATK on belt.\\nSuccess rate:15%, 4-6 Stats",
+    "image": "images/Consume/2041326.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2041327",
+    "category": "Consume",
+    "name": "Temperate Scroll for Belt for LUK 15%",
+    "desc": "Improves LUK and WATK on belt.\\nSuccess rate:15%, 4-6 Stats",
+    "image": "images/Consume/2041327.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 15
+    }
+  },
+  {
+    "id": "2040055",
+    "category": "Consume",
+    "name": "Absolute Scroll for Helmet for STR 15%",
+    "desc": "Improves STR and WATK on headwear.\\nSuccess rate:15%, 5 Stats",
+    "image": "images/Consume/2040055.png",
+    "stats": {
+      "price": 1,
+      "success": 15,
+      "incSTR": 5,
+      "incPAD": 5
+    }
+  },
+  {
+    "id": "2040056",
+    "category": "Consume",
+    "name": "Absolute Scroll for Helmet for DEX 15%",
+    "desc": "Improves DEX and WATK on headwear.\\nSuccess rate:15%, 5 Stats",
+    "image": "images/Consume/2040056.png",
+    "stats": {
+      "price": 1,
+      "success": 15,
+      "incDEX": 5,
+      "incPAD": 5
+    }
+  },
+  {
+    "id": "2040057",
+    "category": "Consume",
+    "name": "Absolute Scroll for Helmet for INT 15%",
+    "desc": "Improves INT and MATK on headwear.\\nSuccess rate:15%, 5 Stats",
+    "image": "images/Consume/2040057.png",
+    "stats": {
+      "price": 1,
+      "success": 15,
+      "incINT": 5,
+      "incMAD": 5
+    }
+  },
+  {
+    "id": "2040058",
+    "category": "Consume",
+    "name": "Absolute Scroll for Helmet for LUK 15%",
+    "desc": "Improves LUK and WATK on headwear.\\nSuccess rate:15%, 5 Stats",
+    "image": "images/Consume/2040058.png",
+    "stats": {
+      "price": 1,
+      "success": 15,
+      "incLUK": 5,
+      "incPAD": 5
+    }
+  },
+  {
+    "id": "2040128",
+    "category": "Consume",
+    "name": "Absolute Scroll for Face Accessory for STR 15%",
+    "desc": "Improves STR and WATK on face accessory.\\nSuccess rate:15%, 5 Stats",
+    "image": "images/Consume/2040128.png",
+    "stats": {
+      "price": 1,
+      "success": 15,
+      "incSTR": 5,
+      "incPAD": 5
+    }
+  },
+  {
+    "id": "2040129",
+    "category": "Consume",
+    "name": "Absolute Scroll for Face Accessory for DEX 15%",
+    "desc": "Improves DEX and WATK on face accessory.\\nSuccess rate:15%, 5 Stats",
+    "image": "images/Consume/2040129.png",
+    "stats": {
+      "price": 1,
+      "success": 15,
+      "incPAD": 5,
+      "incDEX": 5
+    }
+  },
+  {
+    "id": "2040130",
+    "category": "Consume",
+    "name": "Absolute Scroll for Face Accessory for INT 15%",
+    "desc": "Improves INT and MATK on face accessory.\\nSuccess rate:15%, 5 Stats",
+    "image": "images/Consume/2040130.png",
+    "stats": {
+      "price": 1,
+      "success": 15,
+      "incINT": 5,
+      "incMAD": 5
+    }
+  },
+  {
+    "id": "2040131",
+    "category": "Consume",
+    "name": "Absolute Scroll for Face Accessory for LUK 15%",
+    "desc": "Improves LUK and WATK on face accessory.\\nSuccess rate:15%, 5 Stats",
+    "image": "images/Consume/2040131.png",
+    "stats": {
+      "price": 1,
+      "success": 15,
+      "incLUK": 5,
+      "incPAD": 5
+    }
+  },
+  {
+    "id": "2040952",
+    "category": "Consume",
+    "name": "Absolute Scroll for Shield for STR 15%",
+    "desc": "Improves STR and WATK on shield.\\nSuccess rate:15%, 5 Stats",
+    "image": "images/Consume/2040952.png",
+    "stats": {
+      "price": 1,
+      "success": 15,
+      "incSTR": 5,
+      "incPAD": 5
+    }
+  },
+  {
+    "id": "2040953",
+    "category": "Consume",
+    "name": "Absolute Scroll for Shield for DEX 15%",
+    "desc": "Improves DEX and WATK on shield.\\nSuccess rate:15%, 5 Stats",
+    "image": "images/Consume/2040953.png",
+    "stats": {
+      "price": 1,
+      "success": 15,
+      "incPAD": 5,
+      "incDEX": 5
+    }
+  },
+  {
+    "id": "2040954",
+    "category": "Consume",
+    "name": "Absolute Scroll for Shield for INT 15%",
+    "desc": "Improves INT and MATK on shield.\\nSuccess rate:15%, 5 Stats",
+    "image": "images/Consume/2040954.png",
+    "stats": {
+      "price": 1,
+      "success": 15,
+      "incINT": 5,
+      "incMAD": 5
+    }
+  },
+  {
+    "id": "2040955",
+    "category": "Consume",
+    "name": "Absolute Scroll for Shield for LUK 15%",
+    "desc": "Improves LUK and WATK on shield.\\nSuccess rate:15%, 5 Stats",
+    "image": "images/Consume/2040955.png",
+    "stats": {
+      "price": 1,
+      "success": 15,
+      "incLUK": 5,
+      "incPAD": 5
+    }
+  },
+  {
+    "id": "2041128",
+    "category": "Consume",
+    "name": "Absolute Scroll for Ring for STR 15%",
+    "desc": "Improves STR and WATK on ring.\\nSuccess rate:15%, 5 Stats",
+    "image": "images/Consume/2041128.png",
+    "stats": {
+      "price": 1,
+      "success": 15,
+      "incSTR": 5,
+      "incPAD": 5
+    }
+  },
+  {
+    "id": "2041129",
+    "category": "Consume",
+    "name": "Absolute Scroll for Ring for DEX 15%",
+    "desc": "Improves DEX and WATK on ring.\\nSuccess rate:15%, 5 Stats",
+    "image": "images/Consume/2041129.png",
+    "stats": {
+      "price": 1,
+      "success": 15,
+      "incPAD": 5,
+      "incDEX": 5
+    }
+  },
+  {
+    "id": "2041130",
+    "category": "Consume",
+    "name": "Absolute Scroll for Ring for INT 15%",
+    "desc": "Improves INT and MATK on ring.\\nSuccess rate:15%, 5 Stats",
+    "image": "images/Consume/2041130.png",
+    "stats": {
+      "price": 1,
+      "success": 15,
+      "incINT": 5,
+      "incMAD": 5
+    }
+  },
+  {
+    "id": "2041131",
+    "category": "Consume",
+    "name": "Absolute Scroll for Ring for LUK 15%",
+    "desc": "Improves LUK and WATK on ring.\\nSuccess rate:15%, 5 Stats",
+    "image": "images/Consume/2041131.png",
+    "stats": {
+      "price": 1,
+      "success": 15,
+      "incLUK": 5,
+      "incPAD": 5
+    }
+  },
+  {
+    "id": "2041328",
+    "category": "Consume",
+    "name": "Absolute Scroll for Belt for STR 15%",
+    "desc": "Improves STR and WATK on belt.\\nSuccess rate:15%, 5 Stats",
+    "image": "images/Consume/2041328.png",
+    "stats": {
+      "price": 1,
+      "success": 15,
+      "incSTR": 5,
+      "incPAD": 5
+    }
+  },
+  {
+    "id": "2041329",
+    "category": "Consume",
+    "name": "Absolute Scroll for Belt for DEX 15%",
+    "desc": "Improves DEX and WATK on belt.\\nSuccess rate:15%, 5 Stats",
+    "image": "images/Consume/2041329.png",
+    "stats": {
+      "price": 1,
+      "success": 15,
+      "incPAD": 5,
+      "incDEX": 5
+    }
+  },
+  {
+    "id": "2041330",
+    "category": "Consume",
+    "name": "Absolute Scroll for Belt for INT 15%",
+    "desc": "Improves INT and MATK on belt.\\nSuccess rate:15%, 5 Stats",
+    "image": "images/Consume/2041330.png",
+    "stats": {
+      "price": 1,
+      "success": 15,
+      "incINT": 5,
+      "incMAD": 5
+    }
+  },
+  {
+    "id": "2041331",
+    "category": "Consume",
+    "name": "Absolute Scroll for Belt for LUK 15%",
+    "desc": "Improves LUK and WATK on belt.\\nSuccess rate:15%, 5 Stats",
+    "image": "images/Consume/2041331.png",
+    "stats": {
+      "price": 1,
+      "success": 15,
+      "incLUK": 5,
+      "incPAD": 5
+    }
+  },
+  {
+    "id": "2040059",
+    "category": "Consume",
+    "name": "Volatile Scroll for Helmet for STR 10%",
+    "desc": "Improves STR and WATK on headwear.\\nSuccess rate:10%, 3-7 Stats",
+    "image": "images/Consume/2040059.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2040060",
+    "category": "Consume",
+    "name": "Volatile Scroll for Helmet for DEX 10%",
+    "desc": "Improves DEX and WATK on headwear.\\nSuccess rate:10%, 3-7 Stats",
+    "image": "images/Consume/2040060.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2040061",
+    "category": "Consume",
+    "name": "Volatile Scroll for Helmet for INT 10%",
+    "desc": "Improves INT and MATK on headwear.\\nSuccess rate:10%, 3-7 Stats",
+    "image": "images/Consume/2040061.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2040062",
+    "category": "Consume",
+    "name": "Volatile Scroll for Helmet for LUK 10%",
+    "desc": "Improves LUK and WATK on headwear.\\nSuccess rate:10%, 3-7 Stats",
+    "image": "images/Consume/2040062.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2040063",
+    "category": "Consume",
+    "name": "Temperate Scroll for Helmet for STR 10%",
+    "desc": "Improves STR and WATK on headwear.\\nSuccess rate:10%, 4-6 Stats",
+    "image": "images/Consume/2040063.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2040064",
+    "category": "Consume",
+    "name": "Temperate Scroll for Helmet for DEX 10%",
+    "desc": "Improves DEX and WATK on headwear.\\nSuccess rate:10%, 4-6 Stats",
+    "image": "images/Consume/2040064.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2040065",
+    "category": "Consume",
+    "name": "Temperate Scroll for Helmet for INT 10%",
+    "desc": "Improves INT and MATK on headwear.\\nSuccess rate:10%, 4-6 Stats",
+    "image": "images/Consume/2040065.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2040066",
+    "category": "Consume",
+    "name": "Temperate Scroll for Helmet for LUK 10%",
+    "desc": "Improves LUK and WATK on headwear.\\nSuccess rate:10%, 4-6 Stats",
+    "image": "images/Consume/2040066.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2040067",
+    "category": "Consume",
+    "name": "Absolute Scroll for Helmet for STR 10%",
+    "desc": "Improves STR and WATK on headwear.\\nSuccess rate:10%, 5 Stats",
+    "image": "images/Consume/2040067.png",
+    "stats": {
+      "price": 1,
+      "success": 10,
+      "incSTR": 5,
+      "incPAD": 5
+    }
+  },
+  {
+    "id": "2040068",
+    "category": "Consume",
+    "name": "Absolute Scroll for Helmet for DEX 10%",
+    "desc": "Improves DEX and WATK on headwear.\\nSuccess rate:10%, 5 Stats",
+    "image": "images/Consume/2040068.png",
+    "stats": {
+      "price": 1,
+      "success": 10,
+      "incPAD": 5,
+      "incDEX": 5
+    }
+  },
+  {
+    "id": "2040069",
+    "category": "Consume",
+    "name": "Absolute Scroll for Helmet for INT 10%",
+    "desc": "Improves INT and MATK on headwear.\\nSuccess rate:10%, 5 Stats",
+    "image": "images/Consume/2040069.png",
+    "stats": {
+      "price": 1,
+      "success": 10,
+      "incINT": 5,
+      "incMAD": 5
+    }
+  },
+  {
+    "id": "2040070",
+    "category": "Consume",
+    "name": "Absolute Scroll for Helmet for LUK 10%",
+    "desc": "Improves LUK and WATK on headwear.\\nSuccess rate:10%, 5 Stats",
+    "image": "images/Consume/2040070.png",
+    "stats": {
+      "price": 1,
+      "success": 10,
+      "incPAD": 5,
+      "incLUK": 5
+    }
+  },
+  {
+    "id": "2040132",
+    "category": "Consume",
+    "name": "Volatile Scroll for Face Accessory for STR 10%",
+    "desc": "Improves STR and WATK on face accessory.\\nSuccess rate:10%, 3-7 Stats",
+    "image": "images/Consume/2040132.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2040133",
+    "category": "Consume",
+    "name": "Volatile Scroll for Face Accessory for DEX 10%",
+    "desc": "Improves DEX and WATK on face accessory.\\nSuccess rate:10%, 3-7 Stats",
+    "image": "images/Consume/2040133.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2040134",
+    "category": "Consume",
+    "name": "Volatile Scroll for Face Accessory for INT 10%",
+    "desc": "Improves INT and MATK on face accessory.\\nSuccess rate:10%, 3-7 Stats",
+    "image": "images/Consume/2040134.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2040135",
+    "category": "Consume",
+    "name": "Volatile Scroll for Face Accessory for LUK 10%",
+    "desc": "Improves LUK and WATK on face accessory.\\nSuccess rate:10%, 3-7 Stats",
+    "image": "images/Consume/2040135.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2040136",
+    "category": "Consume",
+    "name": "Temperate Scroll for Face Accessory for STR 10%",
+    "desc": "Improves STR and WATK on face accessory.\\nSuccess rate:10%, 4-6 Stats",
+    "image": "images/Consume/2040136.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2040137",
+    "category": "Consume",
+    "name": "Temperate Scroll for Face Accessory for DEX 10%",
+    "desc": "Improves DEX and WATK on face accessory.\\nSuccess rate:10%, 4-6 Stats",
+    "image": "images/Consume/2040137.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2040138",
+    "category": "Consume",
+    "name": "Temperate Scroll for Face Accessory for INT 10%",
+    "desc": "Improves INT and MATK on face accessory.\\nSuccess rate:10%, 4-6 Stats",
+    "image": "images/Consume/2040138.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2040139",
+    "category": "Consume",
+    "name": "Temperate Scroll for Face Accessory for LUK 10%",
+    "desc": "Improves LUK and WATK on face accessory.\\nSuccess rate:10%, 4-6 Stats",
+    "image": "images/Consume/2040139.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2040140",
+    "category": "Consume",
+    "name": "Absolute Scroll for Face Accessory for STR 10%",
+    "desc": "Improves STR and WATK on face accessory.\\nSuccess rate:10%, 5 Stats",
+    "image": "images/Consume/2040140.png",
+    "stats": {
+      "price": 1,
+      "success": 10,
+      "incSTR": 5,
+      "incPAD": 5
+    }
+  },
+  {
+    "id": "2040141",
+    "category": "Consume",
+    "name": "Absolute Scroll for Face Accessory for DEX 10%",
+    "desc": "Improves DEX and WATK on face accessory.\\nSuccess rate:10%, 5 Stats",
+    "image": "images/Consume/2040141.png",
+    "stats": {
+      "price": 1,
+      "success": 10,
+      "incPAD": 5,
+      "incDEX": 5
+    }
+  },
+  {
+    "id": "2040142",
+    "category": "Consume",
+    "name": "Absolute Scroll for Face Accessory for INT 10%",
+    "desc": "Improves INT and MATK on face accessory.\\nSuccess rate:10%, 5 Stats",
+    "image": "images/Consume/2040142.png",
+    "stats": {
+      "price": 1,
+      "success": 10,
+      "incINT": 5,
+      "incMAD": 5
+    }
+  },
+  {
+    "id": "2040143",
+    "category": "Consume",
+    "name": "Absolute Scroll for Face Accessory for LUK 10%",
+    "desc": "Improves LUK and WATK on face accessory.\\nSuccess rate:10%, 5 Stats",
+    "image": "images/Consume/2040143.png",
+    "stats": {
+      "price": 1,
+      "success": 10,
+      "incPAD": 5,
+      "incLUK": 5
+    }
+  },
+  {
+    "id": "2040956",
+    "category": "Consume",
+    "name": "Volatile Scroll for Shield for STR 10%",
+    "desc": "Improves STR and WATK on shield.\\nSuccess rate:10%, 3-7 Stats",
+    "image": "images/Consume/2040956.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2040957",
+    "category": "Consume",
+    "name": "Volatile Scroll for Shield for DEX 10%",
+    "desc": "Improves DEX and WATK on shield.\\nSuccess rate:10%, 3-7 Stats",
+    "image": "images/Consume/2040957.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2040958",
+    "category": "Consume",
+    "name": "Volatile Scroll for Shield for INT 10%",
+    "desc": "Improves INT and MATK on shield.\\nSuccess rate:10%, 3-7 Stats",
+    "image": "images/Consume/2040958.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2040959",
+    "category": "Consume",
+    "name": "Volatile Scroll for Shield for LUK 10%",
+    "desc": "Improves LUK and WATK on shield.\\nSuccess rate:10%, 3-7 Stats",
+    "image": "images/Consume/2040959.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2040960",
+    "category": "Consume",
+    "name": "Temperate Scroll for Shield for STR 10%",
+    "desc": "Improves STR and WATK on shield.\\nSuccess rate:10%, 4-6 Stats",
+    "image": "images/Consume/2040960.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2040961",
+    "category": "Consume",
+    "name": "Temperate Scroll for Shield for DEX 10%",
+    "desc": "Improves DEX and WATK on shield.\\nSuccess rate:10%, 4-6 Stats",
+    "image": "images/Consume/2040961.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2040962",
+    "category": "Consume",
+    "name": "Temperate Scroll for Shield for INT 10%",
+    "desc": "Improves INT and MATK on shield.\\nSuccess rate:10%, 4-6 Stats",
+    "image": "images/Consume/2040962.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2040963",
+    "category": "Consume",
+    "name": "Temperate Scroll for Shield for LUK 10%",
+    "desc": "Improves LUK and WATK on shield.\\nSuccess rate:10%, 4-6 Stats",
+    "image": "images/Consume/2040963.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2040964",
+    "category": "Consume",
+    "name": "Absolute Scroll for Shield for STR 10%",
+    "desc": "Improves STR and WATK on shield.\\nSuccess rate:10%, 5 Stats",
+    "image": "images/Consume/2040964.png",
+    "stats": {
+      "price": 1,
+      "success": 10,
+      "incPAD": 5,
+      "incSTR": 5
+    }
+  },
+  {
+    "id": "2040965",
+    "category": "Consume",
+    "name": "Absolute Scroll for Shield for DEX 10%",
+    "desc": "Improves DEX and WATK on shield.\\nSuccess rate:10%, 5 Stats",
+    "image": "images/Consume/2040965.png",
+    "stats": {
+      "price": 1,
+      "success": 10,
+      "incPAD": 5,
+      "incDEX": 5
+    }
+  },
+  {
+    "id": "2040966",
+    "category": "Consume",
+    "name": "Absolute Scroll for Shield for INT 10%",
+    "desc": "Improves INT and MATK on shield.\\nSuccess rate:10%, 5 Stats",
+    "image": "images/Consume/2040966.png",
+    "stats": {
+      "price": 1,
+      "success": 10,
+      "incMAD": 5,
+      "incINT": 5
+    }
+  },
+  {
+    "id": "2040967",
+    "category": "Consume",
+    "name": "Absolute Scroll for Shield for LUK 10%",
+    "desc": "Improves LUK and WATK on shield.\\nSuccess rate:10%, 5 Stats",
+    "image": "images/Consume/2040967.png",
+    "stats": {
+      "price": 1,
+      "success": 10,
+      "incPAD": 5,
+      "incLUK": 5
+    }
+  },
+  {
+    "id": "2041132",
+    "category": "Consume",
+    "name": "Volatile Scroll for Ring for STR 10%",
+    "desc": "Improves STR and WATK on ring.\\nSuccess rate:10%, 3-7 Stats",
+    "image": "images/Consume/2041132.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2041133",
+    "category": "Consume",
+    "name": "Volatile Scroll for Ring for DEX 10%",
+    "desc": "Improves DEX and WATK on ring.\\nSuccess rate:10%, 3-7 Stats",
+    "image": "images/Consume/2041133.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2041134",
+    "category": "Consume",
+    "name": "Volatile Scroll for Ring for INT 10%",
+    "desc": "Improves INT and MATK on ring.\\nSuccess rate:10%, 3-7 Stats",
+    "image": "images/Consume/2041134.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2041135",
+    "category": "Consume",
+    "name": "Volatile Scroll for Ring for LUK 10%",
+    "desc": "Improves LUK and WATK on ring.\\nSuccess rate:10%, 3-7 Stats",
+    "image": "images/Consume/2041135.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2041136",
+    "category": "Consume",
+    "name": "Temperate Scroll for Ring for STR 10%",
+    "desc": "Improves STR and WATK on ring.\\nSuccess rate:10%, 4-6 Stats",
+    "image": "images/Consume/2041136.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2041137",
+    "category": "Consume",
+    "name": "Temperate Scroll for Ring for DEX 10%",
+    "desc": "Improves DEX and WATK on ring.\\nSuccess rate:10%, 4-6 Stats",
+    "image": "images/Consume/2041137.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2041138",
+    "category": "Consume",
+    "name": "Temperate Scroll for Ring for INT 10%",
+    "desc": "Improves INT and MATK on ring.\\nSuccess rate:10%, 4-6 Stats",
+    "image": "images/Consume/2041138.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2041139",
+    "category": "Consume",
+    "name": "Temperate Scroll for Ring for LUK 10%",
+    "desc": "Improves LUK and WATK on ring.\\nSuccess rate:10%, 4-6 Stats",
+    "image": "images/Consume/2041139.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2041140",
+    "category": "Consume",
+    "name": "Absolute Scroll for Ring for STR 10%",
+    "desc": "Improves STR and WATK on ring.\\nSuccess rate:10%, 5 Stats",
+    "image": "images/Consume/2041140.png",
+    "stats": {
+      "price": 1,
+      "success": 10,
+      "incSTR": 5,
+      "incPAD": 5
+    }
+  },
+  {
+    "id": "2041141",
+    "category": "Consume",
+    "name": "Absolute Scroll for Ring for DEX 10%",
+    "desc": "Improves DEX and WATK on ring.\\nSuccess rate:10%, 5 Stats",
+    "image": "images/Consume/2041141.png",
+    "stats": {
+      "price": 1,
+      "success": 10,
+      "incDEX": 5,
+      "incPAD": 5
+    }
+  },
+  {
+    "id": "2041142",
+    "category": "Consume",
+    "name": "Absolute Scroll for Ring for INT 10%",
+    "desc": "Improves INT and MATK on ring.\\nSuccess rate:10%, 5 Stats",
+    "image": "images/Consume/2041142.png",
+    "stats": {
+      "price": 1,
+      "success": 10,
+      "incINT": 5,
+      "incMAD": 5
+    }
+  },
+  {
+    "id": "2041143",
+    "category": "Consume",
+    "name": "Absolute Scroll for Ring for LUK 10%",
+    "desc": "Improves LUK and WATK on ring.\\nSuccess rate:10%, 5 Stats",
+    "image": "images/Consume/2041143.png",
+    "stats": {
+      "price": 1,
+      "success": 10,
+      "incLUK": 5,
+      "incPAD": 5
+    }
+  },
+  {
+    "id": "2041332",
+    "category": "Consume",
+    "name": "Volatile Scroll for Belt for STR 10%",
+    "desc": "Improves STR and WATK on belt.\\nSuccess rate:10%, 3-7 Stats",
+    "image": "images/Consume/2041332.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2041333",
+    "category": "Consume",
+    "name": "Volatile Scroll for Belt for DEX 10%",
+    "desc": "Improves DEX and WATK on belt.\\nSuccess rate:10%, 3-7 Stats",
+    "image": "images/Consume/2041333.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2041334",
+    "category": "Consume",
+    "name": "Volatile Scroll for Belt for INT 10%",
+    "desc": "Improves INT and MATK on belt.\\nSuccess rate:10%, 3-7 Stats",
+    "image": "images/Consume/2041334.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2041335",
+    "category": "Consume",
+    "name": "Volatile Scroll for Belt for LUK 10%",
+    "desc": "Improves LUK and WATK on belt.\\nSuccess rate:10%, 3-7 Stats",
+    "image": "images/Consume/2041335.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2041336",
+    "category": "Consume",
+    "name": "Temperate Scroll for Belt for STR 10%",
+    "desc": "Improves STR and WATK on belt.\\nSuccess rate:10%, 4-6 Stats",
+    "image": "images/Consume/2041336.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2041337",
+    "category": "Consume",
+    "name": "Temperate Scroll for Belt for DEX 10%",
+    "desc": "Improves DEX and WATK on belt.\\nSuccess rate:10%, 4-6 Stats",
+    "image": "images/Consume/2041337.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2041338",
+    "category": "Consume",
+    "name": "Temperate Scroll for Belt for INT 10%",
+    "desc": "Improves INT and MATK on belt.\\nSuccess rate:10%, 4-6 Stats",
+    "image": "images/Consume/2041338.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2041339",
+    "category": "Consume",
+    "name": "Temperate Scroll for Belt for LUK 10%",
+    "desc": "Improves LUK and WATK on belt.\\nSuccess rate:10%, 4-6 Stats",
+    "image": "images/Consume/2041339.png",
+    "stats": {
+      "price": 1,
+      "randstat": 1,
+      "success": 10
+    }
+  },
+  {
+    "id": "2041340",
+    "category": "Consume",
+    "name": "Absolute Scroll for Belt for STR 10%",
+    "desc": "Improves STR and WATK on belt.\\nSuccess rate:10%, 5 Stats",
+    "image": "images/Consume/2041340.png",
+    "stats": {
+      "price": 1,
+      "success": 10,
+      "incPAD": 5,
+      "incSTR": 5
+    }
+  },
+  {
+    "id": "2041341",
+    "category": "Consume",
+    "name": "Absolute Scroll for Belt for DEX 10%",
+    "desc": "Improves DEX and WATK on belt.\\nSuccess rate:10%, 5 Stats",
+    "image": "images/Consume/2041341.png",
+    "stats": {
+      "price": 1,
+      "success": 10,
+      "incPAD": 5,
+      "incDEX": 5
+    }
+  },
+  {
+    "id": "2041342",
+    "category": "Consume",
+    "name": "Absolute Scroll for Belt for INT 10%",
+    "desc": "Improves INT and MATK on belt.\\nSuccess rate:10%, 5 Stats",
+    "image": "images/Consume/2041342.png",
+    "stats": {
+      "price": 1,
+      "success": 10,
+      "incMAD": 5,
+      "incINT": 5
+    }
+  },
+  {
     "id": "2050000",
     "category": "Consume",
     "name": "Antidote",
@@ -21812,6 +23292,7 @@
     "stats": {
       "0": 2121010,
       "1": 2221010,
+      "2": 5221011,
       "slotMax": 100,
       "price": 1,
       "only": 1,
@@ -22954,8 +24435,8 @@
   {
     "id": "2290086",
     "category": "Consume",
-    "name": "[Mastery Book] Sudden Raid 20",
-    "desc": "This increases the master level of #cSudden Raid# to 20 with a 70% chance of success.\\nClass: Night Lord\\nCondition: At least level 5 in this skill",
+    "name": "[Mastery Book] Showdown 20",
+    "desc": "This increases the master level of #cShowdown# to 20 with a 70% chance of success.\\nClass: Night Lord\\nCondition: At least level 5 in this skill",
     "image": "images/Consume/2290086.png",
     "stats": {
       "0": 4121008,
@@ -22969,8 +24450,8 @@
   {
     "id": "2290087",
     "category": "Consume",
-    "name": "[Mastery Book] Sudden Raid 30",
-    "desc": "This increases the master level of #cSudden Raid# to 30 with a 50% chance of success.\\nClass: Night Lord\\nCondition: At least level 15 in this skill",
+    "name": "[Mastery Book] Showdown 30",
+    "desc": "This increases the master level of #cShowdown# to 30 with a 50% chance of success.\\nClass: Night Lord\\nCondition: At least level 15 in this skill",
     "image": "images/Consume/2290087.png",
     "stats": {
       "0": 4121008,
@@ -23103,8 +24584,8 @@
   {
     "id": "2290097",
     "category": "Consume",
-    "name": "[Mastery Book] Dragon Strike 20",
-    "desc": "This increases the master level of #cDragon Strike# to 20 with a 70% chance of success.\\nJob: Buccaneer\\nCondition: At least level 5 in this skill",
+    "name": "[Mastery Book] Dragon Blast 20",
+    "desc": "This increases the master level of #cDragon Blast# to 20 with a 70% chance of success.\\nJob: Buccaneer\\nCondition: At least level 5 in this skill",
     "image": "images/Consume/2290097.png",
     "stats": {
       "0": 5121001,
@@ -23118,8 +24599,8 @@
   {
     "id": "2290098",
     "category": "Consume",
-    "name": "[Mastery Book] Dragon Strike 30",
-    "desc": "This increases the master level of #cDragon Strike# to 30 with a 50% chance of success.\\nJob: Buccaneer\\nCondition: At least level 15 in this skill",
+    "name": "[Mastery Book] Dragon Blast 30",
+    "desc": "This increases the master level of #cDragon Blast# to 30 with a 50% chance of success.\\nJob: Buccaneer\\nCondition: At least level 15 in this skill",
     "image": "images/Consume/2290098.png",
     "stats": {
       "0": 5121001,
@@ -24618,6 +26099,7 @@
     "stats": {
       "0": 2121010,
       "1": 2221010,
+      "2": 5221011,
       "slotMax": 100,
       "price": 1,
       "masterLevel": 20,
@@ -24634,6 +26116,7 @@
     "stats": {
       "0": 2121010,
       "1": 2221010,
+      "2": 5221011,
       "slotMax": 100,
       "price": 1,
       "masterLevel": 30,

@@ -41002,11 +41002,7 @@
     "mob": [
       {
         "id": "8141300",
-        "quantity": 21
-      },
-      {
-        "id": "8140555",
-        "quantity": 3
+        "quantity": 22
       },
       {
         "id": "8142100",
@@ -41019,22 +41015,22 @@
       "230020000"
     ],
     "info": {
-      "version": 10,
-      "cloud": 0,
-      "town": 0,
-      "swim": 1,
-      "returnMap": "230000000",
-      "forcedReturn": "999999999",
-      "mobRate": 1,
       "bgm": "Bgm12/DeepSee",
-      "mapMark": "AquaRoad",
-      "effect": "Bubbling",
+      "cloud": 0,
+      "swim": 1,
+      "forcedReturn": "999999999",
       "hideMinimap": 0,
+      "mapMark": "AquaRoad",
+      "mobRate": 1,
+      "returnMap": "230000000",
+      "town": 0,
+      "version": 10,
       "fieldLimit": 0,
-      "decHP": 6,
-      "protectItem": 1102061,
       "lvLimit": 15,
-      "onUserEnter": "explorationPoint"
+      "onUserEnter": "explorationPoint",
+      "effect": "Bubbling",
+      "decHP": 6,
+      "protectItem": 1102061
     },
     "image": "images/Map/230040200_miniMap.png"
   },
@@ -90401,7 +90397,8 @@
       "bgm": "BgmJp/CastleOutSide",
       "mapMark": "jipangu",
       "hideMinimap": 0,
-      "fieldLimit": 0
+      "fieldLimit": 0,
+      "onUserEnter": "ninjamaplock"
     },
     "image": "images/Map/800040000_miniMap.png"
   },
@@ -90438,7 +90435,8 @@
       "bgm": "BgmJp/CastleOutSide",
       "mapMark": "jipangu",
       "hideMinimap": 0,
-      "fieldLimit": 64
+      "fieldLimit": 64,
+      "onUserEnter": "ninjamaplock"
     },
     "image": "images/Map/800040100_miniMap.png"
   },
@@ -90449,7 +90447,7 @@
     "mob": [
       {
         "id": "9400400",
-        "quantity": 23
+        "quantity": 69
       }
     ],
     "npcs": [],
@@ -90460,21 +90458,22 @@
       "800040209"
     ],
     "info": {
-      "version": 10,
-      "cloud": 0,
-      "town": 0,
-      "swim": 0,
-      "returnMap": "800040000",
-      "forcedReturn": "999999999",
-      "mobRate": 1,
       "bgm": "BgmJp/CastleInside",
-      "mapMark": "jipangu",
+      "cloud": 0,
+      "swim": 0,
+      "forcedReturn": "999999999",
       "hideMinimap": 0,
+      "mapMark": "jipangu",
+      "mobRate": 1,
+      "returnMap": "800040000",
+      "town": 0,
+      "version": 10,
       "fieldLimit": 0,
-      "VRTop": -340,
+      "onUserEnter": "ninjamaplock",
       "VRLeft": -400,
-      "VRBottom": 300,
-      "VRRight": 2175
+      "VRRight": 2175,
+      "VRTop": -340,
+      "VRBottom": 300
     },
     "image": "images/Map/800040200_miniMap.png"
   },
@@ -90485,11 +90484,11 @@
     "mob": [
       {
         "id": "9400400",
-        "quantity": 18
+        "quantity": 54
       },
       {
         "id": "9400404",
-        "quantity": 7
+        "quantity": 21
       }
     ],
     "npcs": [],
@@ -90499,21 +90498,22 @@
       "800040202"
     ],
     "info": {
-      "version": 10,
-      "cloud": 0,
-      "town": 0,
-      "swim": 0,
-      "returnMap": "800040000",
-      "forcedReturn": "999999999",
-      "mobRate": 1,
       "bgm": "BgmJp/CastleInside",
-      "mapMark": "jipangu",
+      "cloud": 0,
+      "swim": 0,
+      "forcedReturn": "999999999",
       "hideMinimap": 0,
+      "mapMark": "jipangu",
+      "mobRate": 1,
+      "returnMap": "800040000",
+      "town": 0,
+      "version": 10,
       "fieldLimit": 0,
-      "VRTop": -340,
+      "onUserEnter": "ninjamaplock",
       "VRLeft": -400,
-      "VRBottom": 300,
-      "VRRight": 2175
+      "VRRight": 2175,
+      "VRTop": -340,
+      "VRBottom": 300
     },
     "image": "images/Map/800040201_miniMap.png"
   },
@@ -90524,7 +90524,7 @@
     "mob": [
       {
         "id": "9400401",
-        "quantity": 21
+        "quantity": 63
       }
     ],
     "npcs": [],
@@ -90535,21 +90535,22 @@
       "800040203"
     ],
     "info": {
-      "version": 10,
-      "cloud": 0,
-      "town": 0,
-      "swim": 0,
-      "returnMap": "800040000",
-      "forcedReturn": "999999999",
-      "mobRate": 1,
       "bgm": "BgmJp/CastleInside",
-      "mapMark": "jipangu",
+      "cloud": 0,
+      "swim": 0,
+      "forcedReturn": "999999999",
       "hideMinimap": 0,
+      "mapMark": "jipangu",
+      "mobRate": 1,
+      "returnMap": "800040000",
+      "town": 0,
+      "version": 10,
       "fieldLimit": 0,
-      "VRTop": -340,
+      "onUserEnter": "ninjamaplock",
       "VRLeft": -400,
-      "VRBottom": 300,
-      "VRRight": 2175
+      "VRRight": 2175,
+      "VRTop": -340,
+      "VRBottom": 300
     },
     "image": "images/Map/800040202_miniMap.png"
   },
@@ -90560,11 +90561,11 @@
     "mob": [
       {
         "id": "9400401",
-        "quantity": 13
+        "quantity": 39
       },
       {
         "id": "9400406",
-        "quantity": 13
+        "quantity": 39
       }
     ],
     "npcs": [],
@@ -90575,21 +90576,22 @@
       "800040204"
     ],
     "info": {
-      "version": 10,
-      "cloud": 0,
-      "town": 0,
-      "swim": 0,
-      "returnMap": "800040000",
-      "forcedReturn": "999999999",
-      "mobRate": 1,
       "bgm": "BgmJp/CastleInside",
-      "mapMark": "jipangu",
+      "cloud": 0,
+      "swim": 0,
+      "forcedReturn": "999999999",
       "hideMinimap": 0,
+      "mapMark": "jipangu",
+      "mobRate": 1,
+      "returnMap": "800040000",
+      "town": 0,
+      "version": 10,
       "fieldLimit": 0,
-      "VRTop": -340,
+      "onUserEnter": "ninjamaplock",
       "VRLeft": -400,
-      "VRBottom": 300,
-      "VRRight": 2175
+      "VRRight": 2175,
+      "VRTop": -340,
+      "VRBottom": 300
     },
     "image": "images/Map/800040203_miniMap.png"
   },
@@ -90600,15 +90602,15 @@
     "mob": [
       {
         "id": "9400400",
-        "quantity": 14
+        "quantity": 42
       },
       {
         "id": "9400401",
-        "quantity": 13
+        "quantity": 39
       },
       {
         "id": "9400402",
-        "quantity": 16
+        "quantity": 48
       }
     ],
     "npcs": [],
@@ -90618,21 +90620,22 @@
       "800040205"
     ],
     "info": {
-      "version": 10,
-      "cloud": 0,
-      "town": 0,
-      "swim": 0,
-      "returnMap": "800040000",
-      "forcedReturn": "999999999",
-      "mobRate": 1,
       "bgm": "BgmJp/CastleInside",
-      "mapMark": "jipangu",
+      "cloud": 0,
+      "swim": 0,
+      "forcedReturn": "999999999",
       "hideMinimap": 0,
+      "mapMark": "jipangu",
+      "mobRate": 1,
+      "returnMap": "800040000",
+      "town": 0,
+      "version": 10,
       "fieldLimit": 0,
-      "VRTop": -340,
+      "onUserEnter": "ninjamaplock",
       "VRLeft": -400,
-      "VRBottom": 300,
-      "VRRight": 1740
+      "VRRight": 1740,
+      "VRTop": -340,
+      "VRBottom": 300
     },
     "image": "images/Map/800040204_miniMap.png"
   },
@@ -90643,19 +90646,19 @@
     "mob": [
       {
         "id": "9400406",
-        "quantity": 10
+        "quantity": 30
       },
       {
         "id": "9400402",
-        "quantity": 9
+        "quantity": 27
       },
       {
         "id": "9400401",
-        "quantity": 12
+        "quantity": 36
       },
       {
         "id": "9400400",
-        "quantity": 10
+        "quantity": 30
       }
     ],
     "npcs": [],
@@ -90667,21 +90670,22 @@
       "800040203"
     ],
     "info": {
-      "version": 10,
-      "cloud": 0,
-      "town": 0,
-      "swim": 0,
-      "returnMap": "800040000",
-      "forcedReturn": "999999999",
-      "mobRate": 1,
       "bgm": "BgmJp/CastleInside",
-      "mapMark": "jipangu",
+      "cloud": 0,
+      "swim": 0,
+      "forcedReturn": "999999999",
       "hideMinimap": 0,
+      "mapMark": "jipangu",
+      "mobRate": 1,
+      "returnMap": "800040000",
+      "town": 0,
+      "version": 10,
       "fieldLimit": 64,
-      "VRTop": -340,
+      "onUserEnter": "ninjamaplock",
       "VRLeft": -400,
-      "VRBottom": 300,
-      "VRRight": 1740
+      "VRRight": 1740,
+      "VRTop": -340,
+      "VRBottom": 300
     },
     "image": "images/Map/800040205_miniMap.png"
   },
@@ -90692,11 +90696,11 @@
     "mob": [
       {
         "id": "9400402",
-        "quantity": 28
+        "quantity": 84
       },
       {
         "id": "9400403",
-        "quantity": 9
+        "quantity": 27
       }
     ],
     "npcs": [],
@@ -90706,21 +90710,22 @@
       "800040203"
     ],
     "info": {
-      "version": 10,
-      "cloud": 0,
-      "town": 0,
-      "swim": 0,
-      "returnMap": "800040000",
-      "forcedReturn": "999999999",
-      "mobRate": 1,
       "bgm": "BgmJp/CastleInside",
-      "mapMark": "jipangu",
+      "cloud": 0,
+      "swim": 0,
+      "forcedReturn": "999999999",
       "hideMinimap": 0,
+      "mapMark": "jipangu",
+      "mobRate": 1,
+      "returnMap": "800040000",
+      "town": 0,
+      "version": 10,
       "fieldLimit": 64,
-      "VRTop": -340,
+      "onUserEnter": "ninjamaplock",
       "VRLeft": -400,
-      "VRBottom": 300,
-      "VRRight": 2175
+      "VRRight": 2175,
+      "VRTop": -340,
+      "VRBottom": 300
     },
     "image": "images/Map/800040206_miniMap.png"
   },
@@ -90731,19 +90736,19 @@
     "mob": [
       {
         "id": "9400400",
-        "quantity": 10
+        "quantity": 30
       },
       {
         "id": "9400401",
-        "quantity": 10
+        "quantity": 30
       },
       {
         "id": "9400402",
-        "quantity": 13
+        "quantity": 39
       },
       {
         "id": "9400403",
-        "quantity": 10
+        "quantity": 30
       }
     ],
     "npcs": [],
@@ -90754,21 +90759,22 @@
       "800040204"
     ],
     "info": {
-      "version": 10,
-      "cloud": 0,
-      "town": 0,
-      "swim": 0,
-      "returnMap": "800040000",
-      "forcedReturn": "999999999",
-      "mobRate": 1,
       "bgm": "BgmJp/CastleInside",
-      "mapMark": "jipangu",
+      "cloud": 0,
+      "swim": 0,
+      "forcedReturn": "999999999",
       "hideMinimap": 0,
+      "mapMark": "jipangu",
+      "mobRate": 1,
+      "returnMap": "800040000",
+      "town": 0,
+      "version": 10,
       "fieldLimit": 64,
-      "VRTop": -340,
+      "onUserEnter": "ninjamaplock",
       "VRLeft": -400,
-      "VRBottom": 300,
-      "VRRight": 2175
+      "VRRight": 2175,
+      "VRTop": -340,
+      "VRBottom": 300
     },
     "image": "images/Map/800040207_miniMap.png"
   },
@@ -90779,11 +90785,11 @@
     "mob": [
       {
         "id": "9400402",
-        "quantity": 25
+        "quantity": 75
       },
       {
         "id": "9400403",
-        "quantity": 9
+        "quantity": 27
       },
       {
         "id": "9400405",
@@ -90810,6 +90816,7 @@
       "town": 0,
       "version": 10,
       "fieldLimit": 64,
+      "onUserEnter": "ninjamaplock",
       "VRLeft": -400,
       "VRRight": 2175,
       "VRTop": -340,
@@ -90842,7 +90849,8 @@
       "VRTop": -300,
       "VRLeft": -400,
       "VRBottom": 300,
-      "VRRight": 400
+      "VRRight": 400,
+      "onUserEnter": "ninjamaplock"
     },
     "image": null
   },
@@ -90872,7 +90880,8 @@
       "VRTop": -466,
       "VRLeft": -360,
       "VRBottom": 421,
-      "VRRight": 3507
+      "VRRight": 3507,
+      "onUserEnter": "ninjamaplock"
     },
     "image": "images/Map/800040210_miniMap.png"
   },
@@ -90901,7 +90910,8 @@
       "VRTop": -345,
       "VRLeft": -400,
       "VRBottom": 300,
-      "VRRight": 450
+      "VRRight": 450,
+      "onUserEnter": "ninjamaplock"
     },
     "image": null
   },
@@ -90944,7 +90954,8 @@
       "VRTop": -300,
       "VRLeft": -400,
       "VRBottom": 300,
-      "VRRight": 400
+      "VRRight": 400,
+      "onUserEnter": "ninjamaplock"
     },
     "image": null
   },
@@ -90987,7 +90998,8 @@
       "VRTop": -300,
       "VRLeft": -400,
       "VRBottom": 300,
-      "VRRight": 400
+      "VRRight": 400,
+      "onUserEnter": "ninjamaplock"
     },
     "image": null
   },
@@ -91026,7 +91038,8 @@
       "VRTop": -300,
       "VRLeft": -400,
       "VRBottom": 300,
-      "VRRight": 400
+      "VRRight": 400,
+      "onUserEnter": "ninjamaplock"
     },
     "image": null
   },
@@ -91069,7 +91082,8 @@
       "VRTop": -300,
       "VRLeft": -400,
       "VRBottom": 300,
-      "VRRight": 400
+      "VRRight": 400,
+      "onUserEnter": "ninjamaplock"
     },
     "image": null
   },
@@ -91108,7 +91122,8 @@
       "VRTop": -300,
       "VRLeft": -400,
       "VRBottom": 300,
-      "VRRight": 400
+      "VRRight": 400,
+      "onUserEnter": "ninjamaplock"
     },
     "image": null
   },
@@ -91151,7 +91166,8 @@
       "VRTop": -300,
       "VRLeft": -400,
       "VRBottom": 300,
-      "VRRight": 400
+      "VRRight": 400,
+      "onUserEnter": "ninjamaplock"
     },
     "image": null
   },
@@ -91194,7 +91210,8 @@
       "VRTop": -300,
       "VRLeft": -400,
       "VRBottom": 300,
-      "VRRight": 400
+      "VRRight": 400,
+      "onUserEnter": "ninjamaplock"
     },
     "image": null
   },
@@ -91233,7 +91250,8 @@
       "VRTop": -300,
       "VRLeft": -400,
       "VRBottom": 300,
-      "VRRight": 400
+      "VRRight": 400,
+      "onUserEnter": "ninjamaplock"
     },
     "image": null
   },
@@ -91272,7 +91290,8 @@
       "VRTop": -300,
       "VRLeft": -400,
       "VRBottom": 300,
-      "VRRight": 400
+      "VRRight": 400,
+      "onUserEnter": "ninjamaplock"
     },
     "image": null
   },
@@ -91311,7 +91330,8 @@
       "VRTop": -300,
       "VRLeft": -400,
       "VRBottom": 300,
-      "VRRight": 400
+      "VRRight": 400,
+      "onUserEnter": "ninjamaplock"
     },
     "image": null
   },
@@ -91354,7 +91374,8 @@
       "VRTop": -300,
       "VRLeft": -400,
       "VRBottom": 300,
-      "VRRight": 400
+      "VRRight": 400,
+      "onUserEnter": "ninjamaplock"
     },
     "image": null
   },
@@ -91397,7 +91418,8 @@
       "VRTop": -300,
       "VRLeft": -400,
       "VRBottom": 300,
-      "VRRight": 400
+      "VRRight": 400,
+      "onUserEnter": "ninjamaplock"
     },
     "image": null
   },
@@ -91440,7 +91462,8 @@
       "VRTop": -300,
       "VRLeft": -400,
       "VRBottom": 300,
-      "VRRight": 400
+      "VRRight": 400,
+      "onUserEnter": "ninjamaplock"
     },
     "image": null
   },
@@ -91479,7 +91502,8 @@
       "VRTop": -300,
       "VRLeft": -400,
       "VRBottom": 300,
-      "VRRight": 400
+      "VRRight": 400,
+      "onUserEnter": "ninjamaplock"
     },
     "image": null
   },
@@ -91522,7 +91546,8 @@
       "VRTop": -300,
       "VRLeft": -400,
       "VRBottom": 300,
-      "VRRight": 400
+      "VRRight": 400,
+      "onUserEnter": "ninjamaplock"
     },
     "image": null
   },
@@ -91561,7 +91586,8 @@
       "VRTop": -300,
       "VRLeft": -400,
       "VRBottom": 300,
-      "VRRight": 400
+      "VRRight": 400,
+      "onUserEnter": "ninjamaplock"
     },
     "image": null
   },
@@ -91572,11 +91598,11 @@
     "mob": [
       {
         "id": "9400402",
-        "quantity": 5
+        "quantity": 20
       },
       {
         "id": "9400403",
-        "quantity": 7
+        "quantity": 28
       }
     ],
     "npcs": [],
@@ -91585,21 +91611,22 @@
       "800040401"
     ],
     "info": {
-      "version": 10,
-      "cloud": 0,
-      "town": 0,
-      "swim": 0,
-      "returnMap": "800040400",
-      "forcedReturn": "800040200",
-      "mobRate": 1,
       "bgm": "BgmJp/CastleBoss",
-      "mapMark": "jipangu",
+      "cloud": 0,
+      "swim": 0,
+      "forcedReturn": "800040200",
       "hideMinimap": 0,
+      "mapMark": "jipangu",
+      "mobRate": 1,
+      "returnMap": "800040400",
+      "town": 0,
+      "version": 10,
       "fieldLimit": 252,
-      "VRTop": -300,
+      "onUserEnter": "ninjamaplock",
       "VRLeft": -400,
-      "VRBottom": 300,
-      "VRRight": 1745
+      "VRRight": 1745,
+      "VRTop": -300,
+      "VRBottom": 300
     },
     "image": "images/Map/800040400_miniMap.png"
   },
@@ -91627,7 +91654,8 @@
       "VRLeft": -395,
       "VRRight": 880,
       "VRTop": -340,
-      "VRBottom": 300
+      "VRBottom": 300,
+      "onUserEnter": "ninjamaplock"
     },
     "image": "images/Map/800040401_miniMap.png"
   },
@@ -91635,7 +91663,12 @@
     "id": "800040410",
     "mapName": "Tower Room",
     "streetName": "Zipangu",
-    "mob": [],
+    "mob": [
+      {
+        "id": "9400408",
+        "quantity": 1
+      }
+    ],
     "npcs": [],
     "linkMap": [],
     "info": {
@@ -91653,7 +91686,8 @@
       "VRLeft": -400,
       "VRRight": 885,
       "VRTop": -300,
-      "VRBottom": 300
+      "VRBottom": 300,
+      "onUserEnter": "ninjamaplock"
     },
     "image": "images/Map/800040410_miniMap.png"
   },

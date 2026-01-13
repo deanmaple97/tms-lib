@@ -15217,7 +15217,7 @@
     "category": "Etc",
     "name": "Capsule Marble",
     "desc": "Item used to use the Capsule Toy in each town. ",
-    "image": null,
+    "image": "images/Etc/4001448.png",
     "stats": {
       "price": 1,
       "tradeBlock": 1
@@ -15788,7 +15788,7 @@
     "category": "Etc",
     "name": "SoulMP",
     "desc": "MOB Soul",
-    "image": null,
+    "image": "images/Etc/4001536.png",
     "stats": {
       "z": 0,
       "_hash": "4be7c8321c26cb9e775b071494a79ab48c71f9ec3f6b6f48cbbcc5477523ddff",
@@ -17122,7 +17122,7 @@
     "category": "Etc",
     "name": "500,000 Mesos Comfort Fund",
     "desc": "A commemorative coin to help characters get settled in. You can sell it to the shop for 500,000 mesos.",
-    "image": null,
+    "image": "images/Etc/4001713.png",
     "stats": {
       "price": 500000,
       "tradeBlock": 1
@@ -17133,7 +17133,7 @@
     "category": "Etc",
     "name": "5 Million Mesos Comfort Coin",
     "desc": "A commemorative coin to help characters get settled in. You can sell it to the shop for 5 million mesos.",
-    "image": null,
+    "image": "images/Etc/4001713.png",
     "stats": {
       "price": 5000000,
       "tradeBlock": 1
@@ -20197,7 +20197,7 @@
     "category": "Etc",
     "name": "Twinkle Marble",
     "desc": "",
-    "image": null,
+    "image": "images/Etc/4009162.png",
     "stats": {
       "price": 1,
       "tradeBlock": 1,
@@ -23216,13 +23216,69 @@
   {
     "id": "4008011",
     "category": "Etc",
-    "name": "Pink Bean’s Castle Key",
-    "desc": "A Castle Key taken from Pink Bean. Grants access to LHC.",
+    "name": "Chaos Horntail's Castle Key",
+    "desc": "A Castle Key taken from Chaos Horntail. Grants access to LHC.",
     "image": "images/Etc/4008011.png",
     "stats": {
       "price": 1,
       "slotMax": 9999,
       "tradeBlock": 1
+    }
+  },
+  {
+    "id": "4008012",
+    "category": "Etc",
+    "name": "Pink Beans's Ninja Castle Map",
+    "desc": "A Map taken from Pink Bean. Grants access to Ninja Castle.",
+    "image": "images/Etc/4008012.png",
+    "stats": {
+      "price": 1,
+      "slotMax": 9999,
+      "tradeBlock": 1
+    }
+  },
+  {
+    "id": "4008013",
+    "category": "Etc",
+    "name": "Strength Core",
+    "desc": "A core fragment that you obtained from Ninja Castle.",
+    "image": "images/Etc/4008013.png",
+    "stats": {
+      "price": 1,
+      "slotMax": 9999
+    }
+  },
+  {
+    "id": "4008014",
+    "category": "Etc",
+    "name": "Dexterity Core",
+    "desc": "A core fragment that you obtained from Ninja Castle.",
+    "image": "images/Etc/4008014.png",
+    "stats": {
+      "price": 1,
+      "slotMax": 9999
+    }
+  },
+  {
+    "id": "4008015",
+    "category": "Etc",
+    "name": "Intelligence Core",
+    "desc": "A core fragment that you obtained from Ninja Castle.",
+    "image": "images/Etc/4008015.png",
+    "stats": {
+      "price": 1,
+      "slotMax": 9999
+    }
+  },
+  {
+    "id": "4008016",
+    "category": "Etc",
+    "name": "Luck Core",
+    "desc": "A core fragment that you obtained from Ninja Castle.",
+    "image": "images/Etc/4008016.png",
+    "stats": {
+      "price": 1,
+      "slotMax": 9999
     }
   },
   {
