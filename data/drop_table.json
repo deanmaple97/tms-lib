@@ -201467,6 +201467,285 @@
 			"chance": 1000000
 		},
 		{
+			"id": 28704,
+			"dropperid": 8600001,
+			"itemid": 4008006,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 92500
+		},
+		{
+			"id": 28710,
+			"dropperid": 8600004,
+			"itemid": 0,
+			"minimum_quantity": 10768,
+			"maximum_quantity": 15911,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28716,
+			"dropperid": 8600000,
+			"itemid": 0,
+			"minimum_quantity": 10468,
+			"maximum_quantity": 15468,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28762,
+			"dropperid": 8210006,
+			"itemid": 0,
+			"minimum_quantity": 18826,
+			"maximum_quantity": 24473,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28768,
+			"dropperid": 9410066,
+			"itemid": 2022428,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28774,
+			"dropperid": 9410066,
+			"itemid": 2022428,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28780,
+			"dropperid": 9410066,
+			"itemid": 5121020,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28786,
+			"dropperid": 9410066,
+			"itemid": 4018001,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28792,
+			"dropperid": 9410066,
+			"itemid": 4018001,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28797,
+			"dropperid": 9410066,
+			"itemid": 4018001,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28802,
+			"dropperid": 9410066,
+			"itemid": 4018001,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28807,
+			"dropperid": 9100008,
+			"itemid": 4018000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28705,
+			"dropperid": 8600001,
+			"itemid": 0,
+			"minimum_quantity": 11067,
+			"maximum_quantity": 16353,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28711,
+			"dropperid": 8600004,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 45
+		},
+		{
+			"id": 28717,
+			"dropperid": 8600000,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 44
+		},
+		{
+			"id": 28763,
+			"dropperid": 8210007,
+			"itemid": 0,
+			"minimum_quantity": 19085,
+			"maximum_quantity": 24810,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28769,
+			"dropperid": 9410066,
+			"itemid": 2022428,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28775,
+			"dropperid": 9410066,
+			"itemid": 2022428,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28781,
+			"dropperid": 9410066,
+			"itemid": 5121020,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28787,
+			"dropperid": 9410066,
+			"itemid": 4018001,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28718,
+			"dropperid": 8600000,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 875
+		},
+		{
+			"id": 28712,
+			"dropperid": 8600004,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 900
+		},
+		{
+			"id": 28706,
+			"dropperid": 8600001,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 47
+		},
+		{
+			"id": 28764,
+			"dropperid": 8210006,
+			"itemid": 4000630,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 9944
+		},
+		{
+			"id": 28770,
+			"dropperid": 9410066,
+			"itemid": 2022428,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28776,
+			"dropperid": 9410066,
+			"itemid": 5121020,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28782,
+			"dropperid": 9410066,
+			"itemid": 5121020,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28788,
+			"dropperid": 9410066,
+			"itemid": 4018001,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28793,
+			"dropperid": 9410066,
+			"itemid": 4018001,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28798,
+			"dropperid": 9410066,
+			"itemid": 4018001,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28803,
+			"dropperid": 9410066,
+			"itemid": 4018001,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
 			"id": 25935,
 			"dropperid": 8840000,
 			"itemid": 4001693,
@@ -201483,6 +201762,60 @@
 			"maximum_quantity": 1,
 			"questid": 0,
 			"chance": 200000
+		},
+		{
+			"id": 28777,
+			"dropperid": 9410066,
+			"itemid": 5121020,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28771,
+			"dropperid": 9410066,
+			"itemid": 2022428,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28765,
+			"dropperid": 8210007,
+			"itemid": 4000630,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 9944
+		},
+		{
+			"id": 28759,
+			"dropperid": 8210006,
+			"itemid": 4008004,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 38620
+		},
+		{
+			"id": 28713,
+			"dropperid": 8600000,
+			"itemid": 4000642,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 140000
+		},
+		{
+			"id": 28707,
+			"dropperid": 8600001,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 925
 		},
 		{
 			"id": 25970,
@@ -201578,8 +201911,8 @@
 			"id": 25933,
 			"dropperid": 9100007,
 			"itemid": 2049117,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
+			"minimum_quantity": 2,
+			"maximum_quantity": 5,
 			"questid": 0,
 			"chance": 1000000
 		},
@@ -201827,6 +202160,249 @@
 			"chance": 50000
 		},
 		{
+			"id": 28783,
+			"dropperid": 9410066,
+			"itemid": 5121020,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28789,
+			"dropperid": 9410066,
+			"itemid": 4018001,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28794,
+			"dropperid": 9410066,
+			"itemid": 4018001,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28799,
+			"dropperid": 9410066,
+			"itemid": 4018001,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28804,
+			"dropperid": 9410066,
+			"itemid": 4018001,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28708,
+			"dropperid": 8600004,
+			"itemid": 4000646,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 144000
+		},
+		{
+			"id": 28714,
+			"dropperid": 8600000,
+			"itemid": 4008010,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 10000
+		},
+		{
+			"id": 28760,
+			"dropperid": 8210007,
+			"itemid": 4008004,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28766,
+			"dropperid": 9410066,
+			"itemid": 2022428,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28772,
+			"dropperid": 9410066,
+			"itemid": 2022428,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28778,
+			"dropperid": 9410066,
+			"itemid": 5121020,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28784,
+			"dropperid": 9410066,
+			"itemid": 5121020,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28790,
+			"dropperid": 9410066,
+			"itemid": 4018001,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28795,
+			"dropperid": 9410066,
+			"itemid": 4018001,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28800,
+			"dropperid": 9410066,
+			"itemid": 4018001,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28805,
+			"dropperid": 9410066,
+			"itemid": 4018001,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28709,
+			"dropperid": 8600004,
+			"itemid": 4008006,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 90000
+		},
+		{
+			"id": 28715,
+			"dropperid": 8600000,
+			"itemid": 4008006,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 87500
+		},
+		{
+			"id": 28761,
+			"dropperid": 8210007,
+			"itemid": 4008004,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 38620
+		},
+		{
+			"id": 28767,
+			"dropperid": 9410066,
+			"itemid": 2022428,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28773,
+			"dropperid": 9410066,
+			"itemid": 2022428,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28779,
+			"dropperid": 9410066,
+			"itemid": 5121020,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28785,
+			"dropperid": 9410066,
+			"itemid": 5121020,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28791,
+			"dropperid": 9410066,
+			"itemid": 4018001,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28796,
+			"dropperid": 9410066,
+			"itemid": 4018001,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28801,
+			"dropperid": 9410066,
+			"itemid": 4018001,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
+			"id": 28806,
+			"dropperid": 9410066,
+			"itemid": 4018000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000000
+		},
+		{
 			"id": 26007,
 			"dropperid": 8500002,
 			"itemid": 1032077,
@@ -201854,13 +202430,13 @@
 			"chance": 50000
 		},
 		{
-			"id": 26037,
-			"dropperid": 8600000,
-			"itemid": 0,
+			"id": 28511,
+			"dropperid": 8620011,
+			"itemid": 4000835,
 			"minimum_quantity": 1,
 			"maximum_quantity": 1,
 			"questid": 0,
-			"chance": 0
+			"chance": 45161
 		},
 		{
 			"id": 26687,
@@ -201980,1555 +202556,7 @@
 			"chance": 25000
 		},
 		{
-			"id": 26038,
-			"dropperid": 8600000,
-			"itemid": 4000642,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 140000
-		},
-		{
-			"id": 26039,
-			"dropperid": 8600001,
-			"itemid": 4000643,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 148000
-		},
-		{
-			"id": 26040,
-			"dropperid": 8600002,
-			"itemid": 4000644,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 156000
-		},
-		{
-			"id": 26041,
-			"dropperid": 8600003,
-			"itemid": 4000645,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 164000
-		},
-		{
-			"id": 26042,
-			"dropperid": 8600004,
-			"itemid": 4000646,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 144000
-		},
-		{
-			"id": 26043,
-			"dropperid": 8600005,
-			"itemid": 4000647,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 152000
-		},
-		{
-			"id": 26044,
-			"dropperid": 8600006,
-			"itemid": 4000648,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26045,
-			"dropperid": 8610000,
-			"itemid": 4000660,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 85333
-		},
-		{
-			"id": 26046,
-			"dropperid": 8610001,
-			"itemid": 4000661,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 85333
-		},
-		{
-			"id": 26047,
-			"dropperid": 8610002,
-			"itemid": 4000662,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 85333
-		},
-		{
-			"id": 26048,
-			"dropperid": 8610003,
-			"itemid": 4000663,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 85333
-		},
-		{
-			"id": 26049,
-			"dropperid": 8610004,
-			"itemid": 4000660,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 21333
-		},
-		{
-			"id": 26050,
-			"dropperid": 8610004,
-			"itemid": 4000661,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 21333
-		},
-		{
-			"id": 26051,
-			"dropperid": 8610004,
-			"itemid": 4000662,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 21333
-		},
-		{
-			"id": 26052,
-			"dropperid": 8610004,
-			"itemid": 4000663,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 21333
-		},
-		{
-			"id": 26053,
-			"dropperid": 8610005,
-			"itemid": 4000649,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 106667
-		},
-		{
-			"id": 26054,
-			"dropperid": 8610006,
-			"itemid": 4000650,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 106667
-		},
-		{
-			"id": 26055,
-			"dropperid": 8610007,
-			"itemid": 4000651,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 106667
-		},
-		{
-			"id": 26056,
-			"dropperid": 8610008,
-			"itemid": 4000652,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 106667
-		},
-		{
-			"id": 26057,
-			"dropperid": 8610009,
-			"itemid": 4000653,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 106667
-		},
-		{
-			"id": 26058,
-			"dropperid": 8610010,
-			"itemid": 4000654,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26059,
-			"dropperid": 8610011,
-			"itemid": 4000655,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26060,
-			"dropperid": 8610012,
-			"itemid": 4000656,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26061,
-			"dropperid": 8610013,
-			"itemid": 4000657,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26062,
-			"dropperid": 8610014,
-			"itemid": 4000658,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26063,
-			"dropperid": 8620000,
-			"itemid": 4000826,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 106667
-		},
-		{
-			"id": 26064,
-			"dropperid": 8620001,
-			"itemid": 4000827,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 112000
-		},
-		{
-			"id": 26065,
-			"dropperid": 8620002,
-			"itemid": 4000828,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 117333
-		},
-		{
-			"id": 26066,
-			"dropperid": 8620003,
-			"itemid": 4000829,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 122667
-		},
-		{
-			"id": 26067,
-			"dropperid": 8620004,
-			"itemid": 4000830,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 128000
-		},
-		{
-			"id": 26068,
-			"dropperid": 8620005,
-			"itemid": 4000831,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 133333
-		},
-		{
-			"id": 26069,
-			"dropperid": 8620006,
-			"itemid": 4000832,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 138667
-		},
-		{
-			"id": 26070,
-			"dropperid": 8620007,
-			"itemid": 4000833,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 144000
-		},
-		{
-			"id": 26071,
-			"dropperid": 8620008,
-			"itemid": 4000834,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 149333
-		},
-		{
-			"id": 26072,
-			"dropperid": 8620009,
-			"itemid": 4000835,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 154667
-		},
-		{
-			"id": 26073,
-			"dropperid": 8620010,
-			"itemid": 4000836,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26074,
-			"dropperid": 8620011,
-			"itemid": 4000835,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 80000
-		},
-		{
-			"id": 26075,
-			"dropperid": 8620011,
-			"itemid": 4000836,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 80000
-		},
-		{
-			"id": 26076,
-			"dropperid": 8600000,
-			"itemid": 4008006,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 87500
-		},
-		{
-			"id": 26077,
-			"dropperid": 8600001,
-			"itemid": 4008006,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 92500
-		},
-		{
-			"id": 26078,
-			"dropperid": 8600002,
-			"itemid": 4008006,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 97500
-		},
-		{
-			"id": 26079,
-			"dropperid": 8600003,
-			"itemid": 4008006,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 102500
-		},
-		{
-			"id": 26080,
-			"dropperid": 8600004,
-			"itemid": 4008006,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 90000
-		},
-		{
-			"id": 26081,
-			"dropperid": 8600005,
-			"itemid": 4008006,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 95000
-		},
-		{
-			"id": 26082,
-			"dropperid": 8600006,
-			"itemid": 4008006,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 100000
-		},
-		{
-			"id": 26083,
-			"dropperid": 8610000,
-			"itemid": 4008007,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 53333
-		},
-		{
-			"id": 26084,
-			"dropperid": 8610001,
-			"itemid": 4008007,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 53333
-		},
-		{
-			"id": 26085,
-			"dropperid": 8610002,
-			"itemid": 4008007,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 53333
-		},
-		{
-			"id": 26086,
-			"dropperid": 8610003,
-			"itemid": 4008007,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 53333
-		},
-		{
-			"id": 26087,
-			"dropperid": 8610004,
-			"itemid": 4008007,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 53333
-		},
-		{
-			"id": 26088,
-			"dropperid": 8610005,
-			"itemid": 4008007,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 66667
-		},
-		{
-			"id": 26089,
-			"dropperid": 8610006,
-			"itemid": 4008007,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 66667
-		},
-		{
-			"id": 26090,
-			"dropperid": 8610007,
-			"itemid": 4008007,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 66667
-		},
-		{
-			"id": 26091,
-			"dropperid": 8610008,
-			"itemid": 4008007,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 66667
-		},
-		{
-			"id": 26092,
-			"dropperid": 8610009,
-			"itemid": 4008007,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 66667
-		},
-		{
-			"id": 26093,
-			"dropperid": 8610010,
-			"itemid": 4008007,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 100000
-		},
-		{
-			"id": 26094,
-			"dropperid": 8610011,
-			"itemid": 4008007,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 100000
-		},
-		{
-			"id": 26095,
-			"dropperid": 8610012,
-			"itemid": 4008007,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 100000
-		},
-		{
-			"id": 26096,
-			"dropperid": 8610013,
-			"itemid": 4008007,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 100000
-		},
-		{
-			"id": 26097,
-			"dropperid": 8610014,
-			"itemid": 4008007,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 100000
-		},
-		{
-			"id": 26098,
-			"dropperid": 8620000,
-			"itemid": 4008005,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 64516
-		},
-		{
-			"id": 26099,
-			"dropperid": 8620001,
-			"itemid": 4008005,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 67742
-		},
-		{
-			"id": 26100,
-			"dropperid": 8620002,
-			"itemid": 4008005,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 70968
-		},
-		{
-			"id": 26101,
-			"dropperid": 8620003,
-			"itemid": 4008005,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 74194
-		},
-		{
-			"id": 26102,
-			"dropperid": 8620004,
-			"itemid": 4008005,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 77419
-		},
-		{
-			"id": 26103,
-			"dropperid": 8620005,
-			"itemid": 4008005,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 80645
-		},
-		{
-			"id": 26104,
-			"dropperid": 8620006,
-			"itemid": 4008005,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 83871
-		},
-		{
-			"id": 26105,
-			"dropperid": 8620007,
-			"itemid": 4008005,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 87097
-		},
-		{
-			"id": 26106,
-			"dropperid": 8620008,
-			"itemid": 4008005,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 90323
-		},
-		{
-			"id": 26107,
-			"dropperid": 8620009,
-			"itemid": 4008005,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 93548
-		},
-		{
-			"id": 26108,
-			"dropperid": 8620010,
-			"itemid": 4008005,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 96774
-		},
-		{
-			"id": 26109,
-			"dropperid": 8620011,
-			"itemid": 4008005,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 100000
-		},
-		{
-			"id": 26110,
-			"dropperid": 8600000,
-			"itemid": 0,
-			"minimum_quantity": 5000,
-			"maximum_quantity": 10000,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26111,
-			"dropperid": 8600001,
-			"itemid": 0,
-			"minimum_quantity": 5286,
-			"maximum_quantity": 10572,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26112,
-			"dropperid": 8600002,
-			"itemid": 0,
-			"minimum_quantity": 5571,
-			"maximum_quantity": 11142,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26113,
-			"dropperid": 8600003,
-			"itemid": 0,
-			"minimum_quantity": 5857,
-			"maximum_quantity": 11714,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26114,
-			"dropperid": 8600004,
-			"itemid": 0,
-			"minimum_quantity": 5143,
-			"maximum_quantity": 10286,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26115,
-			"dropperid": 8600005,
-			"itemid": 0,
-			"minimum_quantity": 5429,
-			"maximum_quantity": 10858,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26116,
-			"dropperid": 8600006,
-			"itemid": 0,
-			"minimum_quantity": 5714,
-			"maximum_quantity": 11428,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26117,
-			"dropperid": 8610000,
-			"itemid": 0,
-			"minimum_quantity": 5714,
-			"maximum_quantity": 11428,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26118,
-			"dropperid": 8610001,
-			"itemid": 0,
-			"minimum_quantity": 5714,
-			"maximum_quantity": 11428,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26119,
-			"dropperid": 8610002,
-			"itemid": 0,
-			"minimum_quantity": 5714,
-			"maximum_quantity": 11428,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26120,
-			"dropperid": 8610003,
-			"itemid": 0,
-			"minimum_quantity": 5714,
-			"maximum_quantity": 11428,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26121,
-			"dropperid": 8610004,
-			"itemid": 0,
-			"minimum_quantity": 5714,
-			"maximum_quantity": 11428,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26122,
-			"dropperid": 8610005,
-			"itemid": 0,
-			"minimum_quantity": 7143,
-			"maximum_quantity": 14286,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26123,
-			"dropperid": 8610006,
-			"itemid": 0,
-			"minimum_quantity": 7143,
-			"maximum_quantity": 14286,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26124,
-			"dropperid": 8610007,
-			"itemid": 0,
-			"minimum_quantity": 7143,
-			"maximum_quantity": 14286,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26125,
-			"dropperid": 8610008,
-			"itemid": 0,
-			"minimum_quantity": 7143,
-			"maximum_quantity": 14286,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26126,
-			"dropperid": 8610009,
-			"itemid": 0,
-			"minimum_quantity": 7143,
-			"maximum_quantity": 14286,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26127,
-			"dropperid": 8610010,
-			"itemid": 0,
-			"minimum_quantity": 10714,
-			"maximum_quantity": 21428,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26128,
-			"dropperid": 8610011,
-			"itemid": 0,
-			"minimum_quantity": 10714,
-			"maximum_quantity": 21428,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26129,
-			"dropperid": 8610012,
-			"itemid": 0,
-			"minimum_quantity": 10714,
-			"maximum_quantity": 21428,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26130,
-			"dropperid": 8610013,
-			"itemid": 0,
-			"minimum_quantity": 10714,
-			"maximum_quantity": 21428,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26131,
-			"dropperid": 8610014,
-			"itemid": 0,
-			"minimum_quantity": 10714,
-			"maximum_quantity": 21428,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26132,
-			"dropperid": 8620000,
-			"itemid": 0,
-			"minimum_quantity": 14286,
-			"maximum_quantity": 28572,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26133,
-			"dropperid": 8620001,
-			"itemid": 0,
-			"minimum_quantity": 15000,
-			"maximum_quantity": 30000,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26134,
-			"dropperid": 8620002,
-			"itemid": 0,
-			"minimum_quantity": 15714,
-			"maximum_quantity": 31428,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26135,
-			"dropperid": 8620003,
-			"itemid": 0,
-			"minimum_quantity": 16429,
-			"maximum_quantity": 32858,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26136,
-			"dropperid": 8620004,
-			"itemid": 0,
-			"minimum_quantity": 17143,
-			"maximum_quantity": 34286,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26137,
-			"dropperid": 8620005,
-			"itemid": 0,
-			"minimum_quantity": 17857,
-			"maximum_quantity": 35714,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26138,
-			"dropperid": 8620006,
-			"itemid": 0,
-			"minimum_quantity": 18571,
-			"maximum_quantity": 37142,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26139,
-			"dropperid": 8620007,
-			"itemid": 0,
-			"minimum_quantity": 19286,
-			"maximum_quantity": 38572,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26140,
-			"dropperid": 8620008,
-			"itemid": 0,
-			"minimum_quantity": 20000,
-			"maximum_quantity": 40000,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26141,
-			"dropperid": 8620009,
-			"itemid": 0,
-			"minimum_quantity": 20714,
-			"maximum_quantity": 41428,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26142,
-			"dropperid": 8620010,
-			"itemid": 0,
-			"minimum_quantity": 21429,
-			"maximum_quantity": 42858,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26143,
-			"dropperid": 8620011,
-			"itemid": 0,
-			"minimum_quantity": 22143,
-			"maximum_quantity": 44286,
-			"questid": 0,
-			"chance": 160000
-		},
-		{
-			"id": 26144,
-			"dropperid": 8600000,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 8750
-		},
-		{
-			"id": 26145,
-			"dropperid": 8600001,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 9250
-		},
-		{
-			"id": 26146,
-			"dropperid": 8600002,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 9750
-		},
-		{
-			"id": 26147,
-			"dropperid": 8600003,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 10250
-		},
-		{
-			"id": 26148,
-			"dropperid": 8600004,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 9000
-		},
-		{
-			"id": 26149,
-			"dropperid": 8600005,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 9500
-		},
-		{
-			"id": 26150,
-			"dropperid": 8600006,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 10000
-		},
-		{
-			"id": 26151,
-			"dropperid": 8610000,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 10000
-		},
-		{
-			"id": 26152,
-			"dropperid": 8610001,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 10000
-		},
-		{
-			"id": 26153,
-			"dropperid": 8610002,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 10000
-		},
-		{
-			"id": 26154,
-			"dropperid": 8610003,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 10000
-		},
-		{
-			"id": 26155,
-			"dropperid": 8610004,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 10000
-		},
-		{
-			"id": 26156,
-			"dropperid": 8610005,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 12500
-		},
-		{
-			"id": 26157,
-			"dropperid": 8610006,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 12500
-		},
-		{
-			"id": 26158,
-			"dropperid": 8610007,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 12500
-		},
-		{
-			"id": 26159,
-			"dropperid": 8610008,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 12500
-		},
-		{
-			"id": 26160,
-			"dropperid": 8610009,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 12500
-		},
-		{
-			"id": 26161,
-			"dropperid": 8610010,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 18750
-		},
-		{
-			"id": 26162,
-			"dropperid": 8610011,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 18750
-		},
-		{
-			"id": 26163,
-			"dropperid": 8610012,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 18750
-		},
-		{
-			"id": 26164,
-			"dropperid": 8610013,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 18750
-		},
-		{
-			"id": 26165,
-			"dropperid": 8610014,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 18750
-		},
-		{
-			"id": 26166,
-			"dropperid": 8620000,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 25000
-		},
-		{
-			"id": 26167,
-			"dropperid": 8620001,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 26250
-		},
-		{
-			"id": 26168,
-			"dropperid": 8620002,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 27500
-		},
-		{
-			"id": 26169,
-			"dropperid": 8620003,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 28750
-		},
-		{
-			"id": 26170,
-			"dropperid": 8620004,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 30000
-		},
-		{
-			"id": 26171,
-			"dropperid": 8620005,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 31250
-		},
-		{
-			"id": 26172,
-			"dropperid": 8620006,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 32500
-		},
-		{
-			"id": 26173,
-			"dropperid": 8620007,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 33750
-		},
-		{
-			"id": 26174,
-			"dropperid": 8620008,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 35000
-		},
-		{
-			"id": 26175,
-			"dropperid": 8620009,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 36250
-		},
-		{
-			"id": 26176,
-			"dropperid": 8620010,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 37500
-		},
-		{
-			"id": 26177,
-			"dropperid": 8620011,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 38750
-		},
-		{
-			"id": 26178,
-			"dropperid": 8600000,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 44
-		},
-		{
-			"id": 26179,
-			"dropperid": 8600001,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 47
-		},
-		{
-			"id": 26180,
-			"dropperid": 8600002,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 49
-		},
-		{
-			"id": 26181,
-			"dropperid": 8600003,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 52
-		},
-		{
-			"id": 26182,
-			"dropperid": 8600004,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 45
-		},
-		{
-			"id": 26183,
-			"dropperid": 8600005,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 48
-		},
-		{
-			"id": 26184,
-			"dropperid": 8600006,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 50
-		},
-		{
-			"id": 26185,
-			"dropperid": 8610000,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 50
-		},
-		{
-			"id": 26186,
-			"dropperid": 8610001,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 50
-		},
-		{
-			"id": 26187,
-			"dropperid": 8610002,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 50
-		},
-		{
-			"id": 26188,
-			"dropperid": 8610003,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 50
-		},
-		{
-			"id": 26189,
-			"dropperid": 8610004,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 50
-		},
-		{
-			"id": 26190,
-			"dropperid": 8610005,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 63
-		},
-		{
-			"id": 26191,
-			"dropperid": 8610006,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 63
-		},
-		{
-			"id": 26192,
-			"dropperid": 8610007,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 63
-		},
-		{
-			"id": 26193,
-			"dropperid": 8610008,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 63
-		},
-		{
-			"id": 26194,
-			"dropperid": 8610009,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 63
-		},
-		{
-			"id": 26195,
-			"dropperid": 8610010,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 94
-		},
-		{
-			"id": 26196,
-			"dropperid": 8610011,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 94
-		},
-		{
-			"id": 26197,
-			"dropperid": 8610012,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 94
-		},
-		{
-			"id": 26198,
-			"dropperid": 8610013,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 94
-		},
-		{
-			"id": 26199,
-			"dropperid": 8610014,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 94
-		},
-		{
-			"id": 26200,
-			"dropperid": 8620000,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 125
-		},
-		{
-			"id": 26201,
-			"dropperid": 8620001,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 132
-		},
-		{
-			"id": 26202,
-			"dropperid": 8620002,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 138
-		},
-		{
-			"id": 26203,
-			"dropperid": 8620003,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 144
-		},
-		{
-			"id": 26204,
-			"dropperid": 8620004,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 150
-		},
-		{
-			"id": 26205,
-			"dropperid": 8620005,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 157
-		},
-		{
-			"id": 26206,
-			"dropperid": 8620006,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 163
-		},
-		{
-			"id": 26207,
-			"dropperid": 8620007,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 169
-		},
-		{
-			"id": 26208,
-			"dropperid": 8620008,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 175
-		},
-		{
-			"id": 26209,
-			"dropperid": 8620009,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 182
-		},
-		{
-			"id": 26210,
+			"id": 28516,
 			"dropperid": 8620010,
 			"itemid": 2049100,
 			"minimum_quantity": 1,
@@ -203537,13 +202565,1561 @@
 			"chance": 188
 		},
 		{
-			"id": 26211,
-			"dropperid": 8620011,
+			"id": 28521,
+			"dropperid": 8620009,
+			"itemid": 4008005,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 93548
+		},
+		{
+			"id": 28526,
+			"dropperid": 8620009,
+			"itemid": 4000835,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 101052
+		},
+		{
+			"id": 28531,
+			"dropperid": 8620008,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 3500
+		},
+		{
+			"id": 28541,
+			"dropperid": 8620007,
+			"itemid": 4000833,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 117500
+		},
+		{
+			"id": 28546,
+			"dropperid": 8620006,
+			"itemid": 4000832,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 117895
+		},
+		{
+			"id": 28551,
+			"dropperid": 8620006,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 3250
+		},
+		{
+			"id": 28556,
+			"dropperid": 8620005,
+			"itemid": 4000831,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 115200
+		},
+		{
+			"id": 28561,
+			"dropperid": 8620004,
+			"itemid": 4000830,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 117333
+		},
+		{
+			"id": 28571,
+			"dropperid": 8620003,
 			"itemid": 2049100,
 			"minimum_quantity": 1,
 			"maximum_quantity": 1,
 			"questid": 0,
-			"chance": 194
+			"chance": 144
+		},
+		{
+			"id": 28576,
+			"dropperid": 8620002,
+			"itemid": 4008005,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 70968
+		},
+		{
+			"id": 28581,
+			"dropperid": 8620001,
+			"itemid": 4000827,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 133333
+		},
+		{
+			"id": 28580,
+			"dropperid": 8620001,
+			"itemid": 4000827,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 133334
+		},
+		{
+			"id": 28579,
+			"dropperid": 8620002,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 2750
+		},
+		{
+			"id": 28586,
+			"dropperid": 8620001,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 2625
+		},
+		{
+			"id": 28591,
+			"dropperid": 8620000,
+			"itemid": 0,
+			"minimum_quantity": 29911,
+			"maximum_quantity": 44197,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28596,
+			"dropperid": 8610010,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 94
+		},
+		{
+			"id": 28601,
+			"dropperid": 8610011,
+			"itemid": 0,
+			"minimum_quantity": 22432,
+			"maximum_quantity": 33146,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28606,
+			"dropperid": 8610012,
+			"itemid": 4008007,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 100000
+		},
+		{
+			"id": 28616,
+			"dropperid": 8610013,
+			"itemid": 4000657,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 171429
+		},
+		{
+			"id": 28624,
+			"dropperid": 8610005,
+			"itemid": 4000649,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 166667
+		},
+		{
+			"id": 28623,
+			"dropperid": 8610014,
+			"itemid": 4000658,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 150000
+		},
+		{
+			"id": 28634,
+			"dropperid": 8610006,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 63
+		},
+		{
+			"id": 28639,
+			"dropperid": 8610007,
+			"itemid": 0,
+			"minimum_quantity": 14955,
+			"maximum_quantity": 22098,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28644,
+			"dropperid": 8610008,
+			"itemid": 4008007,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 66667
+		},
+		{
+			"id": 28649,
+			"dropperid": 8610009,
+			"itemid": 4000653,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 33333
+		},
+		{
+			"id": 28654,
+			"dropperid": 8600003,
+			"itemid": 4000645,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28664,
+			"dropperid": 8610001,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000
+		},
+		{
+			"id": 28669,
+			"dropperid": 8610000,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000
+		},
+		{
+			"id": 28674,
+			"dropperid": 8600006,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000
+		},
+		{
+			"id": 28680,
+			"dropperid": 8610004,
+			"itemid": 4000660,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 40000
+		},
+		{
+			"id": 28723,
+			"dropperid": 8210000,
+			"itemid": 0,
+			"minimum_quantity": 8696,
+			"maximum_quantity": 11304,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28728,
+			"dropperid": 8210001,
+			"itemid": 4000626,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28738,
+			"dropperid": 8210003,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1290
+		},
+		{
+			"id": 28743,
+			"dropperid": 8210004,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 43
+		},
+		{
+			"id": 28748,
+			"dropperid": 8210005,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1540
+		},
+		{
+			"id": 28753,
+			"dropperid": 8210005,
+			"itemid": 0,
+			"minimum_quantity": 14392,
+			"maximum_quantity": 18710,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28752,
+			"dropperid": 8210005,
+			"itemid": 4008004,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 153960
+		},
+		{
+			"id": 28515,
+			"dropperid": 8620010,
+			"itemid": 0,
+			"minimum_quantity": 44866,
+			"maximum_quantity": 66295,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28520,
+			"dropperid": 8620010,
+			"itemid": 4000836,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 173200
+		},
+		{
+			"id": 28525,
+			"dropperid": 8620009,
+			"itemid": 4000835,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 101053
+		},
+		{
+			"id": 28536,
+			"dropperid": 8620007,
+			"itemid": 4008005,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 87097
+		},
+		{
+			"id": 28540,
+			"dropperid": 8620007,
+			"itemid": 4000833,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 117500
+		},
+		{
+			"id": 28545,
+			"dropperid": 8620006,
+			"itemid": 4000832,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 117895
+		},
+		{
+			"id": 28550,
+			"dropperid": 8620006,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 163
+		},
+		{
+			"id": 28555,
+			"dropperid": 8620005,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 3125
+		},
+		{
+			"id": 28566,
+			"dropperid": 8620003,
+			"itemid": 4000829,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 113334
+		},
+		{
+			"id": 28570,
+			"dropperid": 8620003,
+			"itemid": 0,
+			"minimum_quantity": 34397,
+			"maximum_quantity": 50826,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28575,
+			"dropperid": 8620002,
+			"itemid": 4000828,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 100000
+		},
+		{
+			"id": 28585,
+			"dropperid": 8620001,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 132
+		},
+		{
+			"id": 28590,
+			"dropperid": 8620000,
+			"itemid": 4008005,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 64516
+		},
+		{
+			"id": 28595,
+			"dropperid": 8610010,
+			"itemid": 0,
+			"minimum_quantity": 22432,
+			"maximum_quantity": 33146,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28600,
+			"dropperid": 8610011,
+			"itemid": 4008007,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 100000
+		},
+		{
+			"id": 28611,
+			"dropperid": 8610012,
+			"itemid": 4000656,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 150000
+		},
+		{
+			"id": 28615,
+			"dropperid": 8610013,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1875
+		},
+		{
+			"id": 28622,
+			"dropperid": 8610014,
+			"itemid": 4000658,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 171429
+		},
+		{
+			"id": 28629,
+			"dropperid": 8610005,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1250
+		},
+		{
+			"id": 28633,
+			"dropperid": 8610006,
+			"itemid": 0,
+			"minimum_quantity": 14955,
+			"maximum_quantity": 22098,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28638,
+			"dropperid": 8610007,
+			"itemid": 4008007,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 66667
+		},
+		{
+			"id": 28643,
+			"dropperid": 8610008,
+			"itemid": 4000652,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 33333
+		},
+		{
+			"id": 28648,
+			"dropperid": 8610009,
+			"itemid": 4000653,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 166667
+		},
+		{
+			"id": 28659,
+			"dropperid": 8600003,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1025
+		},
+		{
+			"id": 28663,
+			"dropperid": 8610001,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 50
+		},
+		{
+			"id": 28668,
+			"dropperid": 8610000,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 50
+		},
+		{
+			"id": 28673,
+			"dropperid": 8600006,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 50
+		},
+		{
+			"id": 28679,
+			"dropperid": 8610003,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000
+		},
+		{
+			"id": 28722,
+			"dropperid": 8210000,
+			"itemid": 4000625,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28733,
+			"dropperid": 8210002,
+			"itemid": 0,
+			"minimum_quantity": 10762,
+			"maximum_quantity": 13990,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28737,
+			"dropperid": 8210003,
+			"itemid": 4000627,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 40000
+		},
+		{
+			"id": 28742,
+			"dropperid": 8210004,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1430
+		},
+		{
+			"id": 28747,
+			"dropperid": 8210004,
+			"itemid": 4000628,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 40000
+		},
+		{
+			"id": 28758,
+			"dropperid": 8210006,
+			"itemid": 4008004,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28514,
+			"dropperid": 8620010,
+			"itemid": 4008005,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 96774
+		},
+		{
+			"id": 28519,
+			"dropperid": 8620010,
+			"itemid": 4000836,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 99000
+		},
+		{
+			"id": 28530,
+			"dropperid": 8620008,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 175
+		},
+		{
+			"id": 28535,
+			"dropperid": 8620008,
+			"itemid": 4000834,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 53333
+		},
+		{
+			"id": 28539,
+			"dropperid": 8620007,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 3375
+		},
+		{
+			"id": 28544,
+			"dropperid": 8620006,
+			"itemid": 4000832,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 117895
+		},
+		{
+			"id": 28549,
+			"dropperid": 8620006,
+			"itemid": 0,
+			"minimum_quantity": 38883,
+			"maximum_quantity": 57454,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28560,
+			"dropperid": 8620004,
+			"itemid": 4000830,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 117333
+		},
+		{
+			"id": 28565,
+			"dropperid": 8620004,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 3000
+		},
+		{
+			"id": 28569,
+			"dropperid": 8620003,
+			"itemid": 4008005,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 74194
+		},
+		{
+			"id": 28574,
+			"dropperid": 8620002,
+			"itemid": 4000828,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 133333
+		},
+		{
+			"id": 28584,
+			"dropperid": 8620001,
+			"itemid": 0,
+			"minimum_quantity": 31406,
+			"maximum_quantity": 46406,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28589,
+			"dropperid": 8620000,
+			"itemid": 4000826,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 53333
+		},
+		{
+			"id": 28594,
+			"dropperid": 8610010,
+			"itemid": 4008007,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 100000
+		},
+		{
+			"id": 28605,
+			"dropperid": 8610011,
+			"itemid": 4000655,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 150000
+		},
+		{
+			"id": 28610,
+			"dropperid": 8610012,
+			"itemid": 4000656,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 171429
+		},
+		{
+			"id": 28614,
+			"dropperid": 8610013,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 94
+		},
+		{
+			"id": 28621,
+			"dropperid": 8610014,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1875
+		},
+		{
+			"id": 28628,
+			"dropperid": 8610005,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 63
+		},
+		{
+			"id": 28632,
+			"dropperid": 8610006,
+			"itemid": 4008007,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 66667
+		},
+		{
+			"id": 28637,
+			"dropperid": 8610007,
+			"itemid": 4000651,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 33333
+		},
+		{
+			"id": 28642,
+			"dropperid": 8610008,
+			"itemid": 4000652,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 166667
+		},
+		{
+			"id": 28653,
+			"dropperid": 8610009,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1250
+		},
+		{
+			"id": 28658,
+			"dropperid": 8600003,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 52
+		},
+		{
+			"id": 28662,
+			"dropperid": 8610001,
+			"itemid": 0,
+			"minimum_quantity": 11964,
+			"maximum_quantity": 17678,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28667,
+			"dropperid": 8610000,
+			"itemid": 0,
+			"minimum_quantity": 11964,
+			"maximum_quantity": 17678,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28672,
+			"dropperid": 8600006,
+			"itemid": 0,
+			"minimum_quantity": 11964,
+			"maximum_quantity": 17678,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28678,
+			"dropperid": 8610003,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 50
+		},
+		{
+			"id": 28727,
+			"dropperid": 8210001,
+			"itemid": 0,
+			"minimum_quantity": 9845,
+			"maximum_quantity": 12798,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28732,
+			"dropperid": 8210002,
+			"itemid": 4008004,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 120160
+		},
+		{
+			"id": 28736,
+			"dropperid": 8210003,
+			"itemid": 4000627,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28741,
+			"dropperid": 8210003,
+			"itemid": 0,
+			"minimum_quantity": 11724,
+			"maximum_quantity": 15242,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28746,
+			"dropperid": 8210004,
+			"itemid": 4000628,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28757,
+			"dropperid": 8210007,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 60
+		},
+		{
+			"id": 28513,
+			"dropperid": 8620011,
+			"itemid": 4000836,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 45161
+		},
+		{
+			"id": 28524,
+			"dropperid": 8620009,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 3625
+		},
+		{
+			"id": 28529,
+			"dropperid": 8620008,
+			"itemid": 0,
+			"minimum_quantity": 41875,
+			"maximum_quantity": 61875,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28534,
+			"dropperid": 8620008,
+			"itemid": 4000834,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 106666
+		},
+		{
+			"id": 28538,
+			"dropperid": 8620007,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 169
+		},
+		{
+			"id": 28543,
+			"dropperid": 8620007,
+			"itemid": 4000833,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 44000
+		},
+		{
+			"id": 28554,
+			"dropperid": 8620005,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 157
+		},
+		{
+			"id": 28559,
+			"dropperid": 8620004,
+			"itemid": 4000830,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 117334
+		},
+		{
+			"id": 28564,
+			"dropperid": 8620004,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 150
+		},
+		{
+			"id": 28568,
+			"dropperid": 8620003,
+			"itemid": 4000829,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 99166
+		},
+		{
+			"id": 28573,
+			"dropperid": 8620002,
+			"itemid": 4000828,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 133334
+		},
+		{
+			"id": 28583,
+			"dropperid": 8620001,
+			"itemid": 4008005,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 67742
+		},
+		{
+			"id": 28588,
+			"dropperid": 8620000,
+			"itemid": 4000826,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 133333
+		},
+		{
+			"id": 28599,
+			"dropperid": 8610010,
+			"itemid": 4000654,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 150000
+		},
+		{
+			"id": 28604,
+			"dropperid": 8610011,
+			"itemid": 4000655,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 171429
+		},
+		{
+			"id": 28609,
+			"dropperid": 8610012,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1875
+		},
+		{
+			"id": 28613,
+			"dropperid": 8610013,
+			"itemid": 0,
+			"minimum_quantity": 22432,
+			"maximum_quantity": 33146,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28620,
+			"dropperid": 8610014,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 94
+		},
+		{
+			"id": 28627,
+			"dropperid": 8610005,
+			"itemid": 0,
+			"minimum_quantity": 14955,
+			"maximum_quantity": 22098,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28631,
+			"dropperid": 8610006,
+			"itemid": 4000650,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 33333
+		},
+		{
+			"id": 28636,
+			"dropperid": 8610007,
+			"itemid": 4000651,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 166667
+		},
+		{
+			"id": 28647,
+			"dropperid": 8610008,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1250
+		},
+		{
+			"id": 28652,
+			"dropperid": 8610009,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 63
+		},
+		{
+			"id": 28657,
+			"dropperid": 8600003,
+			"itemid": 0,
+			"minimum_quantity": 12263,
+			"maximum_quantity": 18120,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28661,
+			"dropperid": 8610001,
+			"itemid": 4008007,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 53333
+		},
+		{
+			"id": 28666,
+			"dropperid": 8610000,
+			"itemid": 4008007,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 53333
+		},
+		{
+			"id": 28677,
+			"dropperid": 8610003,
+			"itemid": 0,
+			"minimum_quantity": 11964,
+			"maximum_quantity": 17678,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28721,
+			"dropperid": 8210000,
+			"itemid": 4008004,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 100000
+		},
+		{
+			"id": 28726,
+			"dropperid": 8210001,
+			"itemid": 4008004,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 111540
+		},
+		{
+			"id": 28731,
+			"dropperid": 8210002,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 36
+		},
+		{
+			"id": 28735,
+			"dropperid": 8210002,
+			"itemid": 4000626,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 32240
+		},
+		{
+			"id": 28740,
+			"dropperid": 8210003,
+			"itemid": 4008004,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 129020
+		},
+		{
+			"id": 28751,
+			"dropperid": 8210005,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 46
+		},
+		{
+			"id": 28756,
+			"dropperid": 8210006,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 60
+		},
+		{
+			"id": 28512,
+			"dropperid": 8620011,
+			"itemid": 4000836,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 154839
+		},
+		{
+			"id": 28523,
+			"dropperid": 8620009,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 182
+		},
+		{
+			"id": 28528,
+			"dropperid": 8620008,
+			"itemid": 4008005,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 90323
+		},
+		{
+			"id": 28533,
+			"dropperid": 8620008,
+			"itemid": 4000834,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 106667
+		},
+		{
+			"id": 28537,
+			"dropperid": 8620007,
+			"itemid": 0,
+			"minimum_quantity": 40379,
+			"maximum_quantity": 59665,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28548,
+			"dropperid": 8620006,
+			"itemid": 4008005,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 83871
+		},
+		{
+			"id": 28553,
+			"dropperid": 8620005,
+			"itemid": 0,
+			"minimum_quantity": 37388,
+			"maximum_quantity": 55245,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28558,
+			"dropperid": 8620005,
+			"itemid": 4000831,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 129600
+		},
+		{
+			"id": 28563,
+			"dropperid": 8620004,
+			"itemid": 0,
+			"minimum_quantity": 35893,
+			"maximum_quantity": 53036,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28567,
+			"dropperid": 8620003,
+			"itemid": 4000829,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 113333
+		},
+		{
+			"id": 28578,
+			"dropperid": 8620002,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 138
+		},
+		{
+			"id": 28582,
+			"dropperid": 8620001,
+			"itemid": 4000827,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 83333
+		},
+		{
+			"id": 28593,
+			"dropperid": 8620000,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 2500
+		},
+		{
+			"id": 28598,
+			"dropperid": 8610010,
+			"itemid": 4000654,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 171429
+		},
+		{
+			"id": 28603,
+			"dropperid": 8610011,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1875
+		},
+		{
+			"id": 28608,
+			"dropperid": 8610012,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 94
+		},
+		{
+			"id": 28612,
+			"dropperid": 8610013,
+			"itemid": 4008007,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 100000
+		},
+		{
+			"id": 28619,
+			"dropperid": 8610014,
+			"itemid": 0,
+			"minimum_quantity": 22432,
+			"maximum_quantity": 33146,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28626,
+			"dropperid": 8610005,
+			"itemid": 4008007,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 66667
+		},
+		{
+			"id": 28630,
+			"dropperid": 8610006,
+			"itemid": 4000650,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 166667
+		},
+		{
+			"id": 28641,
+			"dropperid": 8610007,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1250
+		},
+		{
+			"id": 28646,
+			"dropperid": 8610008,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 63
+		},
+		{
+			"id": 28651,
+			"dropperid": 8610009,
+			"itemid": 0,
+			"minimum_quantity": 14955,
+			"maximum_quantity": 22098,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28656,
+			"dropperid": 8600003,
+			"itemid": 4008006,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 102500
+		},
+		{
+			"id": 28660,
+			"dropperid": 8610001,
+			"itemid": 4000661,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28671,
+			"dropperid": 8600006,
+			"itemid": 4008006,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 100000
+		},
+		{
+			"id": 28676,
+			"dropperid": 8610003,
+			"itemid": 4008007,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 53333
+		},
+		{
+			"id": 28720,
+			"dropperid": 8210000,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 30
+		},
+		{
+			"id": 28725,
+			"dropperid": 8210001,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 33
+		},
+		{
+			"id": 28730,
+			"dropperid": 8210002,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1202
+		},
+		{
+			"id": 28734,
+			"dropperid": 8210002,
+			"itemid": 4000626,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28745,
+			"dropperid": 8210004,
+			"itemid": 0,
+			"minimum_quantity": 13179,
+			"maximum_quantity": 17133,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28750,
+			"dropperid": 8210005,
+			"itemid": 4000629,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 40000
+		},
+		{
+			"id": 28755,
+			"dropperid": 8210007,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1986
 		},
 		{
 			"id": 26451,
@@ -203708,232 +204284,88 @@
 			"chance": 1000000
 		},
 		{
-			"id": 26264,
-			"dropperid": 8600000,
-			"itemid": 4310000,
+			"id": 28518,
+			"dropperid": 8620010,
+			"itemid": 4000836,
 			"minimum_quantity": 1,
 			"maximum_quantity": 1,
 			"questid": 0,
-			"chance": 875
+			"chance": 99000
 		},
 		{
-			"id": 26265,
-			"dropperid": 8600001,
-			"itemid": 4310000,
+			"id": 28522,
+			"dropperid": 8620009,
+			"itemid": 0,
+			"minimum_quantity": 43370,
+			"maximum_quantity": 64084,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28527,
+			"dropperid": 8620009,
+			"itemid": 4000835,
 			"minimum_quantity": 1,
 			"maximum_quantity": 1,
 			"questid": 0,
-			"chance": 925
+			"chance": 164228
 		},
 		{
-			"id": 26266,
-			"dropperid": 8600002,
-			"itemid": 4310000,
+			"id": 28532,
+			"dropperid": 8620008,
+			"itemid": 4000834,
 			"minimum_quantity": 1,
 			"maximum_quantity": 1,
 			"questid": 0,
-			"chance": 975
+			"chance": 106667
 		},
 		{
-			"id": 26267,
-			"dropperid": 8600003,
-			"itemid": 4310000,
+			"id": 28542,
+			"dropperid": 8620007,
+			"itemid": 4000833,
 			"minimum_quantity": 1,
 			"maximum_quantity": 1,
 			"questid": 0,
-			"chance": 1025
+			"chance": 117500
 		},
 		{
-			"id": 26268,
-			"dropperid": 8600004,
-			"itemid": 4310000,
+			"id": 28547,
+			"dropperid": 8620006,
+			"itemid": 4000832,
 			"minimum_quantity": 1,
 			"maximum_quantity": 1,
 			"questid": 0,
-			"chance": 900
+			"chance": 29420
 		},
 		{
-			"id": 26269,
-			"dropperid": 8600005,
-			"itemid": 4310000,
+			"id": 28552,
+			"dropperid": 8620005,
+			"itemid": 4008005,
 			"minimum_quantity": 1,
 			"maximum_quantity": 1,
 			"questid": 0,
-			"chance": 950
+			"chance": 80645
 		},
 		{
-			"id": 26270,
-			"dropperid": 8600006,
-			"itemid": 4310000,
+			"id": 28557,
+			"dropperid": 8620005,
+			"itemid": 4000831,
 			"minimum_quantity": 1,
 			"maximum_quantity": 1,
 			"questid": 0,
-			"chance": 1000
+			"chance": 115200
 		},
 		{
-			"id": 26271,
-			"dropperid": 8610000,
-			"itemid": 4310000,
+			"id": 28562,
+			"dropperid": 8620004,
+			"itemid": 4008005,
 			"minimum_quantity": 1,
 			"maximum_quantity": 1,
 			"questid": 0,
-			"chance": 1000
+			"chance": 77419
 		},
 		{
-			"id": 26272,
-			"dropperid": 8610001,
-			"itemid": 4310000,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 1000
-		},
-		{
-			"id": 26273,
-			"dropperid": 8610002,
-			"itemid": 4310000,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 1000
-		},
-		{
-			"id": 26274,
-			"dropperid": 8610003,
-			"itemid": 4310000,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 1000
-		},
-		{
-			"id": 26275,
-			"dropperid": 8610004,
-			"itemid": 4310000,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 1000
-		},
-		{
-			"id": 26276,
-			"dropperid": 8610005,
-			"itemid": 4310000,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 1250
-		},
-		{
-			"id": 26277,
-			"dropperid": 8610006,
-			"itemid": 4310000,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 1250
-		},
-		{
-			"id": 26278,
-			"dropperid": 8610007,
-			"itemid": 4310000,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 1250
-		},
-		{
-			"id": 26279,
-			"dropperid": 8610008,
-			"itemid": 4310000,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 1250
-		},
-		{
-			"id": 26280,
-			"dropperid": 8610009,
-			"itemid": 4310000,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 1250
-		},
-		{
-			"id": 26281,
-			"dropperid": 8610010,
-			"itemid": 4310000,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 1875
-		},
-		{
-			"id": 26282,
-			"dropperid": 8610011,
-			"itemid": 4310000,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 1875
-		},
-		{
-			"id": 26283,
-			"dropperid": 8610012,
-			"itemid": 4310000,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 1875
-		},
-		{
-			"id": 26284,
-			"dropperid": 8610013,
-			"itemid": 4310000,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 1875
-		},
-		{
-			"id": 26285,
-			"dropperid": 8610014,
-			"itemid": 4310000,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 1875
-		},
-		{
-			"id": 26286,
-			"dropperid": 8620000,
-			"itemid": 4310000,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 2500
-		},
-		{
-			"id": 26287,
-			"dropperid": 8620001,
-			"itemid": 4310000,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 2625
-		},
-		{
-			"id": 26288,
-			"dropperid": 8620002,
-			"itemid": 4310000,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 2750
-		},
-		{
-			"id": 26289,
+			"id": 28572,
 			"dropperid": 8620003,
 			"itemid": 4310000,
 			"minimum_quantity": 1,
@@ -203942,76 +204374,220 @@
 			"chance": 2875
 		},
 		{
-			"id": 26290,
-			"dropperid": 8620004,
-			"itemid": 4310000,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
+			"id": 28577,
+			"dropperid": 8620002,
+			"itemid": 0,
+			"minimum_quantity": 32901,
+			"maximum_quantity": 48615,
 			"questid": 0,
-			"chance": 3000
+			"chance": 160000
 		},
 		{
-			"id": 26291,
-			"dropperid": 8620005,
-			"itemid": 4310000,
+			"id": 28587,
+			"dropperid": 8620000,
+			"itemid": 4000826,
 			"minimum_quantity": 1,
 			"maximum_quantity": 1,
 			"questid": 0,
-			"chance": 3125
+			"chance": 133334
 		},
 		{
-			"id": 26292,
-			"dropperid": 8620006,
-			"itemid": 4310000,
+			"id": 28592,
+			"dropperid": 8620000,
+			"itemid": 2049100,
 			"minimum_quantity": 1,
 			"maximum_quantity": 1,
 			"questid": 0,
-			"chance": 3250
+			"chance": 125
 		},
 		{
-			"id": 26293,
-			"dropperid": 8620007,
+			"id": 28597,
+			"dropperid": 8610010,
 			"itemid": 4310000,
 			"minimum_quantity": 1,
 			"maximum_quantity": 1,
 			"questid": 0,
-			"chance": 3375
+			"chance": 1875
 		},
 		{
-			"id": 26294,
-			"dropperid": 8620008,
-			"itemid": 4310000,
+			"id": 28602,
+			"dropperid": 8610011,
+			"itemid": 2049100,
 			"minimum_quantity": 1,
 			"maximum_quantity": 1,
 			"questid": 0,
-			"chance": 3500
+			"chance": 94
 		},
 		{
-			"id": 26295,
-			"dropperid": 8620009,
-			"itemid": 4310000,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
+			"id": 28607,
+			"dropperid": 8610012,
+			"itemid": 0,
+			"minimum_quantity": 22432,
+			"maximum_quantity": 33146,
 			"questid": 0,
-			"chance": 3625
+			"chance": 160000
 		},
 		{
-			"id": 26296,
-			"dropperid": 8620010,
-			"itemid": 4310000,
+			"id": 28618,
+			"dropperid": 8610014,
+			"itemid": 4008007,
 			"minimum_quantity": 1,
 			"maximum_quantity": 1,
 			"questid": 0,
-			"chance": 3750
+			"chance": 100000
 		},
 		{
-			"id": 26297,
-			"dropperid": 8620011,
+			"id": 28617,
+			"dropperid": 8610013,
+			"itemid": 4000657,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 150000
+		},
+		{
+			"id": 28625,
+			"dropperid": 8610005,
+			"itemid": 4000649,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 33333
+		},
+		{
+			"id": 28635,
+			"dropperid": 8610006,
 			"itemid": 4310000,
 			"minimum_quantity": 1,
 			"maximum_quantity": 1,
 			"questid": 0,
-			"chance": 3875
+			"chance": 1250
+		},
+		{
+			"id": 28640,
+			"dropperid": 8610007,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 63
+		},
+		{
+			"id": 28645,
+			"dropperid": 8610008,
+			"itemid": 0,
+			"minimum_quantity": 14955,
+			"maximum_quantity": 22098,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28650,
+			"dropperid": 8610009,
+			"itemid": 4008007,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 66667
+		},
+		{
+			"id": 28655,
+			"dropperid": 8600003,
+			"itemid": 4000645,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 4000
+		},
+		{
+			"id": 28665,
+			"dropperid": 8610000,
+			"itemid": 4000660,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28670,
+			"dropperid": 8600006,
+			"itemid": 4000648,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28675,
+			"dropperid": 8610003,
+			"itemid": 4000663,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28719,
+			"dropperid": 8210000,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000
+		},
+		{
+			"id": 28724,
+			"dropperid": 8210001,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1115
+		},
+		{
+			"id": 28729,
+			"dropperid": 8210001,
+			"itemid": 4000626,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 18460
+		},
+		{
+			"id": 28739,
+			"dropperid": 8210003,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 39
+		},
+		{
+			"id": 28744,
+			"dropperid": 8210004,
+			"itemid": 4008004,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 142980
+		},
+		{
+			"id": 28749,
+			"dropperid": 8210005,
+			"itemid": 4000629,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28754,
+			"dropperid": 8210006,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1986
 		},
 		{
 			"id": 26298,
@@ -204221,13 +204797,13 @@
 			"chance": 1000000
 		},
 		{
-			"id": 26368,
-			"dropperid": 8600000,
-			"itemid": 4008010,
+			"id": 28517,
+			"dropperid": 8620010,
+			"itemid": 4310000,
 			"minimum_quantity": 1,
 			"maximum_quantity": 1,
 			"questid": 0,
-			"chance": 10000
+			"chance": 3750
 		},
 		{
 			"id": 26367,
@@ -211070,17 +211646,107 @@
 			"chance": 3000
 		},
 		{
-			"id": 28188,
-			"dropperid": 8210000,
-			"itemid": 4001713,
+			"id": 28703,
+			"dropperid": 8600001,
+			"itemid": 4000643,
 			"minimum_quantity": 1,
 			"maximum_quantity": 1,
 			"questid": 0,
-			"chance": 10000
+			"chance": 148000
 		},
 		{
-			"id": 28187,
-			"dropperid": 8210000,
+			"id": 28702,
+			"dropperid": 8600005,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 950
+		},
+		{
+			"id": 28701,
+			"dropperid": 8600005,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 48
+		},
+		{
+			"id": 28700,
+			"dropperid": 8600005,
+			"itemid": 0,
+			"minimum_quantity": 11366,
+			"maximum_quantity": 16795,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28699,
+			"dropperid": 8600005,
+			"itemid": 4008006,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 95000
+		},
+		{
+			"id": 28698,
+			"dropperid": 8600005,
+			"itemid": 4000647,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 152000
+		},
+		{
+			"id": 28697,
+			"dropperid": 8600002,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 975
+		},
+		{
+			"id": 28696,
+			"dropperid": 8600002,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 49
+		},
+		{
+			"id": 28695,
+			"dropperid": 8600002,
+			"itemid": 0,
+			"minimum_quantity": 11664,
+			"maximum_quantity": 17235,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28694,
+			"dropperid": 8600002,
+			"itemid": 4008006,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 97500
+		},
+		{
+			"id": 28693,
+			"dropperid": 8600002,
+			"itemid": 4000644,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 156000
+		},
+		{
+			"id": 28692,
+			"dropperid": 8610002,
 			"itemid": 4310000,
 			"minimum_quantity": 1,
 			"maximum_quantity": 1,
@@ -211088,458 +211754,107 @@
 			"chance": 1000
 		},
 		{
-			"id": 28186,
-			"dropperid": 8210000,
+			"id": 28691,
+			"dropperid": 8610002,
 			"itemid": 2049100,
 			"minimum_quantity": 1,
 			"maximum_quantity": 1,
 			"questid": 0,
-			"chance": 30
+			"chance": 50
 		},
 		{
-			"id": 28185,
-			"dropperid": 8210000,
-			"itemid": 4008004,
+			"id": 28690,
+			"dropperid": 8610002,
+			"itemid": 0,
+			"minimum_quantity": 11964,
+			"maximum_quantity": 17678,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28689,
+			"dropperid": 8610002,
+			"itemid": 4008007,
 			"minimum_quantity": 1,
 			"maximum_quantity": 1,
 			"questid": 0,
-			"chance": 100000
+			"chance": 53333
 		},
 		{
-			"id": 28184,
-			"dropperid": 8210000,
-			"itemid": 4000625,
+			"id": 28688,
+			"dropperid": 8610002,
+			"itemid": 4000662,
 			"minimum_quantity": 1,
 			"maximum_quantity": 1,
 			"questid": 0,
 			"chance": 160000
 		},
 		{
-			"id": 28183,
-			"dropperid": 8210000,
+			"id": 28687,
+			"dropperid": 8610004,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 1000
+		},
+		{
+			"id": 28686,
+			"dropperid": 8610004,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 50
+		},
+		{
+			"id": 28685,
+			"dropperid": 8610004,
 			"itemid": 0,
-			"minimum_quantity": 2500,
-			"maximum_quantity": 5000,
+			"minimum_quantity": 11964,
+			"maximum_quantity": 17678,
 			"questid": 0,
 			"chance": 160000
 		},
 		{
-			"id": 28189,
-			"dropperid": 8210001,
-			"itemid": 0,
-			"minimum_quantity": 2600,
-			"maximum_quantity": 5200,
-			"questid": 0,
-			"chance": 178460
-		},
-		{
-			"id": 28190,
-			"dropperid": 8210001,
-			"itemid": 4000626,
+			"id": 28684,
+			"dropperid": 8610004,
+			"itemid": 4008007,
 			"minimum_quantity": 1,
 			"maximum_quantity": 1,
 			"questid": 0,
-			"chance": 178460
+			"chance": 53333
 		},
 		{
-			"id": 28191,
-			"dropperid": 8210001,
-			"itemid": 4008004,
+			"id": 28683,
+			"dropperid": 8610004,
+			"itemid": 4000663,
 			"minimum_quantity": 1,
 			"maximum_quantity": 1,
 			"questid": 0,
-			"chance": 111540
+			"chance": 40000
 		},
 		{
-			"id": 28192,
-			"dropperid": 8210001,
-			"itemid": 2049100,
+			"id": 28682,
+			"dropperid": 8610004,
+			"itemid": 4000662,
 			"minimum_quantity": 1,
 			"maximum_quantity": 1,
 			"questid": 0,
-			"chance": 33
+			"chance": 40000
 		},
 		{
-			"id": 28193,
-			"dropperid": 8210001,
-			"itemid": 4310000,
+			"id": 28681,
+			"dropperid": 8610004,
+			"itemid": 4000661,
 			"minimum_quantity": 1,
 			"maximum_quantity": 1,
 			"questid": 0,
-			"chance": 1115
+			"chance": 40000
 		},
 		{
-			"id": 28194,
-			"dropperid": 8210001,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 11154
-		},
-		{
-			"id": 28195,
-			"dropperid": 8210002,
-			"itemid": 0,
-			"minimum_quantity": 2700,
-			"maximum_quantity": 5400,
-			"questid": 0,
-			"chance": 192240
-		},
-		{
-			"id": 28196,
-			"dropperid": 8210002,
-			"itemid": 4000626,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 192240
-		},
-		{
-			"id": 28197,
-			"dropperid": 8210002,
-			"itemid": 4008004,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 120160
-		},
-		{
-			"id": 28198,
-			"dropperid": 8210002,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 36
-		},
-		{
-			"id": 28199,
-			"dropperid": 8210002,
-			"itemid": 4310000,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 1202
-		},
-		{
-			"id": 28200,
-			"dropperid": 8210002,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 12016
-		},
-		{
-			"id": 28201,
-			"dropperid": 8210003,
-			"itemid": 0,
-			"minimum_quantity": 2800,
-			"maximum_quantity": 5871,
-			"questid": 0,
-			"chance": 200000
-		},
-		{
-			"id": 28202,
-			"dropperid": 8210003,
-			"itemid": 4000627,
-			"minimum_quantity": 1,
-			"maximum_quantity": 2,
-			"questid": 0,
-			"chance": 200000
-		},
-		{
-			"id": 28203,
-			"dropperid": 8210003,
-			"itemid": 4008004,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 129020
-		},
-		{
-			"id": 28204,
-			"dropperid": 8210003,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 39
-		},
-		{
-			"id": 28205,
-			"dropperid": 8210003,
-			"itemid": 4310000,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 1290
-		},
-		{
-			"id": 28206,
-			"dropperid": 8210003,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 12902
-		},
-		{
-			"id": 28207,
-			"dropperid": 8210004,
-			"itemid": 0,
-			"minimum_quantity": 2900,
-			"maximum_quantity": 7052,
-			"questid": 0,
-			"chance": 200000
-		},
-		{
-			"id": 28208,
-			"dropperid": 8210004,
-			"itemid": 4000628,
-			"minimum_quantity": 1,
-			"maximum_quantity": 2,
-			"questid": 0,
-			"chance": 200000
-		},
-		{
-			"id": 28209,
-			"dropperid": 8210004,
-			"itemid": 4008004,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 142980
-		},
-		{
-			"id": 28210,
-			"dropperid": 8210004,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 43
-		},
-		{
-			"id": 28211,
-			"dropperid": 8210004,
-			"itemid": 4310000,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 1430
-		},
-		{
-			"id": 28212,
-			"dropperid": 8210004,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 14298
-		},
-		{
-			"id": 28213,
-			"dropperid": 8210005,
-			"itemid": 0,
-			"minimum_quantity": 3000,
-			"maximum_quantity": 8086,
-			"questid": 0,
-			"chance": 200000
-		},
-		{
-			"id": 28214,
-			"dropperid": 8210005,
-			"itemid": 4000629,
-			"minimum_quantity": 1,
-			"maximum_quantity": 2,
-			"questid": 0,
-			"chance": 200000
-		},
-		{
-			"id": 28215,
-			"dropperid": 8210005,
-			"itemid": 4008004,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 153960
-		},
-		{
-			"id": 28216,
-			"dropperid": 8210005,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 46
-		},
-		{
-			"id": 28217,
-			"dropperid": 8210005,
-			"itemid": 4310000,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 1540
-		},
-		{
-			"id": 28218,
-			"dropperid": 8210005,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 15396
-		},
-		{
-			"id": 28219,
-			"dropperid": 8210006,
-			"itemid": 0,
-			"minimum_quantity": 3100,
-			"maximum_quantity": 11677,
-			"questid": 0,
-			"chance": 200000
-		},
-		{
-			"id": 28220,
-			"dropperid": 8210006,
-			"itemid": 4000630,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 9944
-		},
-		{
-			"id": 28221,
-			"dropperid": 8210006,
-			"itemid": 4008004,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 198620
-		},
-		{
-			"id": 28222,
-			"dropperid": 8210006,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 60
-		},
-		{
-			"id": 28223,
-			"dropperid": 8210006,
-			"itemid": 4310000,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 1986
-		},
-		{
-			"id": 28224,
-			"dropperid": 8210006,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 19862
-		},
-		{
-			"id": 28225,
-			"dropperid": 8210007,
-			"itemid": 0,
-			"minimum_quantity": 3200,
-			"maximum_quantity": 12054,
-			"questid": 0,
-			"chance": 200000
-		},
-		{
-			"id": 28226,
-			"dropperid": 8210007,
-			"itemid": 4000630,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 9944
-		},
-		{
-			"id": 28227,
-			"dropperid": 8210007,
-			"itemid": 4008004,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 198620
-		},
-		{
-			"id": 28228,
-			"dropperid": 8210007,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 60
-		},
-		{
-			"id": 28229,
-			"dropperid": 8210007,
-			"itemid": 4310000,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 1986
-		},
-		{
-			"id": 28230,
-			"dropperid": 8210007,
-			"itemid": 4001713,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 19862
-		},
-		{
-			"id": 28231,
-			"dropperid": 8210010,
-			"itemid": 4000630,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 100000
-		},
-		{
-			"id": 28232,
-			"dropperid": 8210010,
-			"itemid": 4008004,
-			"minimum_quantity": 100,
-			"maximum_quantity": 500,
-			"questid": 0,
-			"chance": 200000
-		},
-		{
-			"id": 28233,
-			"dropperid": 8210010,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 200000
-		},
-		{
-			"id": 28234,
-			"dropperid": 8210010,
-			"itemid": 4310000,
-			"minimum_quantity": 15,
-			"maximum_quantity": 40,
-			"questid": 0,
-			"chance": 200000
-		},
-		{
-			"id": 28235,
-			"dropperid": 8210010,
+			"id": 28505,
+			"dropperid": 8210013,
 			"itemid": 4001713,
 			"minimum_quantity": 10,
 			"maximum_quantity": 80,
@@ -211547,124 +211862,7 @@
 			"chance": 200000
 		},
 		{
-			"id": 28236,
-			"dropperid": 8210011,
-			"itemid": 4000630,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 100000
-		},
-		{
-			"id": 28237,
-			"dropperid": 8210011,
-			"itemid": 4008004,
-			"minimum_quantity": 100,
-			"maximum_quantity": 500,
-			"questid": 0,
-			"chance": 200000
-		},
-		{
-			"id": 28238,
-			"dropperid": 8210011,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 200000
-		},
-		{
-			"id": 28239,
-			"dropperid": 8210011,
-			"itemid": 4310000,
-			"minimum_quantity": 15,
-			"maximum_quantity": 40,
-			"questid": 0,
-			"chance": 200000
-		},
-		{
-			"id": 28240,
-			"dropperid": 8210011,
-			"itemid": 4001713,
-			"minimum_quantity": 10,
-			"maximum_quantity": 80,
-			"questid": 0,
-			"chance": 200000
-		},
-		{
-			"id": 28241,
-			"dropperid": 8210012,
-			"itemid": 4000630,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 100000
-		},
-		{
-			"id": 28242,
-			"dropperid": 8210012,
-			"itemid": 4008004,
-			"minimum_quantity": 100,
-			"maximum_quantity": 500,
-			"questid": 0,
-			"chance": 200000
-		},
-		{
-			"id": 28243,
-			"dropperid": 8210012,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 200000
-		},
-		{
-			"id": 28244,
-			"dropperid": 8210012,
-			"itemid": 4310000,
-			"minimum_quantity": 15,
-			"maximum_quantity": 40,
-			"questid": 0,
-			"chance": 200000
-		},
-		{
-			"id": 28245,
-			"dropperid": 8210012,
-			"itemid": 4001713,
-			"minimum_quantity": 10,
-			"maximum_quantity": 80,
-			"questid": 0,
-			"chance": 200000
-		},
-		{
-			"id": 28246,
-			"dropperid": 8210013,
-			"itemid": 4000630,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 100000
-		},
-		{
-			"id": 28247,
-			"dropperid": 8210013,
-			"itemid": 4008004,
-			"minimum_quantity": 100,
-			"maximum_quantity": 500,
-			"questid": 0,
-			"chance": 200000
-		},
-		{
-			"id": 28248,
-			"dropperid": 8210013,
-			"itemid": 2049100,
-			"minimum_quantity": 1,
-			"maximum_quantity": 1,
-			"questid": 0,
-			"chance": 200000
-		},
-		{
-			"id": 28249,
+			"id": 28504,
 			"dropperid": 8210013,
 			"itemid": 4310000,
 			"minimum_quantity": 15,
@@ -211673,13 +211871,391 @@
 			"chance": 200000
 		},
 		{
-			"id": 28250,
+			"id": 28503,
 			"dropperid": 8210013,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 200000
+		},
+		{
+			"id": 28502,
+			"dropperid": 8210013,
+			"itemid": 4008004,
+			"minimum_quantity": 100,
+			"maximum_quantity": 500,
+			"questid": 0,
+			"chance": 200000
+		},
+		{
+			"id": 28501,
+			"dropperid": 8210013,
+			"itemid": 4000630,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 100000
+		},
+		{
+			"id": 28500,
+			"dropperid": 8210012,
 			"itemid": 4001713,
 			"minimum_quantity": 10,
 			"maximum_quantity": 80,
 			"questid": 0,
 			"chance": 200000
+		},
+		{
+			"id": 28499,
+			"dropperid": 8210012,
+			"itemid": 4310000,
+			"minimum_quantity": 15,
+			"maximum_quantity": 40,
+			"questid": 0,
+			"chance": 200000
+		},
+		{
+			"id": 28498,
+			"dropperid": 8210012,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 200000
+		},
+		{
+			"id": 28497,
+			"dropperid": 8210012,
+			"itemid": 4008004,
+			"minimum_quantity": 100,
+			"maximum_quantity": 500,
+			"questid": 0,
+			"chance": 200000
+		},
+		{
+			"id": 28496,
+			"dropperid": 8210012,
+			"itemid": 4000630,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 100000
+		},
+		{
+			"id": 28495,
+			"dropperid": 8210011,
+			"itemid": 4001713,
+			"minimum_quantity": 10,
+			"maximum_quantity": 80,
+			"questid": 0,
+			"chance": 200000
+		},
+		{
+			"id": 28494,
+			"dropperid": 8210011,
+			"itemid": 4310000,
+			"minimum_quantity": 15,
+			"maximum_quantity": 40,
+			"questid": 0,
+			"chance": 200000
+		},
+		{
+			"id": 28493,
+			"dropperid": 8210011,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 200000
+		},
+		{
+			"id": 28492,
+			"dropperid": 8210011,
+			"itemid": 4008004,
+			"minimum_quantity": 100,
+			"maximum_quantity": 500,
+			"questid": 0,
+			"chance": 200000
+		},
+		{
+			"id": 28491,
+			"dropperid": 8210011,
+			"itemid": 4000630,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 100000
+		},
+		{
+			"id": 28490,
+			"dropperid": 8210010,
+			"itemid": 4001713,
+			"minimum_quantity": 10,
+			"maximum_quantity": 80,
+			"questid": 0,
+			"chance": 200000
+		},
+		{
+			"id": 28489,
+			"dropperid": 8210010,
+			"itemid": 4310000,
+			"minimum_quantity": 15,
+			"maximum_quantity": 40,
+			"questid": 0,
+			"chance": 200000
+		},
+		{
+			"id": 28488,
+			"dropperid": 8210010,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 200000
+		},
+		{
+			"id": 28487,
+			"dropperid": 8210010,
+			"itemid": 4008004,
+			"minimum_quantity": 100,
+			"maximum_quantity": 500,
+			"questid": 0,
+			"chance": 200000
+		},
+		{
+			"id": 28486,
+			"dropperid": 8210010,
+			"itemid": 4000630,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 100000
+		},
+		{
+			"id": 28485,
+			"dropperid": 28250,
+			"itemid": 8210013,
+			"minimum_quantity": 4001713,
+			"maximum_quantity": 10,
+			"questid": 80,
+			"chance": 0
+		},
+		{
+			"id": 28484,
+			"dropperid": 28249,
+			"itemid": 8210013,
+			"minimum_quantity": 4310000,
+			"maximum_quantity": 15,
+			"questid": 40,
+			"chance": 0
+		},
+		{
+			"id": 28483,
+			"dropperid": 28248,
+			"itemid": 8210013,
+			"minimum_quantity": 2049100,
+			"maximum_quantity": 1,
+			"questid": 1,
+			"chance": 0
+		},
+		{
+			"id": 28482,
+			"dropperid": 28247,
+			"itemid": 8210013,
+			"minimum_quantity": 4008004,
+			"maximum_quantity": 100,
+			"questid": 500,
+			"chance": 0
+		},
+		{
+			"id": 28481,
+			"dropperid": 28246,
+			"itemid": 8210013,
+			"minimum_quantity": 4000630,
+			"maximum_quantity": 1,
+			"questid": 1,
+			"chance": 0
+		},
+		{
+			"id": 28480,
+			"dropperid": 28245,
+			"itemid": 8210012,
+			"minimum_quantity": 4001713,
+			"maximum_quantity": 10,
+			"questid": 80,
+			"chance": 0
+		},
+		{
+			"id": 28479,
+			"dropperid": 28244,
+			"itemid": 8210012,
+			"minimum_quantity": 4310000,
+			"maximum_quantity": 15,
+			"questid": 40,
+			"chance": 0
+		},
+		{
+			"id": 28478,
+			"dropperid": 28243,
+			"itemid": 8210012,
+			"minimum_quantity": 2049100,
+			"maximum_quantity": 1,
+			"questid": 1,
+			"chance": 0
+		},
+		{
+			"id": 28477,
+			"dropperid": 28242,
+			"itemid": 8210012,
+			"minimum_quantity": 4008004,
+			"maximum_quantity": 100,
+			"questid": 500,
+			"chance": 0
+		},
+		{
+			"id": 28476,
+			"dropperid": 28241,
+			"itemid": 8210012,
+			"minimum_quantity": 4000630,
+			"maximum_quantity": 1,
+			"questid": 1,
+			"chance": 0
+		},
+		{
+			"id": 28475,
+			"dropperid": 28240,
+			"itemid": 8210011,
+			"minimum_quantity": 4001713,
+			"maximum_quantity": 10,
+			"questid": 80,
+			"chance": 0
+		},
+		{
+			"id": 28474,
+			"dropperid": 28239,
+			"itemid": 8210011,
+			"minimum_quantity": 4310000,
+			"maximum_quantity": 15,
+			"questid": 40,
+			"chance": 0
+		},
+		{
+			"id": 28473,
+			"dropperid": 28238,
+			"itemid": 8210011,
+			"minimum_quantity": 2049100,
+			"maximum_quantity": 1,
+			"questid": 1,
+			"chance": 0
+		},
+		{
+			"id": 28472,
+			"dropperid": 28237,
+			"itemid": 8210011,
+			"minimum_quantity": 4008004,
+			"maximum_quantity": 100,
+			"questid": 500,
+			"chance": 0
+		},
+		{
+			"id": 28471,
+			"dropperid": 28236,
+			"itemid": 8210011,
+			"minimum_quantity": 4000630,
+			"maximum_quantity": 1,
+			"questid": 1,
+			"chance": 0
+		},
+		{
+			"id": 28470,
+			"dropperid": 28235,
+			"itemid": 8210010,
+			"minimum_quantity": 4001713,
+			"maximum_quantity": 10,
+			"questid": 80,
+			"chance": 0
+		},
+		{
+			"id": 28469,
+			"dropperid": 28234,
+			"itemid": 8210010,
+			"minimum_quantity": 4310000,
+			"maximum_quantity": 15,
+			"questid": 40,
+			"chance": 0
+		},
+		{
+			"id": 28468,
+			"dropperid": 28233,
+			"itemid": 8210010,
+			"minimum_quantity": 2049100,
+			"maximum_quantity": 1,
+			"questid": 1,
+			"chance": 0
+		},
+		{
+			"id": 28467,
+			"dropperid": 28232,
+			"itemid": 8210010,
+			"minimum_quantity": 4008004,
+			"maximum_quantity": 100,
+			"questid": 500,
+			"chance": 0
+		},
+		{
+			"id": 28466,
+			"dropperid": 28231,
+			"itemid": 8210010,
+			"minimum_quantity": 4000630,
+			"maximum_quantity": 1,
+			"questid": 1,
+			"chance": 0
+		},
+		{
+			"id": 28510,
+			"dropperid": 8620011,
+			"itemid": 4000835,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 154839
+		},
+		{
+			"id": 28509,
+			"dropperid": 8620011,
+			"itemid": 4310000,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 3875
+		},
+		{
+			"id": 28508,
+			"dropperid": 8620011,
+			"itemid": 2049100,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 194
+		},
+		{
+			"id": 28507,
+			"dropperid": 8620011,
+			"itemid": 0,
+			"minimum_quantity": 46361,
+			"maximum_quantity": 68504,
+			"questid": 0,
+			"chance": 160000
+		},
+		{
+			"id": 28506,
+			"dropperid": 8620011,
+			"itemid": 4008005,
+			"minimum_quantity": 1,
+			"maximum_quantity": 1,
+			"questid": 0,
+			"chance": 100000
 		}
 	]
 }
